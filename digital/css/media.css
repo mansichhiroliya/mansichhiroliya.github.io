@@ -1,0 +1,614 @@
+@media(max-width:1199px) {
+    .services {
+        padding: 90px 0px;
+    }
+    /* .ser_sec h2 {
+        font-size: 30px;
+    } */
+    .tabs_detail::before {
+        /* width: 87px; */
+        display: none;
+    }
+    .tabs_detail {
+        margin-top: 40px;
+    }
+    /* .DS::before {
+        left: 122px;
+    }
+    .LPC::before {
+        left: 830px;
+    }
+    .SM::before {
+        left: 238px;
+    }
+    .Ana::before {
+        left: 356px;
+    }
+    .SEO::before {
+        left: 468px;
+    }
+    .report::before {
+        left: 588px;
+    }
+    .VC::before {
+        left: 710px;
+    } */
+    .circle_row a {
+        width: 24%;
+    }
+    .outer_circle {
+        height: 190px;
+        width: 190px;
+    }
+    .inner_circle {
+        height: 170px;
+        width: 170px;
+    }
+    /* .slick .slick-next {
+        right: -6px;
+    } */
+    .banner {
+        padding: 90px 0px;
+    }
+    .tab_btn li {
+        padding: 0px 20px;
+    }
+    .diff_sec p {
+        font-size: 18px;
+    }
+    .lo_img li div img {
+        margin: 0 auto;
+    }
+    .client {
+        padding: 90px 0px;
+    }
+    .client_img {
+        height: 180px;
+    }
+    .quotes {
+        padding: 90px 0px;
+    }
+    .contact {
+        padding: 90px 0px;
+    }
+    /* .con_lft h1 {
+        font-size: 30px;
+    } */
+    .con_lft p {
+        font-size: 20px;
+        padding-top: 18px;
+    }
+    .con_rht .form-control {
+        font-size: 18px;
+        height: 50px;
+    }
+    .con_rht .form-group {
+        margin-top: 30px;
+    }
+    .con_rht button {
+        font-size: 20px;
+    }
+    .click_tabs {
+        min-width: 1200px;
+        overflow-x: scroll;
+    }
+    .forscroll {
+        overflow-y: auto
+    }
+    /* .circle_row p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .servicetab {
+        padding: 0px 40px;
+    }
+    .lft_btn,
+    .rht_btn {
+        display: block;
+    } */
+    .quotedetail h5 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    .quotes_top {
+        padding: 50px 200px;
+    }
+    .quotes_img img {
+        width: 150px;
+    }
+}
+
+@media(max-width:991px) {
+    .left_content h2 {
+        font-size: 30px;
+    }
+    .left_content p {
+        font-size: 23px;
+    }
+    .services {
+        padding: 75px 0px;
+    }
+    .tab_lft li {
+        font-size: 18px;
+    }
+    /* .ser_sec h2 {
+        font-size: 25px;
+    } */
+    .circle_row {
+        margin-top: 0px;
+    }
+    .servicetab {
+        margin-top: 50px;
+    }
+    /* .tab_out {
+        height: 85px;
+        width: 85px;
+    }
+    .DS::before {
+        left: 99px;
+    }
+    .SM::before {
+        left: 190px;
+    }
+    .Ana::before {
+        left: 284px;
+    }
+    .SEO::before {
+        left: 372px;
+    }
+    .report::before {
+        left: 465px;
+    }
+    .tabs_detail {
+        padding: 30px;
+    }
+    .VC::before {
+        left: 554px;
+    }
+    .name_tab {
+        width: 112px;
+    }
+    .LPC::before {
+        left: 647px; 
+    }*/
+    /* .tab_inn {
+        height: 75px;
+        width: 75px;
+    } */
+    .tab_inn img {
+        width: 39px;
+    }
+    .tabs_detail::before {
+        width: 65px;
+    }
+    .tabs_detail {
+        margin-top: 45px;
+    }
+    .inner_circle {
+        height: 130px;
+        width: 130px;
+    }
+    .outer_circle {
+        height: 150px;
+        width: 150px;
+    }
+    .inner_circle img.show_img {
+        width: 70px;
+    }
+    .inner_circle img.hide_img {
+        width: 70px;
+    }
+    .navbar-header {
+        width: 171px;
+    }
+    .header .navbar-default .navbar-nav>li>a {
+        font-size: 14px;
+    }
+    .banner_sec {
+        margin-top: 40px;
+    }
+    .left_content h2 {
+        margin-bottom: 10px;
+    }
+    .differnce {
+        padding: 75px 0px;
+    }
+    .tab_btn a {
+        font-size: 17px;
+    }
+    .tab_btn li {
+        padding: 0px 14px;
+    }
+    .diff_sec p {
+        font-size: 17px;
+    }
+    .lo_img li {
+        width: 32%;
+    }
+    .lo_img li div {
+        min-height: 124px;
+    }
+    .client {
+        padding: 75px 0px;
+    }
+    .quotes {
+        padding: 75px 0px;
+    }
+    .quotes_top {
+        padding: 60px 80px;
+    }
+    .quotes_img img {
+        margin: 0 auto;
+        width: 100px;
+    }
+    .contact {
+        padding: 75px 0px;
+    }
+    .con_lft p {
+        font-size: 17px;
+        padding-top: 15px;
+    }
+    /* .con_rht .form-control {
+        font-size: 16px;
+        height: 38px;
+    } */
+    .con_rht textarea.form-control {
+        height: 90px;
+    }
+    .slick .slick-prev:before {
+        content: url(../img/arrowlft_768.png);
+    }
+    .slick .slick-next:before {
+        content: url(../img/arrowrht_768.png);
+    }
+    /* .slick .slick-prev {
+        left: -8px;
+    } */
+    .upperline {
+        width: 200px;
+        height: 6px;
+    }
+    .line {
+        height: 6px;
+        width: 200px;
+    }
+    .click_tabs {
+        min-width: 1100px;
+    }
+    .banner {
+        padding: 60px 0px;
+    }
+}
+
+@media(max-width:767px) {
+    .tab_rht img {
+        width: 250px;
+        margin: 0 auto;
+    }
+    .report::before {
+        left: initial;
+        right: 0;
+    }
+    .VC::before {
+        left: initial;
+        right: 0;
+    }
+    .LPC::before {
+        left: initial;
+        right: 0;
+    }
+    .img_circle {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+    .btm_pd {
+        margin-bottom: 00px;
+    }
+    .img_circle p {
+        font-size: 15px;
+    }
+    .img_circle {
+        margin-right: 0;
+    }
+    .lo_img_aud {
+        margin-top: 40px;
+        display: block;
+    }
+    .lo_img_aud li img {
+        display: block;
+    }
+    .lo_img_aud li {
+        display: block;
+        margin: 0 auto;
+    }
+    .pdtop {
+        transform: rotate(90deg);
+    }
+    .trans {
+        transform: rotate(270deg);
+    }
+    .lo_img_aud li {
+        min-height: initial;
+    }
+    .allimgres {
+        padding-top: 0px;
+        margin: 0 auto;
+    }
+    .banner_sec {
+        margin-top: 20px;
+    }
+    .header.fixed_header .blulogo {
+        display: block;
+        width: 120px;
+    }
+    .navbar-brand>img {
+        width: 60%;
+    }
+    .header .navbar_hd {
+        min-height: 35px;
+    }
+    .header .hamburger {
+        display: block;
+    }
+    .header {
+        padding: 15px 30px;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+    .right_img {
+        display: none;
+    }
+    .left_content {
+        padding-top: 12px;
+    }
+    .banner {
+        padding: 65px 0px 60px;
+    }
+    .differnce {
+        padding: 60px 0px;
+    }
+    .line {
+        margin-bottom: 15px;
+    }
+    .tab_btn li {
+        padding: 0px 0px;
+        padding-right: 30px;
+    }
+    .tab_btn {
+        margin-top: 15px;
+    }
+    .client {
+        padding: 60px 0px;
+    }
+    .lo_img li:nth-child(1) {
+        width: 49%;
+    }
+    .lo_img li:nth-child(2) {
+        width: 49%;
+    }
+    .lo_img li:nth-child(7) {
+        width: 49%;
+    }
+    .lo_img li:nth-child(8) {
+        width: 49%;
+    }
+    /* .client_inner h1 {
+        font-size: 30px;
+    } */
+    .quotes {
+        padding: 60px 0px;
+    }
+    .quotes_top {
+        padding: 40px 38px;
+    }
+    .contact {
+        padding: 60px 0px;
+    }
+    .contact {
+        padding: 60px 0px;
+    }
+    .con_lft p {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .con_rht .form-group {
+        margin-top: 20px;
+    }
+    .con_rht textarea.form-control {
+        margin-bottom: 20px;
+    }
+    .client_inner .row {
+        margin-top: 50px;
+        padding: 0px 40px;
+    }
+    .slick .slick-next {
+        right: 11px;
+    }
+    .slick .slick-prev {
+        left: 19px;
+        top: 69px;
+    }
+    .name_tab {
+        height: 60px;
+    }
+    .circle_row a {
+        width: 32%;
+    }
+    .tab_rht {
+        display: none;
+    }
+    .tab_btn {
+        text-align: left;
+    }
+    .showarrow {
+        display: none;
+    }
+    .hidearrow {
+        display: block;
+    }
+    .circle_row {
+        text-align: left;
+    }
+    .diff_sec p {
+        text-align: justify;
+    }
+    .lo_img li div img {
+        width: 85%;
+    }
+}
+
+@media(max-width:560px) {
+    .left_content h2 {
+        font-size: 25px;
+    }
+    .left_content p {
+        font-size: 17px;
+    }
+    .circle_row {
+        margin-top: 26px;
+    }
+    .services {
+        padding: 60px 0px;
+    }
+    /* .diff_sec h2 {
+        font-size: 25px;
+    } */
+    .differnce {
+        padding: 50px 0px;
+    }
+    .client {
+        padding: 50px 0px;
+    }
+    .client_img {
+        height: 142px;
+    }
+    /* .client_inner h1 {
+        font-size: 25px;
+    } */
+    .quotes {
+        padding: 50px 0px;
+    }
+    .quotedetail h5 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .underline {
+        width: 80px;
+        margin: 15px auto;
+    }
+    .quotes_top {
+        padding: 20px 30px;
+    }
+    .quotedetail p {
+        font-family: 'GothamBook';
+        font-size: 20px;
+    }
+    .quotes_img img {
+        width: 50px;
+    }
+    .quotes_img {
+        bottom: -29px;
+    }
+    .contact {
+        padding: 50px 0px;
+    }
+    .circle_row a {
+        width: 49%;
+    }
+    .tab_lft li {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .tabs_detail {
+        padding: 20px;
+    }
+    /* .tab_lft h1 {
+        font-family: 'MontserratBold';
+        font-size: 25px;
+    } */
+    .client_inner {
+        padding: 0px 0px;
+    }
+    .hidearrow p {
+        left: 95px;
+    }
+}
+
+@media(max-width:414px) {
+    .header .navbar-brand {
+        width: 82%;
+    }
+    .header {
+        padding: 10px 13px;
+    }
+    .banner {
+        padding: 46px 0px 60px;
+    }
+    .tab_btn a {
+        font-size: 15px;
+    }
+    .tab_btn li {
+        padding-right: 13px;
+    }
+    .client_inner .row {
+        margin-top: 50px;
+        padding: 0px 15px;
+    }
+    .client_img {
+        height: 129px;
+        padding: 10px;
+    }
+    .slick .slick-next {
+        right: 4px;
+    }
+    .slick .slick-prev {
+        left: 5px;
+        top: 52px;
+    }
+    .con_rht button {
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .sidenav .navbar-brand img {
+        width: 60%;
+    }
+    .outer_circle {
+        height: 120px;
+        width: 120px;
+    }
+    .inner_circle {
+        height: 100px;
+        width: 100px;
+    }
+    .inner_circle img {
+        width: 60px;
+    }
+    .circle_row p {
+        font-size: 16px;
+    }
+    .circle_row a {
+        margin-top: 30px;
+    }
+    .tabs_detail {
+        margin-top: 20px;
+    }
+    .diff_sec h2,
+    .ser_sec h2,
+    .client_inner h1,
+    .con_lft h1,
+    .tab_lft h1 {
+        font-size: 20px;
+    }
+    .white_line {
+        width: 150px;
+    }
+    .upperline {
+        width: 140px;
+    }
+    .hidearrow p {
+        left: 40px;
+    }
+}
+
+@media(max-width:320px) {}
