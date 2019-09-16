@@ -1,0 +1,141 @@
+@media(max-width:1327px) {}
+
+@media(max-width:1199px) {
+    .foot_rht li:last-child {
+        margin-left: 0px;
+    }
+    .link_inner li a {
+        font-size: 19px
+    }
+    .heading {
+        font-size: 60px;
+    }
+}
+
+@media(max-width:991px) {
+    .links li a {
+        font-size: 18px;
+    }
+    .banner {
+        padding: 90px 0px;
+    }
+    .banner_inner p {
+        font-size: 20px;
+    }
+    .joel_rht h2 {
+        font-size: 30px;
+        padding: 15px 0px;
+    }
+    .joel_rht p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .joel_img img {
+        margin-right: 15px;
+    }
+    .foot_rht ul {
+        margin-top: 40px;
+    }
+    .team_content h5 {
+        font-family: 'AvenirBlack';
+        font-size: 25px;
+    }
+    .team_content p {
+        font-size: 17px;
+    }
+    .team_detail {
+        margin-top: 70px;
+    }
+    .joel_rht {
+        padding-top: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .header .hamburger {
+        display: block;
+    }
+    .links {
+        display: none;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .joel,
+    .joel2 {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .shadow,
+    .shadow2 {
+        display: none;
+    }
+    .joel_lft {
+        clip-path: polygon(0 0, 100% 0, 100% 70%, 0 90%);
+    }
+    .joel_lft img {
+        float: left;
+    }
+    .joel_rht {
+        padding-top: 0px;
+    }
+    joel_rht {
+        text-align: left;
+    }
+    .joel2 {
+        margin-top: 40px;
+    }
+    .joel2_lft {
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 70%);
+    }
+    .joel2_rht {
+        text-align: left;
+        margin-top: -100px;
+    }
+    .joel2_rht .joel_img {
+        justify-content: flex-start;
+    }
+    .joel3 {
+        margin-top: 40px;
+    }
+    .banner_inner .heading,
+    .banner_inner p {
+        text-align: left;
+    }
+    .banner {
+        padding: 60px 0px;
+    }
+    .foot_top {
+        margin-top: 20px;
+    }
+    .link_inner,
+    .foot_rht {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:560px) {
+    .width120 {
+        width: 120px;
+    }
+    .width80 {
+        width: 80px;
+    }
+    .joel2_rht {
+        margin-top: -70px;
+    }
+}
+
+@media(max-width:414px) {
+    .joel2_rht {
+        margin-top: -40px;
+    }
+    .team_detail {
+        margin-top: 40px;
+    }
+    .social a {
+        margin: 0px 9px;
+    }
+}
