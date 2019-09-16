@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="32x32">
+    <title>NALA | Home</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css">
+    <link href="css/britecharts.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+
+<body class="back_color">
+    <section class="header boxs">
+        <div class="head boxs">
+            <div class="head_lft">
+                <div class="head_logo">
+                    <a href="index.html">
+                        <img src="img/logoblue.svg" class="img-responsive" alt="logo">
+                    </a>
+                </div>
+                <div class="input-group forbox">
+                    <input type="text" class="form-control" placeholder="Search Transactions">
+                    <span class="input-group-addon"><button><img src="img/search.svg" alt="search"></button></span>
+                </div>
+            </div>
+            <div class="head_rht">
+                <div class="switch_out">
+                    <label class="switch changetextcolor">Dark Mode
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+                <div class="addbtn hide_name">
+                    <a href="expense.html"><img src="img/plus.svg">Add</a>
+                </div>
+                <div class="login_name hide_name">
+                    <p class="changetextcolor"><img src="img/person.png">Benjamin Fernandes</p>
+                </div>
+                <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+            </div>
+        </div>
+    </section>
+    <div class="sidenav" id="mySidenav">
+        <div class="login_name boxs">
+            <p class="changetextcolor"><img src="img/person.png">Benjamin Fernandes</p>
+        </div>
+        <div class="home_lft boxs">
+            <ul>
+                <li>
+                    <a href="home.html" class="active"><svg xmlns="http://www.w3.org/2000/svg" width="19.546" height="22.756" viewBox="0 0 19.546 22.756">
+                        <path fill="#8798ac" stroke="#8798ac" stroke-width=".5px" id="home_1_" d="M35.933 7.706v13.449h-5.776v-6.02a.538.538 0 0 0-.538-.538H25.4a.538.538 0 0 0-.538.538v6.209a.538.538 0 1 0 1.077 0v-5.671h3.14v5.482h-9.992V7.978l8.423-6.75 8.625 6.912a.538.538 0 1 0 .673-.84L27.847.118a.538.538 0 0 0-.673 0L18.212 7.3a.538.538 0 0 0-.2.42v13.973a.538.538 0 0 0 .538.538h17.922a.538.538 0 0 0 .538-.538V7.706z" class="cls-1" data-name="home (1)" transform="translate(-17.76 .275)"/>
+                    </svg></a>
+                </li>
+                <li>
+                    <a href="statistics.html"><svg xmlns="http://www.w3.org/2000/svg" width="20.5" height="20.504" viewBox="0 0 20.5 20.504">
+                        <g id="pie-chart" transform="translate(.2 1.249)">
+                            <g id="Group_535" data-name="Group 535" transform="translate(.05)">
+                                <path fill="#8798ac" stroke="#8798ac" stroke-width=".5px" id="Path_2242" d="M16.334 58.975H8.993v-7.341a.532.532 0 0 0-.534-.534 8.409 8.409 0 1 0 8.409 8.409.537.537 0 0 0-.534-.534zM8.459 66.85a7.341 7.341 0 0 1-.534-14.662v7.321a.532.532 0 0 0 .534.534h7.321a7.348 7.348 0 0 1-7.321 6.807z" class="cls-1" data-name="Path 2242" transform="translate(-.05 -48.914)"/>
+                                <path fill="#8798ac" stroke="#8798ac" stroke-width=".5px" id="Path_2243" d="M259.824 9.067A9.1 9.1 0 0 0 250.728 0a.575.575 0 0 0-.578.578V9.1a.575.575 0 0 0 .578.578h8.519a.575.575 0 0 0 .578-.578zm-8.519-.543V1.181a7.947 7.947 0 0 1 7.342 7.342h-7.342z" class="cls-1" data-name="Path 2243" transform="translate(-239.824 -1)"/>
+                            </g>
+                        </g>
+                    </svg></a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/group.svg"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="addbtn boxs">
+            <a href="expense.html"><img src="img/plus.svg">Add</a>
+        </div>
+    </div>
+    <section class="main boxs">
+        <div class="home boxs">
+            <div class="home_lft boxs">
+                <ul>
+                    <li>
+                        <a href="home.html" class="active"><svg xmlns="http://www.w3.org/2000/svg" width="19.546" height="22.756" viewBox="0 0 19.546 22.756">
+                            <path fill="#8798ac" stroke="#8798ac" stroke-width=".5px" id="home_1_" d="M35.933 7.706v13.449h-5.776v-6.02a.538.538 0 0 0-.538-.538H25.4a.538.538 0 0 0-.538.538v6.209a.538.538 0 1 0 1.077 0v-5.671h3.14v5.482h-9.992V7.978l8.423-6.75 8.625 6.912a.538.538 0 1 0 .673-.84L27.847.118a.538.538 0 0 0-.673 0L18.212 7.3a.538.538 0 0 0-.2.42v13.973a.538.538 0 0 0 .538.538h17.922a.538.538 0 0 0 .538-.538V7.706z" class="cls-1" data-name="home (1)" transform="translate(-17.76 .275)"/>
+                        </svg></a>
+                    </li>
+                    <li>
+                        <a href="statistics.html"><svg xmlns="http://www.w3.org/2000/svg" width="20.5" height="20.504" viewBox="0 0 20.5 20.504">
+                            <g id="pie-chart" transform="translate(.2 1.249)">
+                                <g id="Group_535" data-name="Group 535" transform="translate(.05)">
+                                    <path fill="#8798ac" stroke="#8798ac" stroke-width=".5px" id="Path_2242" d="M16.334 58.975H8.993v-7.341a.532.532 0 0 0-.534-.534 8.409 8.409 0 1 0 8.409 8.409.537.537 0 0 0-.534-.534zM8.459 66.85a7.341 7.341 0 0 1-.534-14.662v7.321a.532.532 0 0 0 .534.534h7.321a7.348 7.348 0 0 1-7.321 6.807z" class="cls-1" data-name="Path 2242" transform="translate(-.05 -48.914)"/>
+                                    <path fill="#8798ac" stroke="#8798ac" stroke-width=".5px" id="Path_2243" d="M259.824 9.067A9.1 9.1 0 0 0 250.728 0a.575.575 0 0 0-.578.578V9.1a.575.575 0 0 0 .578.578h8.519a.575.575 0 0 0 .578-.578zm-8.519-.543V1.181a7.947 7.947 0 0 1 7.342 7.342h-7.342z" class="cls-1" data-name="Path 2243" transform="translate(-239.824 -1)"/>
+                                </g>
+                            </g>
+                        </svg></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/group.svg"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="home_rht boxs">
+                <div class="benj boxs">
+                    <div class="homehead boxs">
+                        <h1 class="changetextcolor">Welcome Benjamin!</h1>
+                        <p>It is nice to see you again.<img src="img/emoji.png"></p>
+                    </div>
+                    <div class="fixtures boxs">
+                        <ul>
+                            <li class="totalfix changetextcolor">388,592<span>TSH</span>
+                                <a href="javascript:void(0)" data-target='#breakdown' data-toggle="modal">View Breakdown<img src="img/view.svg"></a>
+                            </li>
+                            <li class="credit forborder">+100,243<span>TSH</span>
+                                <p>Last 30 Days 05.06. - 05.07.</p>
+                            </li>
+                            <li class="debit">-80,152<span>TSH</span>
+                                <p>Last 30 Days 05.06. - 05.07.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="transaction boxs">
+                        <div class="trans_lft">
+                            <h3 class="changetextcolor">Transactions</h3>
+                            <p>Last updated on: 19/07/2019</p>
+                        </div>
+                        <div class="download">
+                            <a href="javascript:void(0)"><img src="img/cloud.svg">Download</a>
+                        </div>
+                    </div>
+                    <div class="setting_rw boxs">
+                        <div class="rightBx_inr">
+                            <label>ACCOUNT</label>
+                            <button type="button" class="changetextcolor forborder"><span>All accounts</span><img src="img/arrowdown.svg" alt="arrow" class=""></button>
+                            <ul class="lang_wrp" style="display: none;">
+                                <li>Saving</li>
+                                <li>Current</li>
+                            </ul>
+                        </div>
+                        <div class="rightBx_inr">
+                            <label>TYPE</label>
+                            <button type="button" class="changetextcolor forborder"><span>All types</span><img src="img/arrowdown.svg" alt="arrow" class=""></button>
+                            <ul class="lang_wrp" style="display: none;">
+                                <li>Saving</li>
+                                <li>Current</li>
+                            </ul>
+                        </div>
+                        <div class="rightBx_inr">
+                            <label>Category</label>
+                            <button type="button" class="changetextcolor forborder"><span>All category</span><img src="img/arrowdown.svg" alt="arrow" class=""></button>
+                            <ul class="lang_wrp" style="display: none;">
+                                <li>Saving</li>
+                                <li>Current</li>
+                            </ul>
+                        </div>
+                        <div class="rightBx_inr">
+                            <label>DATE RANGE</label>
+                            <button type="button" class="changetextcolor forborder"><span>Start date</span><img src="img/arrowdown.svg" alt="arrow" class=""></button>
+                            <ul class="lang_wrp" style="display: none;">
+                                <li>Saving</li>
+                                <li>Current</li>
+                            </ul>
+                        </div>
+                        <div class="rightBx_inr">
+                            <label>STATUS</label>
+                            <button type="button" class="changetextcolor forborder"><span>Status</span><img src="img/arrowdown.svg" alt="arrow" class=""></button>
+                            <ul class="lang_wrp" style="display: none;">
+                                <li>Saving</li>
+                                <li>Current</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="transactionbydate boxs">
+                        <div class="date boxs">
+                            <p>03/07/2019</p>
+                        </div>
+                        <div class="trans_history trans_historyacr forborder boxs">
+                            <ul>
+                                <li>
+                                    <div class="paymentby">
+                                        <img src="img/phone.svg">
+                                    </div>
+                                    <div class="accountno">
+                                        <h6 class="changetextcolor"><img src="img/h.svg">+38765582904</h6>
+                                        <p class="changetextcolor">Your account</p>
+                                    </div>
+                                    <div class="transfer">
+                                        <img src="img/transfer.svg">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="paymentto">
+                                        <h6 class="changetextcolor"><img src="img/mark.svg">Mark Cuban</h6>
+                                        <a href="javascript:void(0)" data-target="#comment" data-toggle="modal"><img src="img/edit.svg">Money for something. This is explanation.</a>
+                                    </div>
+                                </li>
+                                <li class="attach_justify">
+                                    <div class="attach">
+                                        <p class="changetextcolor">2 Attachments</p>
+                                    </div>
+                                    <div class="pending">
+                                        <p>Pending</p>
+                                    </div>
+                                    <div class="payscale">
+                                        <p class="debit">-35705TSH</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="trans_detail trans_detaillll boxs">
+                                <div class="sms boxs">
+                                    <h6>SMS Message</h6>
+                                    <p class="changetextcolor">6G492HWPBEX Confirmed. Tsh9,800.00 sent to 255763977788 - augustine mka ndara on 4/7/19 at 8:54 AM and charged Tsh 120.00. M-Pesa balance Tsh 471,914.00</p>
+                                </div>
+                                <div class="sms boxs">
+                                    <h6>Information</h6>
+                                    <div class="info boxs">
+                                        <div class="per_detail width28 boxs">
+                                            <p><span class="changetextcolor">Transaction ID:</span><i>6G492HWPBEX</i></p>
+                                        </div>
+
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Name:</span><i>augustine mkandara</i></p>
+                                        </div>
+
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Ending Balance:</span><i>471 914TSH</i></p>
+                                        </div>
+                                        <div class="per_detail width13 boxs">
+                                            <p><span class="changetextcolor">Fee: </span><i>120TSH</i></p>
+                                        </div>
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Nala's Fee: </span><i>Free</i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sms attachments boxs">
+                                    <h6>Attachments</h6>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="attach_files boxs">
+                                                <div class="attach_inner">
+                                                    <div class="paymentby">
+                                                        <img src="img/image.svg">
+                                                    </div>
+                                                    <div class="file_name">
+                                                        <h6 class="changetextcolor">test.png</h6>
+                                                        <p>125 KB</p>
+                                                    </div>
+                                                </div>
+                                                <div class="file_down">
+                                                    <a href='javascript:void(0)'><img src="img/cloud.svg"></a>
+                                                    <a href='javascript:void(0)'><img src="img/delete.svg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="attach_files boxs">
+                                                <div class="attach_inner">
+                                                    <div class="paymentby">
+                                                        <img src="img/pdf.svg">
+                                                    </div>
+                                                    <div class="file_name">
+                                                        <h6 class="changetextcolor">test.pdf</h6>
+                                                        <p>20 KB</p>
+                                                    </div>
+                                                </div>
+                                                <div class="file_down">
+                                                    <a href='javascript:void(0)'><img src="img/cloud.svg"></a>
+                                                    <a href='javascript:void(0)'><img src="img/delete.svg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expens forborder boxs">
+                            <div class="expens_lft">
+                                <div class="paymentby">
+                                    <img src="img/purse.svg">
+                                </div>
+                                <div class="paymentto">
+                                    <h6 class="changetextcolor"><img src="img/nike.svg">Nike store</h6>
+                                    <a href="javascript:void(0)" class="changetextcolor" data-target="#comment" data-toggle="modal"><img src="img/edit.svg">Birthday gift for my sister</a>
+                                </div>
+                            </div>
+                            <div class="expens_rht">
+                                <div class="upload">
+                                    <a href="javascript:void(0)" class="changetextcolor" data-target="#addfile" data-toggle="modal"><img src="img/plusblack.svg">Upload files</a>
+                                </div>
+                                <div class="payscale">
+                                    <p class="debit">-35705TSH</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trans_history trans_historyacr forborder boxs">
+                            <ul>
+                                <li>
+                                    <div class="paymentby">
+                                        <img src="img/purse.svg">
+                                    </div>
+                                    <div class="accountno">
+                                        <h6 class="changetextcolor"><img src="img/h.svg">+38765414520</h6>
+                                        <p class="changetextcolor">Your account</p>
+                                    </div>
+                                    <div class="transfer">
+                                        <img src="img/transfer.svg" class="rotate">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="paymentto">
+                                        <h6 class="changetextcolor"><img src="img/DBT.svg">Chris Sacca</h6>
+                                        <a href="javascript:void(0)" data-target="#comment" data-toggle="modal"><img src="img/edit.svg">Money for something. This is explanation.</a>
+                                    </div>
+                                </li>
+                                <li class="attach_justify">
+                                    <div class="attach">
+                                        <p class="changetextcolor">2 Attachments</p>
+                                    </div>
+                                    <div class="pending">
+                                        <p>Pending</p>
+                                    </div>
+                                    <div class="payscale">
+                                        <p class="credit">-35705TSH</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="trans_detail trans_detaillll boxs">
+                                <div class="sms boxs">
+                                    <h6>SMS Message</h6>
+                                    <p class="changetextcolor">6G492HWPBEX Confirmed. Tsh9,800.00 sent to 255763977788 - augustine mka ndara on 4/7/19 at 8:54 AM and charged Tsh 120.00. M-Pesa balance Tsh 471,914.00</p>
+                                </div>
+                                <div class="sms boxs">
+                                    <h6>Information</h6>
+                                    <div class="info boxs">
+                                        <div class="per_detail width28 boxs">
+                                            <p><span class="changetextcolor">Transaction ID:</span><i>6G492HWPBEX</i></p>
+                                        </div>
+
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Name:</span><i>augustine mkandara</i></p>
+                                        </div>
+
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Ending Balance:</span><i>471 914TSH</i></p>
+                                        </div>
+                                        <div class="per_detail width13 boxs">
+                                            <p><span class="changetextcolor">Fee: </span><i>120TSH</i></p>
+                                        </div>
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Nala's Fee: </span><i>Free</i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sms attachments boxs">
+                                    <h6>Attachments</h6>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="attach_files boxs">
+                                                <div class="attach_inner">
+                                                    <div class="paymentby">
+                                                        <img src="img/image.svg">
+                                                    </div>
+                                                    <div class="file_name">
+                                                        <h6 class="changetextcolor">test.png</h6>
+                                                        <p>125 KB</p>
+                                                    </div>
+                                                </div>
+                                                <div class="file_down">
+                                                    <a href='javascript:void(0)'><img src="img/cloud.svg"></a>
+                                                    <a href='javascript:void(0)'><img src="img/delete.svg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="attach_files boxs">
+                                                <div class="attach_inner">
+                                                    <div class="paymentby">
+                                                        <img src="img/pdf.svg">
+                                                    </div>
+                                                    <div class="file_name">
+                                                        <h6 class="changetextcolor">test.pdf</h6>
+                                                        <p>20 KB</p>
+                                                    </div>
+                                                </div>
+                                                <div class="file_down">
+                                                    <a href='javascript:void(0)'><img src="img/cloud.svg"></a>
+                                                    <a href='javascript:void(0)'><img src="img/delete.svg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="transactionbydate boxs">
+                        <div class="date boxs">
+                            <p>02/07/2019</p>
+                        </div>
+                        <div class="trans_history trans_historyacr forborder boxs">
+                            <ul>
+                                <li>
+                                    <div class="paymentby">
+                                        <img src="img/phone.svg">
+                                    </div>
+                                    <div class="accountno">
+                                        <h6 class="changetextcolor"><img src="img/h.svg">+38765582904</h6>
+                                        <p class="changetextcolor">Your account</p>
+                                    </div>
+                                    <div class="transfer">
+                                        <img src="img/transfer.svg">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="paymentto">
+                                        <h6 class="changetextcolor"><img src="img/mark.svg">Mark Cuban</h6>
+                                        <a href="javascript:void(0)" data-target="#comment" data-toggle="modal"><img src="img/edit.svg">Money for something. This is explanation.</a>
+                                    </div>
+                                </li>
+                                <li class="attach_justify">
+                                    <div class="attach">
+                                        <p class="changetextcolor">2 Attachments</p>
+                                    </div>
+                                    <div class="pending">
+                                        <p>Pending</p>
+                                    </div>
+                                    <div class="payscale">
+                                        <p class="debit">-35705TSH</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="trans_detail trans_detaillll boxs">
+                                <div class="sms boxs">
+                                    <h6>SMS Message</h6>
+                                    <p class="changetextcolor">6G492HWPBEX Confirmed. Tsh9,800.00 sent to 255763977788 - augustine mka ndara on 4/7/19 at 8:54 AM and charged Tsh 120.00. M-Pesa balance Tsh 471,914.00</p>
+                                </div>
+                                <div class="sms boxs">
+                                    <h6>Information</h6>
+                                    <div class="info boxs">
+                                        <div class="per_detail width28 boxs">
+                                            <p><span class="changetextcolor">Transaction ID:</span><i>6G492HWPBEX</i></p>
+                                        </div>
+
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Name:</span><i>augustine mkandara</i></p>
+                                        </div>
+
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Ending Balance:</span><i>471 914TSH</i></p>
+                                        </div>
+                                        <div class="per_detail width13 boxs">
+                                            <p><span class="changetextcolor">Fee: </span><i>120TSH</i></p>
+                                        </div>
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Nala's Fee: </span><i>Free</i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sms attachments boxs">
+                                    <h6>Attachments</h6>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="attach_files boxs">
+                                                <div class="attach_inner">
+                                                    <div class="paymentby">
+                                                        <img src="img/image.svg">
+                                                    </div>
+                                                    <div class="file_name">
+                                                        <h6 class="changetextcolor">test.png</h6>
+                                                        <p>125 KB</p>
+                                                    </div>
+                                                </div>
+                                                <div class="file_down">
+                                                    <a href="javascript:void(0)"><img src="img/cloud.svg"></a>
+                                                    <a href="javascript:void(0)"><img src="img/delete.svg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="attach_files boxs">
+                                                <div class="attach_inner">
+                                                    <div class="paymentby">
+                                                        <img src="img/pdf.svg">
+                                                    </div>
+                                                    <div class="file_name">
+                                                        <h6 class="changetextcolor">test.pdf</h6>
+                                                        <p>20 KB</p>
+                                                    </div>
+                                                </div>
+                                                <div class="file_down">
+                                                    <a href="javascript:void(0)"><img src="img/cloud.svg"></a>
+                                                    <a href="javascript:void(0)"><img src="img/delete.svg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expens forborder boxs">
+                            <div class="expens_lft">
+                                <div class="paymentby">
+                                    <img src="img/purse.svg">
+                                </div>
+                                <div class="paymentto">
+                                    <h6 class="changetextcolor"><img src="img/nike.svg">Nike store</h6>
+                                    <a href="javascript:void(0)" class="changetextcolor" data-target="#comment" data-toggle="modal"><img src="img/edit.svg">Birthday gift for my sister</a>
+                                </div>
+                            </div>
+                            <div class="expens_rht">
+                                <div class="upload">
+                                    <a href="javascript:void(0)" class="changetextcolor" data-target="#addfile" data-toggle="modal"><img src="img/plusblack.svg">Upload files</a>
+                                </div>
+                                <div class="payscale">
+                                    <p class="debit">-35705TSH</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="trans_history trans_historyacr forborder boxs">
+                            <ul>
+                                <li>
+                                    <div class="paymentby">
+                                        <img src="img/purse.svg">
+                                    </div>
+                                    <div class="accountno">
+                                        <h6 class="changetextcolor"><img src="img/h.svg">+38765414520</h6>
+                                        <p class="changetextcolor">Your account</p>
+                                    </div>
+                                    <div class="transfer">
+                                        <img src="img/transfer.svg" class="rotate">
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="paymentto">
+                                        <h6 class="changetextcolor"><img src="img/DBT.svg">Chris Sacca</h6>
+                                        <a href="javascript:void(0)" data-target="#comment" data-toggle="modal"><img src="img/edit.svg">Money for something. This is explanation.</a>
+                                    </div>
+                                </li>
+                                <li class="attach_justify">
+                                    <div class="attach">
+                                        <p class="changetextcolor">2 Attachments</p>
+                                    </div>
+                                    <div class="pending">
+                                        <p>Pending</p>
+                                    </div>
+                                    <div class="payscale">
+                                        <p class="credit">-35705TSH</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="trans_detail trans_detaillll boxs">
+                                <div class="sms boxs">
+                                    <h6>SMS Message</h6>
+                                    <p class="changetextcolor">6G492HWPBEX Confirmed. Tsh9,800.00 sent to 255763977788 - augustine mka ndara on 4/7/19 at 8:54 AM and charged Tsh 120.00. M-Pesa balance Tsh 471,914.00</p>
+                                </div>
+                                <div class="sms boxs">
+                                    <h6>Information</h6>
+                                    <div class="info boxs">
+                                        <div class="per_detail width28 boxs">
+                                            <p><span class="changetextcolor">Transaction ID:</span><i>6G492HWPBEX</i></p>
+                                        </div>
+
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Name:</span><i>augustine mkandara</i></p>
+                                        </div>
+
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Ending Balance:</span><i>471 914TSH</i></p>
+                                        </div>
+                                        <div class="per_detail width13 boxs">
+                                            <p><span class="changetextcolor">Fee: </span><i>120TSH</i></p>
+                                        </div>
+                                        <div class="per_detail boxs">
+                                            <p><span class="changetextcolor">Nala's Fee: </span><i>Free</i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sms attachments boxs">
+                                    <h6>Attachments</h6>
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <div class="attach_files boxs">
+                                                <div class="attach_inner">
+                                                    <div class="paymentby">
+                                                        <img src="img/image.svg">
+                                                    </div>
+                                                    <div class="file_name">
+                                                        <h6 class="changetextcolor">test.png</h6>
+                                                        <p>125 KB</p>
+                                                    </div>
+                                                </div>
+                                                <div class="file_down">
+                                                    <a href="javascript:void(0)"><img src="img/cloud.svg"></a>
+                                                    <a href="javascript:void(0)"><img src="img/delete.svg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="attach_files boxs">
+                                                <div class="attach_inner">
+                                                    <div class="paymentby">
+                                                        <img src="img/pdf.svg">
+                                                    </div>
+                                                    <div class="file_name">
+                                                        <h6 class="changetextcolor">test.pdf</h6>
+                                                        <p>20 KB</p>
+                                                    </div>
+                                                </div>
+                                                <div class="file_down">
+                                                    <a href="javascript:void(0)"><img src="img/cloud.svg"></a>
+                                                    <a href="javascript:void(0)"><img src="img/delete.svg"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div id="breakdown" class="modal fade breakdown" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <h4 class="changetextcolor">Breakdown
+                        <a href="javascript:void(0)" data-dismiss="modal"><img src="img/cross.svg"></a>
+                    </h4>
+                    <div class="break_tab forborder">
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0)" class="active" data-type="a">Mobile Accounts</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="" data-type="b">Bank Accounts</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)" class="" data-type="c">Cash</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="boxs tab_detail diffA diffa">
+                        <div class="mobile_detail forborder boxs">
+                            <div class="mobile_lft">
+                                <div class="accountno">
+                                    <h6 class="changetextcolor"><img src="img/h.svg">+38765582904</h6>
+                                </div>
+                            </div>
+                            <div class="mobile_rht">
+                                <div class="payscale">
+                                    <p class="debit">+35705TSH</p>
+                                </div>
+                                <a href="javascript:void(0)" class="remove">Remove</a>
+                            </div>
+                        </div>
+                        <div class="mobile_detail forborder boxs">
+                            <div class="mobile_lft">
+                                <div class="accountno">
+                                    <h6 class="changetextcolor"><img src="img/h.svg">+38765582904</h6>
+                                </div>
+                            </div>
+                            <div class="mobile_rht">
+                                <div class="payscale">
+                                    <p class="debit">+22745TSH</p>
+                                </div>
+                                <a href="javascript:void(0)" class="remove">Remove</a>
+                            </div>
+                        </div>
+                        <div class="mobile_detail forborder boxs">
+                            <div class="mobile_lft">
+                                <div class="accountno">
+                                    <h6 class="changetextcolor"><img src="img/mark.svg">+38765582904</h6>
+                                </div>
+                            </div>
+                            <div class="mobile_rht">
+                                <div class="payscale">
+                                    <p class="debit">+35705TSH</p>
+                                </div>
+                                <a href="javascript:void(0)" class="remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxs tab_detail diffA diffb">
+                        <div class="mobile_detail forborder boxs">
+                            <div class="mobile_lft">
+                                <div class="accountno">
+                                    <h6 class="changetextcolor"><img src="img/DBT.svg">+38765582904</h6>
+                                </div>
+                            </div>
+                            <div class="mobile_rht">
+                                <div class="payscale">
+                                    <p class="debit">+35705TSH</p>
+                                </div>
+                                <a href="javascript:void(0)" class="remove">Remove</a>
+                            </div>
+                        </div>
+                        <div class="mobile_detail forborder boxs">
+                            <div class="mobile_lft">
+                                <div class="accountno">
+                                    <h6 class="changetextcolor"><img src="img/DBT.svg">+38765582904</h6>
+                                </div>
+                            </div>
+                            <div class="mobile_rht">
+                                <div class="payscale">
+                                    <p class="debit">+22745TSH</p>
+                                </div>
+                                <a href="javascript:void(0)" class="remove">Remove</a>
+                            </div>
+                        </div>
+                        <div class="mobile_detail forborder boxs">
+                            <div class="mobile_lft">
+                                <div class="accountno">
+                                    <h6 class="changetextcolor"><img src="img/DBT.svg">+38765582904</h6>
+                                </div>
+                            </div>
+                            <div class="mobile_rht">
+                                <div class="payscale">
+                                    <p class="debit">+35705TSH</p>
+                                </div>
+                                <a href="javascript:void(0)" class="remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="boxs tab_detail diffA diffc">
+                        <div class="mobile_detail forborder boxs">
+                            <div class="mobile_lft">
+                                <div class="paymentby">
+                                    <img src="img/phone.svg">
+                                </div>
+                                <div class="accountno">
+                                    <h6 class="changetextcolor">Cash</h6>
+                                </div>
+                            </div>
+                            <div class="mobile_rht">
+                                <div class="payscale">
+                                    <p class="debit">+35705TSH</p>
+                                </div>
+                                <a href="javascript:void(0)" class="remove">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="comment" class="modal fade comment" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <h4 class="changetextcolor">Comments History
+                        <a href="javascript:void(0)" data-dismiss="modal"><img src="img/cross.svg"></a>
+                    </h4>
+                    <div class="paycomment forborder">
+                        <h6 class="changetextcolor">Payed to: Mark Cuban</h6>
+                        <p>03/07/2019</p>
+                    </div>
+                    <div class="comment_input boxs">
+                        <input type="text" class="form-control" placeholder="Add new comment">
+                        <button type="button"><img src="img/plus.svg">Add</button>
+                    </div>
+                    <div class="datewisecomment boxs">
+                        <div class="comment_lft">
+                            <div class="circle"></div>
+                            <div class="commentdate">
+                                <p class="changetextcolor">03/07/2019</p>
+                            </div>
+                        </div>
+                        <div class="comment_rht forborder boxs">
+                            <p>Money for something. This is explanation.</p>
+                        </div>
+
+                    </div>
+                    <div class="datewisecomment boxs">
+                        <div class="comment_lft">
+                            <div class="circle"></div>
+                            <div class="commentdate">
+                                <p class="changetextcolor">03/07/2019</p>
+                            </div>
+                        </div>
+                        <div class="comment_rht forborder boxs">
+                            <p>Money for something. This is explanation.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="addfile" class="modal fade addfile" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <h4 class="changetextcolor">Add files
+                        <a href="javascript:void(0)" data-dismiss="modal"><img src="img/cross.svg"></a>
+                    </h4>
+                    <div class="uploadadd boxs">
+                        <h1>No Files Attached</h1>
+                        <div class="uploadbtn">
+                            <button>
+                                    <input type="file" id="fileupload"><img src="img/plus.svg">Browse files
+                            </button>
+                        </div>
+                    </div>
+                    <div class="uplaodfile boxs" id="upldfile">
+                        <div class="filename forborder boxs">
+                            <div class="file_inner">
+                                <p class="changetextcolor"><img src="img/image_big.svg" id="imgpath"><span id="path">test.png</span></p>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:0%">
+                                </div>
+                            </div>
+                            <div class="mobile_rht file_rht">
+                                <div class="payscale">
+                                    <p class="debit">Uploaded</p>
+                                </div>
+                                <a href="javascript:void(0)"><img src="img/delete.svg"></a>
+                            </div>
+                        </div>
+                        <div class="filename forborder boxs">
+                            <h6><img src="img/blueplus.svg">Add new files</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

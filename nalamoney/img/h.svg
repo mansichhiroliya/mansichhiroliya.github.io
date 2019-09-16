@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.8" height="22" viewBox="0 0 30.8 22">
+  <g id="Group_29" data-name="Group 29" transform="translate(-289 -799)">
+    <rect id="Rectangle_242" data-name="Rectangle 242" width="30.8" height="22" rx="2" transform="translate(289 799)" fill="#f59140"/>
+    <g id="halotel" transform="translate(297.915 803.247)">
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="6.536" cy="6.535" rx="6.536" ry="6.535" fill="#fff" stroke="#ec7d23" stroke-width="0.25"/>
+      <path id="H" d="M224.662,55.313c-.016-.738,0-1.662.016-2.4a1.364,1.364,0,1,1,2.676-.016c.016.722.016,1.8.008,2.554h1.313a28.633,28.633,0,0,0-.089-3.235,2.561,2.561,0,0,0-3.186-2.124,2.052,2.052,0,0,0-.746.332c0-.941.008-1.995.008-3.024a11.84,11.84,0,0,0-1.33.657c-.008,2.27-.016,5.051-.032,7.33v.065h1.354C224.654,55.411,224.662,55.362,224.662,55.313Z" transform="translate(-219.121 -45.187)" fill="#ec7d23"/>
+    </g>
+  </g>
+</svg>

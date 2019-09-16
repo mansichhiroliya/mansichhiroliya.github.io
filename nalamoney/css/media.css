@@ -1,0 +1,379 @@
+@media(min-width:1367px){
+    .home_rht{
+            width: 1215px;
+            margin: 0px auto;
+            float: initial;
+        }
+}
+@media(max-width:1199px) {
+        .head_logo {
+            margin-right: 10px;
+        }
+        .head .input-group {
+            width: 300px;
+        }
+        .header {
+            padding: 20px 15px;
+        }
+        .addbtn a {
+            padding: 10px 30px;
+        }
+        .home_rht {
+            padding: 0px 50px;
+        }
+        .modal-dialog {
+            width: 70%;
+        }
+        .fixtures li {
+            font-size: 40px;
+        }
+        /* .totalfix {
+            padding-right: 30px;
+        }
+        .credit {
+            padding: 0px 30px;
+        }
+        .debit {
+            padding-left: 30px;
+        } */
+        .rightBx_inr {
+            width: 21.5%;
+        }
+        .rightBx_inr:last-child {
+            margin-right: 0px;
+            margin-top: 20px;
+        }
+        .trans_history li,
+        .trans_history li:nth-child(2) {
+            width: 50%;
+        }
+        .trans_history li:last-child {
+            width: 100%;
+            justify-content: flex-start;
+            margin-top: 10px;
+        }
+        .per_detail {
+            width: 47% !important;
+        }
+        .chooseone {
+            width: 16%;
+        }
+        .chart_flex {
+            display: block;
+        }
+        .legends {
+            height: 245px;
+            margin-top: 20px;
+        }
+    }
+    
+    @media(max-width:991px) {
+        .fixtures li{
+            width:32%;
+        }
+        .spalsh_inner {
+            width: 500px;
+        }
+        .login {
+            padding: 35px;
+        }
+        .login a {
+            margin-top: 30px;
+        }
+        .welcome p {
+            font-size: 60px;
+        }
+        .homehead h1 {
+            font-size: 30px;
+        }
+        .hide_name,
+        .forbox {
+            display: none;
+        }
+        .header .hamburger {
+            display: block;
+        }
+        .home .home_lft {
+            display: none;
+        }
+        .home_rht {
+            width: 100%;
+            margin-left: 0px;
+        }
+        .home_lft {
+            padding: 0px;
+            width: 10%;
+            position: relative;
+        }
+        .login_name p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .home_rht {
+            padding: 0px 30px;
+        }
+        .fixtures li {
+            font-size: 35px;
+        }
+        .fixtures li a,
+        .fixtures li p {
+            font-size: 16px;
+        }
+        .rightBx_inr {
+            width: 20.5%;
+        }
+        .trans_detail {
+            padding: 20px 30px 0px;
+        }
+        .per_detail {
+            width: 46% !important;
+        }
+        .switch_out {
+            margin-right: 20px;
+        }
+        .addbtn a {
+            padding: 10px 30px;
+            text-align: center;
+        }
+        .bar_graph_data p {
+            width: 18%;
+        }
+        #piechart, #piechartgreen {
+            width: 350px !important;
+            height: 350px !important;
+        }
+        .legends {
+            height: initial;
+        }
+    }
+    
+    @media(max-width:767px) {
+        .fixtures li.debit {
+            text-align: center;
+        }
+        .spalsh_inner {
+            width: 100%;
+            margin: 0px 30px;
+        }
+        .welcome p {
+            font-size: 48px;
+            margin: 0px 30px;
+        }
+        .modal-dialog {
+            width: 90%;
+        }
+        .main {
+            padding: 20px 0px;
+        }
+        .fixtures {
+            padding: 30px 0px;
+        }
+        .fixtures li {
+            font-size: 35px;
+            width: 100%;
+            text-align: center;
+            padding: 12px 0px;
+        }
+        .credit {
+            border-top: 1px solid #e9eef2;
+            border-bottom: 1px solid #e9eef2;
+            border-left: 0;
+            border-right: 0;
+        }
+        .setting_rw {
+            margin-top: 0;
+        }
+        .rightBx_inr {
+            width: 28%;
+            margin-top: 20px;
+        }
+        .trans_history li,
+        .trans_history li:nth-child(2) {
+            width: 100%;
+            margin-top: 30px;
+            position: relative;
+        }
+        .transfer img {
+            transform: rotate(90deg);
+        }
+        .transfer img.rotate {
+            transform: rotate(270deg);
+        }
+        .transfer {
+            margin-left: 30px;
+            position: absolute;
+            bottom: -23px;
+            left: 50px;
+        }
+        .expens {
+            display: block;
+        }
+        .expens_rht {
+            margin-top: 20px;
+        }
+        .chooseone {
+            width: 25%;
+        }
+        .adddesc .form-control {
+            width: 100%;
+        }
+        .adddesc .form-group {
+            margin: 20px 0px;
+            position: relative;
+        }
+        .scrollgraph{
+            overflow-y: auto;
+        }
+        #chartContainer{
+            min-width: 708px;
+            overflow-x: scroll;
+        }
+        .scrollgraph::-webkit-scrollbar{
+            height: 3px;
+        }
+        .scrollgraph::-webkit-scrollbar-thumb{
+           background-color: #e9eef2
+        }
+        .bar_graph_data p {
+            width: 26%;
+        }
+    }
+    
+    @media(max-width:560px) {
+        .login h1 {
+            font-size: 28px;
+            line-height: 40px;
+        }
+        .welcome p {
+            font-size: 32px;
+        }
+        .rightBx_inr {
+            width: 41%;
+            margin-top: 20px;
+        }
+        .fixtures li {
+            font-size: 28px;
+        }
+        .transaction {
+            display: block;
+        }
+        .per_detail {
+            width: 100% !important;
+            margin: 0px;
+        }
+        .mobile_detail {
+            padding: 15px 0px;
+            border-bottom: 1px solid #e9eef2;
+            display: block;
+        }
+        .modal-content {
+            padding: 20px;
+        }
+        .break_tab li {
+            margin-right: 20px;
+        }
+        .break_tab li a {
+            font-size: 15px;
+        }
+        .comment_input .form-control {
+            width: 100%;
+        }
+        .comment_input {
+            text-align: center;
+        }
+        .comment_input button {
+            float: initial;
+            margin-top: 20px;
+        }
+        .datewisecomment {
+            display: block;
+        }
+        .comment_lft {
+            padding-bottom: 0px;
+        }
+        .comment_rht {
+            padding-top: 0px;
+        }
+        .trans_detail {
+            padding: 20px 15px 0px;
+        }
+        .chooseone {
+            width: 33.33%;
+            margin: 20px 0px;
+        }
+        .choose {
+            margin-top: 30px;
+        }
+        .chart_detail {
+            display: flex;
+        }
+        #piechart, #piechartgreen {
+            width: 100% !important;
+            height: 100% !important;
+        }
+    }
+    
+    @media(max-width:414px) {
+        .spalsh_inner {
+            width: 100%;
+            margin: 0px 15px;
+        }
+        .login {
+            padding: 20px;
+        }
+        .login h1 {
+            font-size: 24px;
+            line-height: 33px;
+        }
+        .login a {
+            height: 45px;
+        }
+        .welcome p {
+            font-size: 27px;
+            margin: 0px 15px;
+        }
+        .welcome p img {
+            margin-right: 5px;
+        }
+        .homehead h1 {
+            font-size: 27px;
+        }
+        .homehead p {
+            font-size: 18px;
+        }
+        .rightBx_inr {
+            width: 47%;
+            margin-top: 20px;
+            margin-right: 7px;
+        }
+        .home_rht {
+            padding: 0px 15px;
+        }
+        .attach p,
+        .pending p,
+        .payscale p {
+            font-size: 13px;
+        }
+        .slider {
+            left: 70px;
+            height: 21.1px;
+        }
+        .slider:before {
+            width: 16px;
+            height: 16px;
+        }
+        .switch {
+            font-size: 14px;
+        }
+        .main {
+            padding: 0px 0px;
+        }
+        .choose {
+            margin-top: 20px;
+        }
+        .bar_graph_data p {
+            width: 50%;
+        }
+    }
+    
+    @media(max-width:320px) {}

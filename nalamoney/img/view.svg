@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.054" height="14.744" viewBox="0 0 20.054 14.744">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:#031019;stroke-width:.5px}.cls-1{stroke:#030f18}.cls-2{stroke:#fff;opacity:0}.cls-3{stroke:none}.cls-4{fill:none}
+        </style>
+    </defs>
+    <g id="view" transform="translate(.354 28.468)">
+        <path id="Path_21" d="M16.686 15.558a9.975 9.975 0 0 0-14.091 0L0 18.153l2.659 2.659a9.975 9.975 0 0 0 14.092 0l2.6-2.6zm-.4 4.792a9.322 9.322 0 0 1-13.167 0l-2.2-2.2 2.138-2.13a9.322 9.322 0 0 1 13.167 0l2.2 2.2z" class="cls-1" data-name="Path 21" transform="translate(0 -40.862)"/>
+        <path id="Path_23" d="M19.766 16.57a3.194 3.194 0 1 0 3.194 3.194 3.2 3.2 0 0 0-3.194-3.194zm0 5.9a2.7 2.7 0 1 1 2.7-2.7 2.706 2.706 0 0 1-2.7 2.697z" class="cls-1" data-name="Path 23" transform="translate(-10.103 -42.451)"/>
+        <g id="Rectangle_8" class="cls-2" data-name="Rectangle 8" transform="rotate(-47 -16.376 -10.001)">
+            <rect width=".859" height="1.065" class="cls-3" rx=".429"/>
+            <rect width="1.359" height="1.565" x="-.25" y="-.25" class="cls-4" rx=".679"/>
+        </g>
+    </g>
+</svg>

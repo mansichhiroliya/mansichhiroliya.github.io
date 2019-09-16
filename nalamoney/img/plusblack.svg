@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13.938" height="13.938" viewBox="0 0 13.938 13.938">
+    <defs>
+        <style>
+            .cls-1{fill:#031019}.cls-2{clip-path:url(#clip-path)}
+        </style>
+        <clipPath id="clip-path">
+            <path id="Rectangle_2" d="M0 0h13.938v13.938H0z" class="cls-1" data-name="Rectangle 2"/>
+        </clipPath>
+    </defs>
+    <g id="Mask_Group_3" class="cls-2" data-name="Mask Group 3">
+        <path id="plus-symbol" d="M.45 6.772A.449.449 0 0 1 0 6.319a.444.444 0 0 1 .45-.447h5.418V.453A.456.456 0 0 1 6.322 0a.449.449 0 0 1 .447.453v5.419h5.419a.449.449 0 0 1 .453.447.455.455 0 0 1-.453.453H6.769v5.419a.449.449 0 0 1-.447.453.455.455 0 0 1-.453-.453V6.772z" class="cls-1" transform="translate(.647 .646)"/>
+    </g>
+</svg>

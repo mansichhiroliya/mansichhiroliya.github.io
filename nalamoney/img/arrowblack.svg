@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.967" height="16.543" viewBox="0 0 10.967 16.543">
+    <defs>
+        <style>
+            .cls-1{fill:#d4dbe2;stroke:#d4dbe2;stroke-width:.5px}
+        </style>
+    </defs>
+    <g id="smartphone" transform="rotate(90 12.28 4.013)">
+        <path id="Path_2251" d="M33.513 19.367a.4.4 0 0 0 0-.306.41.41 0 0 0-.087-.131l-4.812-4.812a.4.4 0 0 0-.567.567l4.128 4.128H17.9a.4.4 0 0 0 0 .8h14.275l-4.128 4.128a.4.4 0 1 0 .567.567l4.812-4.808a.4.4 0 0 0 .087-.133z" class="cls-1" data-name="Path 2251" transform="translate(-8.984 -8.385)"/>
+    </g>
+</svg>
