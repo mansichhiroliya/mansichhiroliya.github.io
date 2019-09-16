@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="47" fill="none" viewBox="0 0 60 47">
+    <g filter="url(#a)">
+        <rect width="60" height="47" fill="#434447" fill-opacity=".7" rx="16"/>
+        <rect width="60" height="47" fill="#222" fill-opacity=".8" rx="16" style="mix-blend-mode:lighten"/>
+        <rect width="60" height="47" fill="#000" fill-opacity=".7" rx="16" style="mix-blend-mode:lighten"/>
+    </g>
+    <path fill="#fff" fill-opacity=".35" fill-rule="evenodd" d="M26.78 30.475c.2.149.362.069.362-.179V17.304c0-.248-.163-.328-.363-.18l-3.936 3.3h-3.501c-.738 0-1.342.507-1.342 1.126v4.5c0 .618.604 1.125 1.342 1.125h3.542l3.895 3.3zm6.935-.42a.556.556 0 0 1-.068-.792c2.804-3.258 2.804-7.808 0-11.065a.557.557 0 0 1 .068-.793.58.58 0 0 1 .806.065c3.17 3.686 3.17 8.834 0 12.52a.576.576 0 0 1-.806.065zm-4.06-3.084a.557.557 0 0 0 .051.794.578.578 0 0 0 .806-.052c2.096-2.344 2.096-5.622 0-7.966a.578.578 0 0 0-.806-.052.557.557 0 0 0-.05.794c1.703 1.909 1.703 4.574 0 6.482z" clip-rule="evenodd"/>
+    <path fill="#fff" fill-opacity=".6" fill-rule="evenodd" d="M26.78 30.475c.2.149.362.069.362-.179V17.304c0-.248-.163-.328-.363-.18l-3.936 3.3h-3.501c-.738 0-1.342.507-1.342 1.126v4.5c0 .618.604 1.125 1.342 1.125h3.542l3.895 3.3zm6.935-.42a.556.556 0 0 1-.068-.792c2.804-3.258 2.804-7.808 0-11.065a.557.557 0 0 1 .068-.793.58.58 0 0 1 .806.065c3.17 3.686 3.17 8.834 0 12.52a.576.576 0 0 1-.806.065zm-4.06-3.084a.557.557 0 0 0 .051.794.578.578 0 0 0 .806-.052c2.096-2.344 2.096-5.622 0-7.966a.578.578 0 0 0-.806-.052.557.557 0 0 0-.05.794c1.703 1.909 1.703 4.574 0 6.482z" clip-rule="evenodd" style="mix-blend-mode:overlay"/>
+    <g fill="#fff" fill-rule="evenodd" clip-rule="evenodd" opacity=".2">
+        <path fill-opacity=".35" d="M37.718 32.329a.556.556 0 0 1-.073-.792c3.956-4.669 3.956-10.943 0-15.613a.556.556 0 0 1 .073-.792c.241-.2.601-.17.805.071 4.322 5.102 4.322 11.955 0 17.054a.575.575 0 0 1-.805.072z"/>
+        <path fill-opacity=".6" d="M37.718 32.329a.556.556 0 0 1-.073-.792c3.956-4.669 3.956-10.943 0-15.613a.556.556 0 0 1 .073-.792c.241-.2.601-.17.805.071 4.322 5.102 4.322 11.955 0 17.054a.575.575 0 0 1-.805.072z" style="mix-blend-mode:overlay"/>
+    </g>
+    <defs>
+        <filter id="a" width="331.828" height="318.828" x="-135.914" y="-135.914" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImage" stdDeviation="67.957"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+            <feBlend in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+        </filter>
+    </defs>
+</svg>
