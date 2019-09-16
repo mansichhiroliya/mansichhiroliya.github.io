@@ -1,0 +1,44 @@
+@media(max-width: 1199px) {
+.flag h2 {
+  margin-top: 130px;
+}
+}
+
+@media(max-width: 767px) {
+.flag h2 {
+ font-size: 70px;
+}
+}
+
+
+@media(max-width: 560px) {
+  .set2 {
+    transform: scale(.5) rotateY(180deg);
+}
+
+.set div img {
+    width: 80px;
+}
+
+.flag h2 {
+  font-size: 55px;
+  margin-top: 30px;
+}
+
+.flag img {
+  width: 150px;
+}
+}
+
+@media(max-width: 414px) {
+  .flag h2 {
+    font-size: 42px;
+    margin-top: 30px;
+    line-height: 50px;
+}
+
+.flag img {
+    width: 150px;
+    margin-top: 120px
+}
+}
