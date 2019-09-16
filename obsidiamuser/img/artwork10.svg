@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="146" height="158" viewBox="0 0 146 158">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="0%" y1="13.071%" y2="67.741%">
+            <stop offset="0%" stop-color="#95ABC2"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <path id="b" d="M8.1 0h2.07v1.97a8.1 8.1 0 0 1-8.1 8.1H0V8.1A8.1 8.1 0 0 1 8.1 0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#8E99A3" d="M66 58l60 16.448V132l-60-25.787z"/>
+        <path fill="#A0AAB5" d="M66 58L17 71.636V132l49-26.128z"/>
+        <path stroke="url(#a)" stroke-dasharray="6,7" stroke-width="3" d="M48.22 130.463c-13.656-3.964-37.637-3.61-46.643-26.775-8.254-21.232 22.194-41.666 30.712-32.72 6.037 6.34-1.7 15.482-12.437 14.455C7.767 84.267.624 73.55 3.007 62.023c4.726-22.867 41.066-37.995 42.599-39.05" transform="translate(50 -3)"/>
+        <g transform="translate(84.205 -3)">
+            <path fill="#CED8E5" d="M15.132 15.575c-.229-5.732-1.108-9.357-2.639-10.874-2.296-2.277-6.021-2.274-8.32.006a5.8 5.8 0 0 0-.007 8.252c1.53 1.517 5.186 2.39 10.966 2.616zM19.161 19.017c.229 5.732 1.108 9.357 2.639 10.875 2.296 2.276 6.021 2.274 8.32-.007a5.8 5.8 0 0 0 .007-8.251c-1.53-1.518-5.186-2.39-10.966-2.617z" opacity=".4"/>
+            <g transform="translate(12.312 11.715)">
+                <mask id="c" fill="#fff">
+                    <use xlink:href="#b"/>
+                </mask>
+                <use fill="#A8B7C5" xlink:href="#b"/>
+                <path fill="#DDE5F2" d="M2.12.502l1.6.007.048 11.709-1.599-.007z" mask="url(#c)" transform="rotate(-45 2.944 6.36)"/>
+                <path fill="#DDE5F2" d="M1.431.15L2.567-.974l8.314 8.244-1.136 1.126z" mask="url(#c)"/>
+            </g>
+            <path stroke="#8696C5" stroke-width=".9" d="M27.944 9.192l3.907-.922M26.338 7.602l1.503-3.835"/>
+            <ellipse cx="24.089" cy="10.655" fill="#8B9AA8" rx="4.282" ry="4.24"/>
+        </g>
+        <path fill="#DAE2EC" d="M17 72l60 18.98V158l-60-25.766z"/>
+        <path fill="#C5D0D9" d="M126 74L76 90.542V158l50-25.935z"/>
+        <path fill="#DAE2EC" d="M126.674 74L146 99.821 94.713 120 77 90.34z"/>
+        <path fill="#C5D0D9" d="M16.908 71L0 97.261 59.59 120 77 90.088z"/>
+    </g>
+</svg>

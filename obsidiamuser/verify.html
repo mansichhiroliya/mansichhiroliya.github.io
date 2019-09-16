@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+    <title>Obsidiam</title>
+
+    <!-- Bootstrap -->
+    <link href="img/fav.png" rel="icon" type="icon/image">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+</head>
+
+<body class="bgcolor">
+    <section class="header boxs">
+
+        <div class="head boxs">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" class="img-responsive"></a>
+            </div>
+
+            <div class="navi">
+                <ul>
+                    <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                    <li class="side_li"><a href="index.html">Sign up</a></li>
+                    <li class="side_li"><a href="login.html">Log in</a></li>
+
+                    <li><i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <select id="language" class="form-control" name="language_code">
+                            <option value="en-GB" selected="selected">EN</option>
+                            <option>FN</option>
+                        </select>
+                    </li>
+                    <li>
+                        <div class="switch_out">
+                            <label class="switch">
+                                <i>Day</i>
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="sidenav boxs" id="mySidenav">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+        <div class="boxs">
+            <a href="index.html">Sign up</a>
+            <a href="login.html">Log in</a>
+        </div>
+
+    </div>
+    <section class="main boxs">
+        <div class="box_fom boxs">
+            <div class="passwordbx whiteback verf_bx  boxs">
+                <form>
+
+
+                    <div class="boxs auth_hd ver_hd">
+                        <h2 class="textcolor">Enter<span class="au_img"><img src="./img/authy.png"
+                                    class="img-responsive" alt="image"></span> Verification code </h2>
+                        <div class="boxs formstyle">
+                            <div class="form-group box">
+                                <label class="textcolor">Enter 6 digits code </label>
+
+                            </div>
+                            <div class="form-group code_div boxs">
+                                <input type="number" id="len1" class="form-control req_sec" maxlength="1">
+                                <input type="number" id="len2" class="form-control req_sec" maxlength="1">
+                                <input type="number" id="len3" class="form-control req_sec" maxlength="1">
+                                <input type="number" id="len4" class="form-control req_sec" maxlength="1">
+                                <input type="number" id="len5" class="form-control req_sec" maxlength="1">
+                                <input type="text" id="len6" class="form-control req_sec" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                            </div>
+                        </div>
+                        <div class="button_box boxs">
+                            <div class="BACK_btn cmmom_btn">
+                                <button type="button">BACK</button>
+                            </div>
+                            <div class="NXT_btn cmmom_btn sign_btn">
+                                <button type="button" class="obs_btn" disabled>NEXT</button>
+                            </div>
+                        </div>
+                        <div class="boxs form_txt">
+                            <p class="boxs textcolor">Don’t know where to find the verification code?<span><a
+                                                href="password.html">More info</a></span></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

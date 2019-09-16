@@ -1,0 +1,1033 @@
+/* @media(min-width:1367px) {
+    .box_fom {
+        min-height: 100vh;
+    }
+} */
+
+@media(max-width:1199px) {
+    .form_bx {
+        padding: 32px 50px;
+        /* width: 500px; */
+    }
+    .main {
+        margin-top: 30px;
+    }
+    .welcome {
+        width: 90%;
+    }
+    .welcomeres1 {
+        padding: 45px 0px;
+    }
+    .infostyle h3 {
+        margin-bottom: 20px;
+    }
+    .wel_rht a.firstwel1 {
+        margin-bottom: 0;
+        padding: 12px 54px;
+        margin-right: 0;
+    }
+    .info_bx {
+        padding: 55px 70px;
+        width: 90%;
+    }
+    .infostyle {
+        padding: 0px 170px;
+    }
+    .uploadbox {
+        margin-top: 30px;
+        padding: 15px 20px;
+    }
+    .box_fom {
+        min-height: initial;
+    }
+    /* home start */
+    .sidehover {
+        width: 20%;
+    }
+    .homehover {
+        width: 80%;
+        margin-left: 20%;
+    }
+    .home_fixedhover {
+        width: 80%;
+        left: 20%;
+    }
+    .bankreports {
+        width: 100%;
+    }
+    /* home end */
+    /* deposite start */
+    .reports_buy {
+        padding: 16px 17px;
+    }
+    /* deposite end */
+    /* withdraw start */
+    .Withdraw {
+        padding: 15px 15px 10px;
+    }
+    .with_recip {
+        width: 39%;
+    }
+    /* withdraw end */
+    .bit_r_res {
+        display: block;
+    }
+    .col-res {
+        width: 100%;
+    }
+    .col-res .bit {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .col-res .h4_div {
+        width: 50%;
+    }
+    .ver_res {
+        text-align: center;
+        margin-top: 30px;
+    }
+    /* referral start */
+    .referral_lft {
+        width: 100%;
+        height: initial;
+    }
+    .referral_rht {
+        width: 100%;
+        height: initial;
+        margin-left: 0;
+    }
+    .referral_lft p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .requested a {
+        font-size: 14px;
+    }
+    .comission_list li {
+        font-size: 14px;
+    }
+    .referral_rht h6 {
+        font-size: 17px;
+    }
+    .referral_rht a {
+        font-size: 14px;
+    }
+    .referral {
+        width: 100%;
+    }
+    /* referral end */
+    /* buy start */
+    table.dataTable tbody td a.deletestatus {
+        padding: 8px 10px;
+    }
+    table.dataTable tbody th a,
+    table.dataTable tbody td a {
+        font-size: 10px;
+    }
+    .taken_buy table.dataTable tbody th,
+    .taken_buy table.dataTable tbody td {
+        padding: 15px 6px;
+    }
+    /* buy end */
+    /* quick start */
+    .quick_transfer {
+        width: 100%;
+    }
+    /* quick end */
+    .btngran span {
+        padding: 6px 3px;
+    }
+}
+
+@media(max-width:991px) {
+    .form_bx {
+        padding: 17px 32px;
+        /* width: 450px; */
+    }
+    .box_fom h2 {
+        font-size: 25px;
+    }
+    .main {
+        margin-top: 50px;
+    }
+    .sign_bx {
+        padding: 45px 20px;
+        width: 78%;
+    }
+    .welcome1 {
+        padding: 23px 0px;
+    }
+    .infostyle h3 {
+        font-size: 15px;
+    }
+    .welcome3 {
+        padding: 0px 0px;
+    }
+    .wel_rht {
+        width: 60%;
+        padding: 0 0px 50px 48px;
+    }
+    .wel_rht a.firstwel1 {
+        padding: 12px 34px;
+    }
+    .info_bx ul li {
+        margin: 0 25px;
+    }
+    .info_bx ul li::after {
+        left: -55px;
+        width: 56px;
+    }
+    .infostyle {
+        padding: 0px 65px;
+    }
+    .self_bx .col-sm-offset-3 {
+        margin-left: 15%;
+    }
+    .self_bx .col-sm-6 {
+        width: 73%;
+    }
+    /* home start */
+    .sidebar {
+        display: block;
+        left: -250px;
+        top: 0;
+        z-index: 991;
+        width: 250px;
+        transition: all 0.5s ease 0s;
+        overflow-x: hidden;
+    }
+    .sidebar li a span {
+        width: 90px;
+        margin-left: 20px;
+    }
+    .logohome a img.dekstoplogo {
+        display: none;
+    }
+    .logohome a img.responsivelogo {
+        display: block;
+    }
+    .home_fixed,
+    .stick_fixed {
+        width: 100%;
+        left: 0;
+    }
+    .homemain {
+        width: 100%;
+        margin-left: 0;
+    }
+    .homehead_rht {
+        padding-left: 139px;
+    }
+    .homehead .hamburger {
+        display: block;
+    }
+    .homehead .hamburger-inner,
+    .homehead .hamburger-inner::before,
+    .homehead .hamburger-inner::after {
+        width: 25px;
+        height: 3px;
+    }
+    .dataTable {
+        min-width: 951px;
+        overflow-x: scroll;
+    }
+    .tablewrpr {
+        overflow-y: auto;
+    }
+    .tablewrpr::-webkit-scrollbar {
+        height: 2px;
+    }
+    .tablewrpr::-webkit-scrollbar-thumb {
+        background-color: #20cafe;
+    }
+    /* home end */
+    /* deposite start */
+    .reports_buy {
+        padding: 16px 11px;
+    }
+    /* deposite end */
+    /* dashboard start */
+    .fran {
+        WIDTH: 100%;
+    }
+    .estimated {
+        width: 100%;
+        margin: 12px 0px;
+    }
+    .security {
+        margin: 0px 0px;
+        width: 100%;
+    }
+    .getverfiy {
+        width: 100%;
+        /* min-height: initial; */
+    }
+    .dashverfiy {
+        width: 100%;
+    }
+    .inform_lft {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .inform_heading {
+        font-size: 17px;
+    }
+    .basci_detail p {
+        font-size: 15px;
+    }
+    .inform_rht {
+        width: 100%;
+        margin-left: 0px;
+    }
+    /* dashboard end */
+    /* reputation start */
+    .reputation_outer {
+        width: 100%;
+        display: inline-block;
+    }
+    .reputation p {
+        font-size: 15px;
+    }
+    .reputation h6 {
+        font-size: 16px;
+    }
+    /* reputation end */
+    .reports_buy p span img {
+        margin-left: 9px;
+    }
+}
+
+@media(max-width:767px) {
+    .modal_cf {
+        width: 100%;
+    }
+    .secc_model_bl .modal-dialog {
+        width: 90%;
+    }
+    .header .side_li {
+        display: none;
+    }
+    .header .hamburger {
+        display: block;
+    }
+    .sign_bx {
+        width: 90%;
+    }
+    .psd_bx {
+        padding: 36px 37px 110px;
+        width: 488px;
+    }
+    .passwordbx {
+        width: 86%;
+        padding: 30px 0px;
+    }
+    .pass_top {
+        padding: 0px 25px 10px 25px;
+    }
+    .auth_hd {
+        padding: 0px 25px;
+    }
+    .box_fom .auth_hd h2 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .code_div .form-control {
+        width: 50px;
+        margin-bottom: 30px;
+    }
+    .confor_bx {
+        padding: 32px 24px 29px;
+        width: 468px;
+    }
+    .flexwel {
+        display: block;
+    }
+    .wel_lft {
+        padding: 0px 0px 30px;
+        width: 100%;
+    }
+    .wel_rht {
+        width: 100%;
+        padding: 0 0px 0px 0px;
+        border-left: none;
+    }
+    .infostyle h3 {
+        margin-bottom: 0;
+    }
+    .wel_lft img {
+        width: 162px;
+    }
+    .welcome {
+        padding: 15px;
+    }
+    .wel_rht a.firstwel1 {
+        margin-top: 30px;
+    }
+    .info_bx {
+        padding: 30px 0;
+        width: 90%;
+    }
+    .info_bx ul li {
+        margin: 0 17px;
+    }
+    .info_bx ul li::after {
+        left: -38px;
+        width: 38px;
+        top: 18px;
+    }
+    .self_bx .col-sm-6 {
+        width: 100%;
+    }
+    .self_bx .col-sm-offset-3 {
+        margin-left: 0%;
+    }
+    .infostyle {
+        padding: 0px 20px;
+    }
+    .osb_bo_wh {
+        width: 488px;
+    }
+    .form_bx {
+        padding: 17px 32px;
+        width: 488px;
+        /* width: 450px; */
+    }
+    /* home start */
+    .homehead_rht {
+        padding-left: 95px;
+    }
+    /* .homehead_rht .input-group {
+        display: none;
+    } */
+    .nav_head ul li a {
+        padding: 0px 15px;
+    }
+    .drop_down3 {
+        right: -167px;
+    }
+    .estimated {
+        width: 100%;
+    }
+    .security {
+        width: 100%;
+        margin: 12px 0px;
+    }
+    .getverfiy {
+        width: 100%;
+    }
+    .dtr-details {
+        width: 100%;
+    }
+    .dtr-data {
+        float: right;
+    }
+    table.dataTable tbody th,
+    table.dataTable tbody td {
+        font-size: 13px;
+    }
+    .home_hide {
+        display: block;
+        padding: 0px 20px 10px;
+    }
+    .usd_hide {
+        display: none;
+    }
+    .bell_hide {
+        display: none;
+    }
+    .home_lang_hide {
+        display: none;
+    }
+    .homehead_rht {
+        padding-left: 0;
+    }
+    .homehead_rht .input-group {
+        width: 80%;
+    }
+    .drop_down3 {
+        right: -70px;
+    }
+    .homemid {
+        margin-top: 125px;
+    }
+    /* home end */
+    /* deposite start */
+    .bit_rw {
+        display: block;
+    }
+    .ver_div a {
+        padding: 14px 26px;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .bit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px
+    }
+    .con_div a {
+        font-size: 17px;
+        line-height: 40px;
+    }
+    /* deposite end */
+    /* withdraw start */
+    .modal-dialog {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .qrcode .modal-dialog {
+        width: 90%;
+    }
+    .with_recip {
+        width: 100%;
+    }
+    .btcamount {
+        width: 100%;
+        margin-left: 0;
+    }
+    .Withdrawbtn {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .reports_ex {
+        margin-left: 0;
+    }
+    /* withdraw end */
+    /* whitelist strat */
+    .code_div .form-control {
+        width: 70px;
+        margin-bottom: 30px;
+    }
+    .with_recip {
+        width: 70%;
+    }
+    .whitelist {
+        border-radius: 6px;
+        border: solid 1px #e9edee;
+        padding: 15px 10px;
+    }
+    .with_recip {
+        width: 100%;
+    }
+    .hd_wht {
+        padding: 0px 30px;
+    }
+    /* whitelist end */
+    .ver_main {
+        text-align: center;
+    }
+    .con_p h4 {
+        text-align: center;
+    }
+    .con_p p {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .drop_menu_hd .col-sm-6 {
+        width: 50%;
+        float: left;
+    }
+    .modal-dialog {
+        width: 90%;
+    }
+    #disableaccmodal .dash_res {
+        padding: 0px 0px 10px 0px;
+    }
+    .dash_auth_hd {
+        padding: 0px 0px;
+    }
+    .dash_auth_hd .code_div_dash .form-control {
+        width: 56px;
+    }
+    .inform_lft {
+        padding: 0px 15px;
+    }
+    .basic_rht {
+        padding: 20px 15px;
+    }
+    .basic_activity {
+        padding: 15px 15px 10px;
+    }
+    .account_detail {
+        padding: 15px 15px 15px;
+    }
+    /* fail start */
+    .get_verified {
+        width: 100%;
+    }
+    /* fail end */
+    .repu_pro .progress {
+        width: 50%;
+    }
+    /* reputation start */
+    .reputation p {
+        font-size: 14px;
+        line-height: 27px;
+    }
+    .reputation h6 {
+        font-size: 18px;
+    }
+    .reputation p br {
+        display: none;
+    }
+    /* reputation end */
+    .anti_head {
+        width: 100%;
+    }
+    .anti_head h4 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .auti_hd h5 {
+        font-size: 15px;
+    }
+    .auti_hd p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .auti_hd {
+        padding: 40px 0px;
+    }
+    .phish_hd .code_div .form-control {
+        width: 68px;
+    }
+    /* referal start */
+    .referral_lft {
+        padding: 20px
+    }
+    /* referral end */
+    /* buy start */
+    .innertabs {
+        margin-bottom: 15px;
+    }
+    .seracharea .input-group {
+        padding: 4px 0px;
+    }
+    /* buy end */
+    .reports .col-sm-6 {
+        width: 100%;
+    }
+}
+
+@media(max-width:560px) {
+    .oss_box p {
+        line-height: 25px;
+    }
+    .navi li {
+        margin-left: 15px;
+    }
+    .header {
+        padding: 10px 15px
+    }
+    .form_bx {
+        padding: 17px 18px 56px;
+        width: 90%;
+    }
+    .sign_bx {
+        padding: 25px 15px;
+    }
+    .box_fom h2 {
+        margin-bottom: 10px;
+    }
+    .psd_bx {
+        padding: 23px 12px 110px;
+        width: 88%;
+    }
+    .confor_bx {
+        padding: 20px 15px 20px;
+        width: 90%;
+    }
+    .infostyle h3 {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .info_bx ul li::after {
+        left: 156px;
+        width: 17px;
+        top: -9px;
+        transform: rotate(90deg)
+    }
+    .info_bx ul li {
+        display: block;
+    }
+    .info_bx ul li a {
+        width: 149px;
+        margin-bottom: 15px;
+    }
+    .info_bx ul li:last-child a {
+        margin-bottom: 0px;
+    }
+    .selfie_bx p br {
+        display: none;
+    }
+    .selfie_bx p {
+        padding: 0px 15px;
+    }
+    .osb_bo_wh {
+        width: 88%;
+    }
+    /* home start */
+    .homehead_rht {
+        padding-left: 0;
+    }
+    .homehead {
+        padding: 15px 15px;
+    }
+    .switch i {
+        font-size: 14px;
+        width: 72px;
+    }
+    .homelang {
+        margin-right: 0px;
+    }
+    .slider {
+        left: 4px;
+    }
+    .homehead_lft p {
+        font-size: 13px;
+    }
+    .gradient-box {
+        padding: 4px 4px;
+    }
+    table.dataTable tbody th,
+    table.dataTable tbody td {
+        font-size: 14px;
+    }
+    .stck_bx {
+        overflow-y: auto;
+    }
+    .stck_bx::-webkit-scrollbar {
+        height: 0px;
+    }
+    .scroll_bx {
+        min-width: 560px;
+        overflow-x: scroll;
+    }
+    .home_hide {
+        display: block;
+        padding: 0px 15px 10px;
+    }
+    /* home end */
+    .drop_down3 {
+        right: -44px;
+    }
+    .drop_down {
+        min-width: 359px;
+        left: 6px;
+    }
+    .reports_ex {
+        margin-left: 0;
+    }
+    /* withlist start */
+    .seracharea {
+        display: block;
+    }
+    .with_add {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .code_div .form-control {
+        width: 48px;
+    }
+    .hd_wht {
+        padding: 0px 0px;
+    }
+    .whitelist_con {
+        margin: 15px 0px;
+    }
+    .whitelist {
+        display: block;
+    }
+    /* whitelist end */
+    .col-res .h4_div {
+        width: 100%;
+    }
+    .col-res .p_div {
+        width: 100%;
+    }
+    /* dashboard start */
+    .basci_detail p span {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .basci_detail {
+        padding-top: 10px;
+    }
+    .basci_detail p b {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .inform_heading {
+        display: block;
+    }
+    .basic_activity li {
+        width: 100%;
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+    /* dashboard end */
+    .repu_pro .progress {
+        width: 80%;
+    }
+    .bor_auti {
+        padding: 20px 17px;
+    }
+    .nav_head .bank_act_res ul li a {
+        padding: 0px 15px;
+    }
+    .phish_hd .code_div .form-control {
+        width: 48px;
+    }
+    /* buy start */
+    .statusdiv .row {
+        display: block;
+    }
+    .status_ful {
+        width: 100%;
+    }
+    .status_ful .status_inner {
+        margin-bottom: 20px;
+    }
+    /* buy end */
+    /* quick start */
+    .send_coin {
+        justify-content: center;
+    }
+    .quick_content p {
+        font-size: 13px;
+    }
+    /* quick end */
+    .nav_head ul {
+        text-align: left;
+    }
+}
+
+@media(max-width:414px) {
+    .navi li .form-control {
+        font-size: 14px;
+    }
+    .switch i {
+        width: 52px;
+        padding-left: 42px;
+        font-size: 14px;
+    }
+    .logo img {
+        width: 90%;
+    }
+    .navi li .form-control {
+        font-size: 14px;
+    }
+    .navi li {
+        margin-left: 0;
+        margin-right: 14px;
+    }
+    .form_bx {
+        padding: 17px 8px 56px;
+        width: 95%;
+    }
+    .formstyle .form-control {
+        padding: 11px 10px;
+    }
+    .form_txt p {
+        font-family: 'RalewayRegular';
+        font-size: 16px;
+    }
+    .box_fom h2 {
+        margin-bottom: 25px;
+    }
+    .pass_top {
+        padding: 0px 10px 10px 10px;
+    }
+    .passwordbx {
+        width: 93%;
+        padding: 15px 0px;
+    }
+    .auth_hd {
+        padding: 0px 10px;
+    }
+    .code_div .form-control {
+        width: 45px;
+    }
+    .conf_hd h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .conf_btn ul li a {
+        padding: 14px 27px;
+    }
+    .conf_hd p {
+        margin-bottom: 20px;
+    }
+    .wel_rht h3 img {
+        width: 100px;
+    }
+    .infostyle h3 {
+        font-size: 17px;
+    }
+    .info_bx ul li::after {
+        left: 112px;
+    }
+    .wel_rht h3 {
+        font-size: 20px;
+    }
+    /* home start */
+    .homehead {
+        padding: 15px 10px;
+    }
+    .gradient-box {
+        margin: 0px 4px;
+    }
+    .slider {
+        left: -16px;
+    }
+    .switch i {
+        padding-left: 29px;
+    }
+    .home_hide {
+        display: block;
+        padding: 0px 10px 10px;
+    }
+    .homehead_rht .input-group {
+        width: 75%;
+    }
+    /* home end */
+    .drop_down {
+        min-width: 95%;
+        left: 6px;
+    }
+    .serch_row .input-group span button {
+        padding: 10px 12px 10px 2px;
+    }
+    .con_div a {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    /* withdra strat */
+    .reports_buy p span {
+        margin-right: 0px;
+        display: block;
+    }
+    .reports_buy p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .reports_buy p span img {
+        /* margin-left: 47px; */
+        margin: 10px 16px;
+    }
+    .Withdrawbtn {
+        width: 100%;
+    }
+    .with_add {
+        width: 100%;
+    }
+    .Withdrawbtn button {
+        padding: 12px 0px;
+    }
+    .reportsforms .form-control {
+        padding: 12px 16px;
+    }
+    .reportsforms {
+        margin-top: 18px;
+    }
+    .bot_res_coin {
+        padding: 20px 2px;
+    }
+    /* withdraw end */
+    .osb_bo_whres {
+        width: 100%
+    }
+    .con_p p {
+        font-size: 13px;
+    }
+    /* .homemid .ip_nav ul li:nth-child(2){
+        display: block;
+        padding: 0px 10px;
+    }
+    .homemid .ip_nav ul li:nth-child(2) i{
+            transform: rotate(90deg);
+    }
+    .homemid .ip_nav ul li:nth-child(1){
+      padding-bottom: 10px
+    }
+   .homemid .ip_nav ul li:nth-child(3){
+        padding-top: 10px;
+    } */
+    .drop_menu3 li a {
+        padding: 11px 10px;
+    }
+    .drop_down3 {
+        right: -45px;
+        width: 297px;
+    }
+    #changepassmodal .code_div .form-control {
+        width: 39px;
+    }
+    .dash_auth_hd .code_div_dash .form-control {
+        width: 39px;
+    }
+    .conf_btn ul li a.back_btn {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .bank_act_res {
+        padding: 0 0;
+    }
+    .reputation {
+        padding: 21px 15px;
+    }
+    .repu_pro .progress {
+        width: 100%;
+    }
+    .anti_head h4 {
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+    .bor_auti {
+        padding: 20px 4px;
+    }
+    .homemid .bankreports1 {
+        padding: 0px 10px;
+    }
+    .phish_hd .code_div .form-control {
+        width: 45px;
+    }
+    .auth_mn .code_div .form-control {
+        width: 39px;
+    }
+    /* referal start */
+    .referral_lft {
+        padding: 15px 15px;
+        margin-bottom: 0;
+    }
+    /* referal end */
+    /* buy start */
+    .innertabs li a {
+        font-size: 20px;
+    }
+    /* buy end */
+    /* quick start */
+    .send_coin button {
+        padding: 14px 14px;
+        margin: 0px 7px;
+    }
+    .qrcode_scan p {
+        margin: 15px 0px;
+    }
+    .pop5 h5 {
+        margin: 15px 0px;
+    }
+    /* quick end */
+    .passmodal_top h2 {
+        font-size: 25px;
+    }
+    .comission_list li {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:320px) {}

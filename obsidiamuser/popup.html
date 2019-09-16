@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+    <title>Obsidiam</title>
+
+    <!-- Bootstrap -->
+    <link href="img/fav.png" rel="icon" type="icon/image">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/rowReorder.dataTables.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.dataTables.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+
+<body>
+    <button type="button" data-target="#amount" data-toggle="modal">Reports12</button>
+    <button type="button" data-target="#approve" data-toggle="modal">Reports13</button>
+    <button type="button" data-target="#time_out" data-toggle="modal">Reports14</button>
+    <button type="button" data-target="#success_po" data-toggle="modal">Reports15</button>
+    <button type="button" data-target="#ver_cd" data-toggle="modal">Reports17</button>
+    <button type="button" data-target="#wh_list" data-toggle="modal">Reports19</button>
+    <button type="button" data-target="#wh_list_rpl" data-toggle="modal">Reports20</button>
+    <button type="button" data-target="#sure_wh" data-toggle="modal">Reports22</button>
+
+
+    <!-- report12 start -->
+    <div id="amount" class="modal fade qrcode" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="qrcode_scan amount_div boxs">
+                        <img src="./img/info1.svg" class="img-responsive" alt="qr_code">
+                        <h5>How does the “take fee from amount” work”?</h5>
+                        <p>If selected, your withdrawal amount will include the fee. For example, if the withdrawal amount is 2 an the fee is 0.001, your wallet will be debited 2, and you will receive 1.999 at your withdrawal address.</p>
+                        <p> If unchecked, your wallet will be debited your withdrawal amount plus the fee (2.001) and you will receive the full 2 at the withdrawal address</p>
+
+                        <div class="sign_btn drag_bt codebtn boxs">
+                            <button type="button" data-dismiss="modal">Ok, got it!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- report12 end -->
+    <!-- report13 start -->
+    <div id="approve" class="modal fade qrcode" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="qrcode_scan amount_div boxs">
+                        <img src="./img/logo-obsidiam-nombre-blanco.png" class="img-responsive" alt="qr_code">
+                        <h5>Waiting for Authy 2FA to be approved </h5>
+                        <p>Check your authy-managed device for a push notification in order to authorize the transaction
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- report 13 end -->
+    <!-- report14 start -->
+    <div id="time_out" class="modal fade qrcode" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="qrcode_scan amount_div boxs">
+                        <img src="./img/INFO SYMBOL.svg" class="img-responsive" alt="qr_code">
+                        <h5>Authy approval has timed out </h5>
+                        <p>Please try again </p>
+                        <div class="boxs conf_btn">
+
+                            <ul>
+                                <li><a href="#" class="back_btn">Go back</a></li>
+                            </ul>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- report14 end -->
+    <!-- report15 start -->
+    <div id="success_po" class="modal fade qrcode" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="qrcode_scan amount_div boxs">
+                        <!-- <div class="confor_bx whiteback  boxs"> -->
+                        <div class="boxs conf_img">
+                            <img src="./img/green_tick.svg" class="img-responsive" alt="image">
+                        </div>
+                        <div class="boxs conf_hd succ_hd">
+                            <h5 class="textcolor">Success</h5>
+                            <p class="textcolor">You have successfully sent {amount} to {address or label}. The transaction could take some time to show up while the set blockchain confirmations are completed.
+                            </p>
+
+
+
+                        </div>
+                        <div class="sign_btn green_btn boxs">
+                            <a href="login.html">Go back</a>
+                        </div>
+
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- report15 end -->
+    <!-- report 17 start -->
+    <div id="ver_cd" class="modal fade qrcode" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="qrcode_scan amount_div boxs">
+                        <div class=" auth_p_b  boxs">
+                            <form>
+                                <div class="boxs auth_hd ver_hd">
+                                    <h2 class="textcolor">Enter<span class="au_img"><img src="./img/authy.png"
+                                                class="img-responsive" alt="image"></span> Verification code </h2>
+                                    <div class="boxs formstyle">
+                                        <div class="form-group box">
+                                            <label class="textcolor">Enter 6 digits code </label>
+
+                                        </div>
+                                        <div class="form-group code_div boxs">
+                                            <input type="number" id="len1" class="form-control req_sec" maxlength="1">
+                                            <input type="number" id="len2" class="form-control req_sec" maxlength="1">
+                                            <input type="number" id="len3" class="form-control req_sec" maxlength="1">
+                                            <input type="number" id="len4" class="form-control req_sec" maxlength="1">
+                                            <input type="number" id="len5" class="form-control req_sec" maxlength="1">
+                                            <input type="number" id="len6" class="form-control req_sec" maxlength="1">
+                                        </div>
+                                    </div>
+                                    <div class="button_box boxs">
+                                        <div class="BACK_btn cmmom_btn">
+                                            <button type="button">BACK</button>
+                                        </div>
+                                        <div class="NXT_btn cmmom_btn sign_btn">
+                                            <button type="button" class="obs_btn" disabled="">NEXT</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- report 17 end -->
+    <!-- report 19 start -->
+    <div id="wh_list" class="modal fade qrcode" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="qrcode_scan amount_div boxs">
+                        <div class="box_fom boxs">
+
+                            <div class="form_bx whiteback hd_wht  boxs">
+                                <h5 class="textcolor">Add new Whitelist Address</h5>
+                                <form>
+                                    <div class="formstyle boxs">
+                                        <div class="form-group whit_b">
+
+                                            <label class="textcolor">Coin </label>
+                                            <input type="text" id="coin" class="form-control textcolor req_sec" value="Enter your coin" required>
+                                            <span><i class="fa fa-angle-down fa_dwn" aria-hidden="true"></i></span>
+                                            <div class="drop_down drop_down1">
+
+                                                <ul class="drop_menu boxs">
+
+                                                    <li><a href="javascript:void(0)" class="active">Bitcoin<span>0.283
+                                                                BTC</span></a>
+                                                    </li>
+                                                    <li><a href="javascript:void(0)">Ethereum<span>0.283 ETH</span></a>
+                                                    </li>
+                                                    <li><a href="javascript:void(0)">Litecoin<span>0.283 LTC</span></a>
+                                                    </li>
+                                                    <li><a href="javascript:void(0)">Ripple<span>0.283 XRP</span></a>
+                                                    </li>
+                                                    <li><a href="javascript:void(0)">Tether<span>0.283 USDT</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="textcolor">Address </label>
+                                            <input type="text" id="psword" class="form-control textcolor req_sec" placeholder="Enter recipient's address" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="textcolor">Lable </label>
+                                            <input type="text" id="psword" class="form-control textcolor req_sec" placeholder="Enter a lable for the address" required>
+                                        </div>
+                                        <div class="sign_btn pop_sign boxs">
+                                            <button type="button" class="obs_btn " disabled>Submit</button>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- report 19 end -->
+    <!-- report 20 start -->
+    <div id="wh_list_rpl" class="modal fade qrcode" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="qrcode_scan amount_div boxs">
+                        <div class="box_fom boxs">
+
+                            <div class="form_bx whiteback hd_wht  boxs">
+                                <h5 class="textcolor">Add new Whitelist Address</h5>
+                                <form>
+                                    <div class="formstyle boxs">
+                                        <div class="form-group whit_b">
+
+                                            <label class="textcolor">Coin </label>
+                                            <input type="text" id="coin" class="form-control textcolor req_sec" value="Ripple" required>
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="textcolor">Address </label>
+                                            <input type="text" id="psword" class="form-control textcolor req_sec" placeholder="Enter recipient's address" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="textcolor">Destination tag </label>
+                                            <input type="text" id="psword" class="form-control textcolor req_sec" placeholder="Enter destination tag" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="textcolor">Lable </label>
+                                            <input type="text" id="psword" class="form-control textcolor req_sec" placeholder="Enter a lable for the address" required>
+                                        </div>
+                                        <div class="sign_btn pop_sign boxs">
+                                            <button type="button" class="obs_btn" disabled>Submit</button>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- report 20 end -->
+    <!-- report22 start -->
+    <div id="sure_wh" class="modal fade qrcode" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="qrcode_scan amount_div boxs">
+                        <img src="./img/info1.svg" class="img-responsive" alt="qr_code">
+                        <h5>Are you sure?</h5>
+                        <p>Are you sure you want to delete this address from the Whitelist?</p>
+                        <div class="boxs conf_btn">
+                            <ul class="yes_lu">
+                                <li><a href="#" class="back_btn no_btn">No, go back</a></li>
+                                <li><a href="#" class="sign_yes no_btn">Yes</a></li>
+                            </ul>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- report 22 end -->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <!-- <script src="js/dataTables.rowReorder.min.js"></script> -->
+    <script src="js/dataTables.responsive.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

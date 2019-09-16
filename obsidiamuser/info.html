@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+    <title>Obsidiam</title>
+
+    <!-- Bootstrap -->
+    <link href="img/fav.png" rel="icon" type="icon/image">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+</head>
+
+<body class="bgcolor">
+    <section class="header boxs">
+        <div class="head boxs">
+            <!-- <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button> -->
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo" class="img-responsive"></a>
+            </div>
+            <div class="navi">
+                <ul>
+
+                    <li><i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <select id="language" class="form-control" name="language_code">
+                            <option value="en-GB" selected="selected">EN</option>
+                            <option>FN</option>
+                        </select>
+                    </li>
+                    <li>
+                        <div class="switch_out">
+                            <label class="switch">
+                                <i>Day</i>
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="main boxs">
+        <div class="box_fom boxs">
+            <div class="info_bx whiteback  boxs">
+                <ul>
+                    <li class="clickme" data-type="1"><a href="javascript:void(0)" class="active">1. INFO</a></li>
+                    <li class="clickme " data-type="2"><a href="javascript:void(0)">2. SELFIE</a></li>
+                    <li class="clickme " data-type="3"><a href="javascript:void(0)">3. PASSPORT</a></li>
+                </ul>
+                <div class="boxs all  all1">
+
+                    <form>
+                        <div class="formstyle infostyle boxs ">
+                            <h3 class="textcolor">Fill out the information below</h3>
+                            <div class="form-group first_nm1">
+
+                                <label class="textcolor ">First name</label>
+                                <input type="text" id="uname" class="form-control textcolor first_nm frst_pd req_sec" placeholder="Enter your first name" value="" required>
+                                <img src="./img/shape.svg" class="img-responsive tich_i" alt="image">
+                            </div>
+                            <div class="form-group first_nm1">
+                                <label class="textcolor">Last name </label>
+                                <input type="text" id="lname" class="form-control textcolor first_nm frst_pd req_sec" placeholder="Enter your last name" required>
+                                <img src="./img/shape.svg" class="img-responsive tich_i" alt="image">
+                            </div>
+                            <div class="form-group info_fm">
+                                <label class="textcolor">Date of birth</label>
+                                <input type="text" id="day" class="form-control textcolor req_sec" placeholder="Day" required>
+                                <input type="text" id="mon" class="form-control textcolor req_sec" placeholder="Month" required>
+                                <input type="text" id="year" class="form-control textcolor req_sec" placeholder="Year" required>
+                            </div>
+                            <div class="sign_btn infobtn boxs">
+                                <button type="button" class="obs_btn " disabled>CONTINUE</button>
+                            </div>
+                            <div class="boxs info_img">
+                                <div class="boxs page_bx">
+                                    <a class="pagination  active" href="#"><span class="circle pagr_blue "></span></a>
+                                    <a class="pagination  " href="#"><span class="circle pagr_blue "></span></a>
+                                    <a class="pagination " href="#"><span class="circle pagr_blue "></span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="boxs all  all2 selfie_bx">
+                    <p class="textcolor ">Upload a photo of yourself holding your identity <br>document next to your face and a visible
+                        <br> writting of today’s date </p>
+                    <form>
+                        <div class="boxs self_bx">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <div class="uploadbox  boxs">
+                                    <fieldset>
+                                        <div class="boxs">
+                                            <div id="filedrag" class="uploadandbrowse boxs filedrag" style="display: block;">
+                                                <div class="boxs main_drag main_drag2" id="main_drag2">
+                                                    <div class="Uploadimg Uploadimg11">
+                                                        <img src="img/group-2.svg" alt="form_upload" class="img-responsive" id="upldimg">
+                                                    </div>
+                                                    <div class="boxs pro_bx pro_bx1" id="pro_bx">
+
+                                                        <div class="canvas-wrap">
+                                                            <canvas id="canvas" width="180" height="180"></canvas>
+                                                            <span id="procent"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uploadText ">
+                                                        <h6 class="drag textcolor ">Drag &amp; Drop
+                                                        </h6>
+                                                        <p class="textcolor ">your files here or<span><label for="fileselect" class=" browsebtn">Browse</label></span></p>
+                                                    </div>
+                                                    <input type="file" id="fileselect" name="fileselect[]" multiple="multiple" class="">
+                                                </div>
+                                                <div class="boxs main_drag main_drag3" id="mainDrag3">
+                                                    <div class="Uploadimg1" id="messages">
+                                                        <div class='' id="upldimg1"><img src='img/file-icon-psd.svg' alt='form_upload' class='img-responsive '><span class='textcolor'><g id="textfile"></g><img src='img/cross.png' alt='form_upload' class='img-responsive srcoss_im'> </span></div>
+                                                    </div>
+                                                    <div class="uploadText">
+                                                        <div class="sign_btn drag_bt opacitybtn boxs">
+                                                            <button type="button" data-target="#succes_modal" data-toggle="modal">UPLOAD AND CONTINUE</button>
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- <input type="file" id="fileselect" name="fileselect[]" multiple="multiple" class=""> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+
+                                </div>
+                                <!--                                <div id="messages" class="boxs msgBoxD"> </div>-->
+                            </div>
+
+                        </div>
+                        <div class="boxs info_img">
+                            <div class="boxs page_bx pro_page1">
+                                <a class="pagination  " href="#"><span class="circle pagr_blue1 pagr_blueres"></span></a>
+                                <a class="pagination  active" href="#"><span class="circle pagr_blue1 pagr_blueres"></span></a>
+                                <a class="pagination " href="#"><span class="circle pagr_blue1 pagr_blueres"></span></a>
+                            </div>
+                        </div>
+                    </form>
+                    <button type="button" data-target="#fail_modal" data-toggle="modal" style="float: right ; margin: 40px;">fail button</button>
+
+                </div>
+                <div class="boxs all  all3 selfie_bx">
+                    <p class="textcolor ">Upload a photo of yourself holding your identity <br>document next to your face and a visible
+                        <br> writting of today’s date </p>
+                    <form>
+                        <div class="boxs self_bx">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <div class="uploadbox  boxs">
+                                    <fieldset>
+                                        <div class="boxs">
+                                            <div id="filedrag1" class="uploadandbrowse boxs filedrag" style="display: block;">
+                                                <div class="boxs main_drag main_drag4" id="main_drag2_1">
+                                                    <div class="Uploadimg Uploadimg222">
+                                                        <img src="img/group-2.svg" alt="form_upload" class="img-responsive" id="upldimg_1">
+                                                    </div>
+                                                    <div class="boxs pro_bx pro_bx2" id="pro_bx_1">
+
+                                                        <div class="canvas-wrap">
+                                                            <canvas id="canvas1" width="180" height="180"></canvas>
+                                                            <span id="procent1"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="uploadText">
+                                                        <h6 class="drag textcolor">Drag &amp; Drop
+                                                        </h6>
+                                                        <p class="textcolor">your files here or<span><label for="fileselect1" class=" browsebtn">Browse</label></span></p>
+                                                    </div>
+                                                    <input type="file" id="fileselect1" name="fileselect1[]" multiple="multiple" class="">
+                                                </div>
+                                                <div class="boxs main_drag main_drag5" id="mainDrag3_1">
+                                                    <!-- <div class="Uploadimg1" id="messages_1"> </div> -->
+                                                    <div class="Uploadimg1" id="messages_1">
+                                                        <div class='' id="upldimg12"><img src='img/file-icon-psd.svg' alt='form_upload' class='img-responsive '><span class='textcolor'><g id="textfile_1"></g><img src='img/cross.png' alt='form_upload' class='img-responsive srcoss_im'> </span></div>
+                                                    </div>
+                                                    <div class="uploadText">
+                                                        <div class="sign_btn drag_bt opacitybtn boxs">
+                                                            <button type="button" data-target="#succes_modal" data-toggle="modal">UPLOAD AND CONTINUE</button>
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- <input type="file" id="fileselect1" name="fileselect1[]" multiple="multiple" class=""> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+
+                                </div>
+                                <!--                                <div id="messages" class="boxs msgBoxD"> </div>-->
+                            </div>
+
+                        </div>
+                        <div class="boxs info_img">
+                            <div class="boxs page_bx pro_page1">
+                                <a class="pagination  " href="#"><span class="circle pagr_blue1 pagr_blueres"></span></a>
+                                <a class="pagination  " href="#"><span class="circle pagr_blue1 pagr_blueres"></span></a>
+                                <a class="pagination active" href="#"><span class="circle pagr_blue1 pagr_blueres"></span></a>
+                            </div>
+                        </div>
+
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- modal section start -->
+    <div id="succes_modal" class="modal fade secc_model_bl" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="regis boxs">
+                        <a href="javscript:void(0)" class="closed" data-dismiss="modal"><img src="./img/cross.png"></a>
+
+                        <div class="footermodal_form boxs">
+
+                            <div class=" boxs">
+                                <div class="confor_bx1 noshadow whiteback noborderdiv modal_cf boxs">
+                                    <div class="boxs conf_img">
+                                        <img src="./img/green_tick.svg" class="img-responsive" alt="image">
+                                    </div>
+                                    <div class="boxs conf_hd succ_hd">
+                                        <h2 class="textcolor">Success</h2>
+                                        <p class="textcolor">Your documents have been uploaded</p>
+
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div id="fail_modal" class="modal fade secc_model_bl" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="regis boxs">
+                        <a href="javscript:void(0)" class="closed" data-dismiss="modal"><img src="./img/cross.png"></a>
+
+                        <div class="footermodal_form boxs">
+
+                            <div class=" boxs">
+                                <div class="confor_bx1 noshadow whiteback noborderdiv modal_cf  boxs">
+                                    <div class="boxs conf_img">
+                                        <img src="./img/INFO SYMBOL.svg" class="img-responsive" alt="image">
+                                    </div>
+                                    <div class="boxs conf_hd succ_hd">
+                                        <h2 class="textcolor">Failure</h2>
+                                        <p class="textcolor">Your documents have not been uploaded</p>
+
+
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal section end -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/filedrag.js"></script>
+    <script src="js/filedrag2.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

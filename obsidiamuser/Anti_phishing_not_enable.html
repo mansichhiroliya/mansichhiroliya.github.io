@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+    <title>Obsidiam</title>
+
+    <!-- Bootstrap -->
+    <link href="img/fav.png" rel="icon" type="icon/image">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/rowReorder.dataTables.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.dataTables.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="home boxs">
+        <div class="sidebar boxs">
+            <div class="logohome boxs">
+                <a href="index.html"><img src="img/welcome.png" class="img-responsive dekstoplogo"></a>
+                <a href="index.html"><img src="img/logohalf.svg" class="img-responsive responsivelogo"></a>
+            </div>
+            <ul class="boxs">
+                <li>
+                    <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="18" viewBox="0 0 24 18">
+                            <defs>
+                                <linearGradient id="a" x1="0%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--color-stop-1)" />
+                                    <stop offset="100%" stop-color="var(--color-stop-2)" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#a)" fill-rule="evenodd"
+                                d="M16.333 17h-1.777c-.982 0-1.778-.733-1.778-1.636V9.636H9.222v5.728c0 .903-.796 1.636-1.778 1.636H5.667C4.194 17 3 15.901 3 14.545V8.818C3 8.366 3.398 8 3.889 8c.49 0 .889.366.889.818v5.727c0 .452.398.819.889.819h1.777V9.636C7.444 8.733 8.24 8 9.222 8h3.556c.982 0 1.778.733 1.778 1.636v5.728h1.777c.491 0 .89-.367.89-.819V8.818c0-.452.397-.818.888-.818s.889.366.889.818v5.727C19 15.901 17.806 17 16.333 17zm5.533-10.377a.808.808 0 0 0-.242-1.128l-7.81-4.97a3.389 3.389 0 0 0-3.624 0l-7.81 4.97a.809.809 0 0 0-.245 1.132c.25.38.767.487 1.154.241l7.809-4.97a1.694 1.694 0 0 1 1.817 0l7.809 4.97a.843.843 0 0 0 1.15-.237l-.008-.008z" />
+                        </svg><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="16"
+                            viewBox="0 0 24 16">
+                            <defs>
+                                <linearGradient id="b" x1="0%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--color-stop-1)" />
+                                    <stop offset="100%" stop-color="var(--color-stop-2)" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#b)" fill-rule="evenodd"
+                                d="M21 16H3a3 3 0 0 1-3-3V7a2 2 0 0 1 2-2h20V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1 1 1 0 1 1-2 0 3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v2a2 2 0 0 1-2 2H2v6a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1v-3a1 1 0 1 1 2 0v3a3 3 0 0 1-3 3z" />
+                        </svg><span>Buy/Sell</span></a>
+                </li>
+                <li>
+                    <a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="13" height="17"
+                            viewBox="0 0 13 17">
+                            <defs>
+                                <linearGradient id="c" x1="0%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--color-stop-1)" />
+                                    <stop offset="100%" stop-color="var(--color-stop-2)" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#c)" fill-rule="evenodd"
+                                d="M12.284 13H.71a.712.712 0 0 1-.71-.713c0-.395.318-.714.71-.714h9.692L7.768 9.254a.718.718 0 0 1-.068-1.01.71.71 0 0 1 1.005-.067l4.055 3.567a.716.716 0 0 1-.47 1.249l-.006.007zm-3.94 3.876l1.314-.73c.374-.209.454-.606.177-.888-.277-.282-.805-.342-1.18-.134l-1.313.73c-.374.209-.454.606-.177.888.277.282.805.342 1.18.134zM5.296 8.758a.717.717 0 0 0-.064-1.007L2.598 5.429h9.692c.392 0 .71-.32.71-.715A.712.712 0 0 0 12.29 4H.71a.71.71 0 0 0-.664.462.717.717 0 0 0 .194.788l4.055 3.572a.707.707 0 0 0 1.001-.064zm-1.19-6.932l.666-.595a.728.728 0 0 0 .063-.99.644.644 0 0 0-.941-.067l-.666.595a.728.728 0 0 0-.063.99.644.644 0 0 0 .941.067z" />
+                        </svg><span>Exchange</span></a>
+                </li>
+                <li>
+                    <a href="home.html" class=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="18"
+                            viewBox="0 0 24 18">
+                            <defs>
+                                <linearGradient id="d" x1="0%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--color-stop-1)" />
+                                    <stop offset="100%" stop-color="var(--color-stop-2)" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#d)" fill-rule="evenodd"
+                                d="M19 18H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v1a1 1 0 0 1-2 0V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-1a1 1 0 0 1 2 0v1a3 3 0 0 1-3 3zm5-8V8a2 2 0 0 0-2-2h-5a2 2 0 0 0-2 2v3a1 1 0 0 0 2 0V8h5v2h-2a1 1 0 0 0 0 2h2a2 2 0 0 0 2-2z" />
+                        </svg>
+                        <span>Wallet</span></a>
+                </li>
+                <li>
+                    <a href="quick_transfer.html" class=""><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21"
+                            viewBox="0 0 21 21">
+                            <defs>
+                                <linearGradient id="e" x1="0%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--color-stop-1)" />
+                                    <stop offset="100%" stop-color="var(--color-stop-2)" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#e)" fill-rule="evenodd"
+                                d="M12.089 20.86a1.49 1.49 0 0 1-1.06-.44l-1.06-1.06a1 1 0 1 1 1.41-1.41l.71.71.35-.35a.5.5 0 0 0 .14-.28l.59-4.12a2 2 0 0 1 .57-1.13l2.49-2.49a8.94 8.94 0 0 0 2.64-6.36V2h-1.93a8.94 8.94 0 0 0-6.36 2.64l-2.49 2.49a2 2 0 0 1-1.13.57l-4.13.59a.5.5 0 0 0-.28.14l-.35.35.71.71a1 1 0 1 1-1.41 1.41L.439 9.84a1.5 1.5 0 0 1 0-2.12l.71-.71a2.51 2.51 0 0 1 1.41-.71l4.13-.59 2.49-2.49A10.93 10.93 0 0 1 16.959 0h2.91a1 1 0 0 1 1 1v2.93a10.93 10.93 0 0 1-3.22 7.78l-2.49 2.49-.59 4.13a2.51 2.51 0 0 1-.71 1.41l-.71.71a1.49 1.49 0 0 1-1.06.41zm-4.95-2.91l1.41-1.41a1 1 0 0 0-1.41-1.41l-1.41 1.41a1 1 0 1 0 1.41 1.41zm-4.24-1.41l2.83-2.83a1 1 0 0 0-1.41-1.41l-2.83 2.83a1 1 0 1 0 1.41 1.41zm12.73-7.07a3 3 0 0 0 0-4.24 1 1 0 1 0-1.41 1.41 1 1 0 1 1-1.41 0 1 1 0 0 0-1.41-1.41 3 3 0 1 0 4.24 4.24h-.01z" />
+                        </svg><span>Quick Transfer</span></a>
+                </li>
+                <li>
+                    <a href="buy.html" class=""><svg xmlns="http://www.w3.org/2000/svg" width="21" height="18"
+                            viewBox="0 0 21 18">
+                            <defs>
+                                <linearGradient id="f" x1="0%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--color-stop-1)" />
+                                    <stop offset="100%" stop-color="var(--color-stop-2)" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#f)" fill-rule="evenodd"
+                                d="M17.209 11H7.706c-1.286 0-2.39-.885-2.625-2.105L3.844 2.423a.883.883 0 0 0-.89-.704H.89c-.492 0-.89-.385-.89-.86C0 .385.398 0 .89 0h2.082c1.286 0 2.39.885 2.625 2.105l1.237 6.472a.883.883 0 0 0 .89.704h9.494a.883.883 0 0 0 .89-.704l1.12-5.844a.838.838 0 0 0-.196-.71.903.903 0 0 0-.693-.304H8.009c-.492 0-.89-.385-.89-.86 0-.474.398-.859.89-.859h10.32c.795 0 1.547.34 2.055.93.507.59.716 1.367.57 2.12l-1.12 5.845c-.236 1.22-1.34 2.105-2.625 2.105zM12 15a3 3 0 0 0-3-3 1 1 0 1 0 0 2 1 1 0 1 1-1 1 1 1 0 1 0-2 0 3 3 0 0 0 6 0zm5 2a1 1 0 0 0-1-1 1 1 0 1 1 1-1 1 1 0 1 0 2 0 3 3 0 1 0-3 3 1 1 0 0 0 1-1z" />
+                        </svg><span>Orders</span></a>
+                </li>
+                <li>
+                    <a href="index.html" class=""><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21"
+                            viewBox="0 0 21 21">
+                            <defs>
+                                <linearGradient id="g" x1="0%" y1="0%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--color-stop-1)" />
+                                    <stop offset="100%" stop-color="var(--color-stop-2)" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#g)" fill-rule="evenodd" stroke="#FFF" stroke-width=".5"
+                                d="M8.751 1.042c.437-.047.427.173.474.612.047.44.133.934-.303.98-4.01.821-6.738 4.586-6.292 8.685.445 4.1 3.917 7.182 8.008 7.11 4.092-.071 7.454-3.273 7.756-7.385.302-4.112-2.059-7.729-6.095-8.409-.134-.022.101 6.326.001 7.626-.052.683-.301.784-.512.782-.07 0-.152.015-.203 0-.324-.095-.437-.637-.446-.782-.005-.06-.012-8.544-.002-8.606a.805.805 0 0 1 .923-.67c4.844.814 8.274 5.215 7.912 10.15-.361 4.935-4.396 8.778-9.306 8.864-4.91.085-9.077-3.614-9.61-8.534-.534-4.92 2.74-9.437 7.553-10.42" />
+                        </svg><span>Log out</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="homemain boxs">
+            <div class="home_fixed boxs">
+                <div class="homehead boxs">
+
+                    <div class="homehead_lft p_arr0_dn">
+                        <p class="textcolor"><a href="user_information.html" class="textcolor">Barry Armstrong </a><button class="gradient-box"><span>unverified</span></button><i class="fa fa-angle-down arrow_down" aria-hidden="true"></i></p>
+                        <div class="drop_down_hd boxs">
+
+                            <div class="drop_menu_hd boxs">
+                                <div class="col-sm-6 nopadding">
+                                    <div class="user_infobx boxs">
+                                        <a href="user_information.html" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 20 26">
+                                                                <defs>
+                                                                        <linearGradient id="gradient" gradientUnits="userSpaceOnUse" fy="90%" >
+                                                                            <stop  offset="0" style="stop-color:#89f7fe"/>
+                                                                            <stop  offset="1" style="stop-color:#66a6ff"/>
+                                                                            <animate attributeName="fy"from="0" to="1" dur="5s" repeatCount="indefinite" />
+                                                                        </linearGradient>
+                                                                    </defs>
+                                                                <path fill="#fff" fill-rule="evenodd" d="M16.667 26H5.556c-.614 0-1.112-.5-1.112-1.116 0-.616.498-1.115 1.112-1.115h11.11c.614 0 1.112-.5 1.112-1.116v-4.629a1.818 1.818 0 0 0-.99-1.461 18.067 18.067 0 0 0-13.577 0 1.818 1.818 0 0 0-.989 1.461v6.86c0 .617-.497 1.116-1.11 1.116C.496 26 0 25.5 0 24.884v-6.86a4.005 4.005 0 0 1 2.378-3.536 20.27 20.27 0 0 1 15.244 0A4.005 4.005 0 0 1 20 18.024v4.63A3.34 3.34 0 0 1 16.667 26zM16 5.5a5.5 5.5 0 1 0-11 0 5.5 5.5 0 0 0 11 0zm-2 0a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                                                            </svg>
+                                                            <span class="textcolor">User info</span></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 nopadding">
+                                    <div class="user_infobx boxs">
+                                        <a href="get_verified.html" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 24 24">
+                                                    <defs>
+                                                        <linearGradient id="gradient" gradientUnits="userSpaceOnUse" fy="90%" >
+                                                            <stop  offset="0" style="stop-color:#89f7fe"/>
+                                                            <stop  offset="1" style="stop-color:#66a6ff"/>
+                                                            <animate attributeName="fy"from="0" to="1" dur="5s" repeatCount="indefinite" />
+                                                        </linearGradient>
+                                                    </defs>
+                                                    <path fill="url(#a)" fill-rule="evenodd" d="M108.811 58.151c-.001-.68-.13-1.15.445-1.516a1.974 1.974 0 0 1 1.893-.147 9.335 9.335 0 0 0 11.657-3.382 9.332 9.332 0 0 0-1.54-12.038 9.336 9.336 0 0 0-12.133-.339 9.332 9.332 0 0 0-2.21 11.933 1.333 1.333 0 0 1-2.308 1.333 11.998 11.998 0 0 1-1.467-7.893 12 12 0 0 1 22.167-4.233 11.998 11.998 0 0 1-1.038 13.741 12.003 12.003 0 0 1-13.274 3.705l-2.192-1.164zm5.808-6.543l5.076-5.386a1.407 1.407 0 0 0-.067-1.828 1.216 1.216 0 0 0-1.722-.07l-4.175 4.43-1.637-1.737a1.216 1.216 0 0 0-1.722.07 1.407 1.407 0 0 0-.067 1.828l2.538 2.693a1.218 1.218 0 0 0 1.789 0h-.013z" transform="translate(-103 -36)"/>
+                                                </svg>
+                                                                <span class="textcolor">Get verified</span></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 nopadding">
+                                    <div class="user_infobx boxs">
+                                        <a href="referral.html" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 24 22">
+                                                                    <defs>
+                                                                            <linearGradient id="gradient" gradientUnits="userSpaceOnUse" fy="90%" >
+                                                                                <stop  offset="0" style="stop-color:#66a6ff"/>
+                                                                                <stop  offset="1" style="stop-color:#89f7fe"/>
+                                                                                <animate attributeName="fy"from="0" to="1" dur="5s" repeatCount="indefinite" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                    <path fill="#0C133E" fill-rule="evenodd" d="M8 21H3a3 3 0 0 1-3-3v-3.2a3.08 3.08 0 0 1 1.87-2.72 15.41 15.41 0 0 1 8.09-.88 1.013 1.013 0 1 1-.32 2 13.43 13.43 0 0 0-7 .77 1.11 1.11 0 0 0-.6.86V18a1 1 0 0 0 1 1h5a1 1 0 1 1 0 2H8zm4-16.44A4.5 4.5 0 1 0 7.5 9 4.47 4.47 0 0 0 12 4.56zm-2 0a2.5 2.5 0 1 1-2.5-2.44A2.47 2.47 0 0 1 10 4.56zm14 14.11v-3.36a2.73 2.73 0 0 0-1.66-2.42 12.87 12.87 0 0 0-9.49 0 2.73 2.73 0 0 0-1.66 2.42V20a1 1 0 0 0 2 0v-4.68a.76.76 0 0 1 .39-.55 10.89 10.89 0 0 1 8 0 .76.76 0 0 1 .39.55v3.36a.34.34 0 0 1-.35.33H16a1 1 0 1 0 0 2h5.65A2.34 2.34 0 0 0 24 18.67zM21 6.54a3.5 3.5 0 1 0-3.5 3.45A3.48 3.48 0 0 0 21 6.55v-.01zm-2 0a1.5 1.5 0 1 1-1.5-1.45A1.48 1.48 0 0 1 19 6.55v-.01z"/>
+                                                                </svg>
+                                                                <span class="textcolor">Referral Program</span></a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 nopadding">
+                                    <div class="user_infobx boxs">
+                                        <a href="reputation.html" class=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 23 22">
+                                                                    <defs>
+                                                                            <linearGradient id="gradient" gradientUnits="userSpaceOnUse" fy="90%" >
+                                                                                <stop  offset="0" style="stop-color:#66a6ff"/>
+                                                                                <stop  offset="1" style="stop-color:#89f7fe"/>
+                                                                                <animate attributeName="fy"from="0" to="1" dur="5s" repeatCount="indefinite" />
+                                                                            </linearGradient>
+                                                                        </defs>
+                                                                    <path fill="#0C133E" fill-rule="evenodd" d="M17.535 21.816a1.5 1.5 0 0 1-.7-.17l-5-2.61a1 1 0 0 0-.93 0l-1.14.6a1 1 0 0 1-.93-1.77l1.14-.6a3 3 0 0 1 2.79 0l4.06 2.14-.78-4.52a3 3 0 0 1 .86-2.65l3.29-3.2-4.54-.66a3 3 0 0 1-2.26-1.64l-2-4.11-2 4.11a3 3 0 0 1-2.26 1.64l-4.54.66 3.29 3.2a3 3 0 0 1 .86 2.66l-.95 5.52a1.014 1.014 0 0 1-2-.34l.95-5.52a1 1 0 0 0-.29-.89l-4-3.91a1.5 1.5 0 0 1 .83-2.56l5.54-.81a1 1 0 0 0 .75-.55l2.48-5a1.5 1.5 0 0 1 2.69 0l2.48 5a1 1 0 0 0 .75.55l5.54.81a1.5 1.5 0 0 1 .83 2.56l-4 3.91a1 1 0 0 0-.29.88l.95 5.52a1.5 1.5 0 0 1-1.48 1.76l.01-.01z"/>
+                                                                </svg>
+                                                                <span class="textcolor">Reputation</span></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="homehead_rht">
+                        <div class="input-group usd_div usd_hide">
+                            <input type="text" class="form-control textcolor enter_usd coin_inpt" placeholder="USD Dollar">
+                            <span class="input-group-addon"><button class="searchicon"><img src="img/serch.svg"></button></span>
+                            <div class="drop_down2 boxs">
+
+                                <ul class="drop_menu2 boxs">
+
+                                    <li><a href="javascript:void(0)" class="textcolor"><i class="bit_para">USD Dollar</i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)" class="textcolor"><i class="bit_para">Colombian Peso</i></a></li>
+                                    <li><a href="javascript:void(0)" class="textcolor"><i class="bit_para">Mexican Peso</i></a></li>
+                                    <li><a href="javascript:void(0)" class="textcolor"><i class="bit_para">Chilean Peso</i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class=" bell_ic bell_hide">
+                            <a href="javascript:void(0)" class="bell bellicon"><img src="img/bell.svg"></a>
+                            <div class="drop_down3 boxs">
+
+                                <ul class="drop_menu3 boxs">
+
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">Advertise Advertise Advertise</h4>
+                                            <p class="textcolor">How many free autoresponders have</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">Nailing It On The Head</h4>
+                                            <p class="textcolor">Another title for this article can be</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">How To Boost Traffic Of Your Blog</h4>
+                                            <p class="textcolor">What makes one logo better than</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">Search Engine Optimization</h4>
+                                            <p class="textcolor">Adwords Keyword research</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">Branding Do You Know Who You Are</h4>
+                                            <p class="textcolor">I have been questioned many people</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="javascript:void(0)" style="text-align:center">All notifications</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="homelang home_lang_hide">
+                            <i class="fa fa-angle-down textcolor" aria-hidden="true"></i>
+                            <select id="language" class="form-control textcolor" name="language_code">
+                                                        <option value="en-GB" selected="selected">EN</option>
+                                                        <option>FN</option>
+                                                    </select>
+                        </div>
+                        <div class="homeswitch">
+                            <div class="switch_out">
+                                <label class="switch">
+                                                        <i class="textcolor">Day</i>
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                            </div>
+                        </div>
+                        <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                                                <span class="hamburger-box">
+                                                    <span class="hamburger-inner"></span>
+                                                </span>
+                                            </button>
+                    </div>
+
+                </div>
+                <div class="home_hide boxs">
+                    <div class="homehead_rht">
+                        <div class="input-group usd_div">
+                            <input type="text" class="form-control textcolor enter_usd1 coin_inpt" placeholder="USD Dollar">
+                            <span class="input-group-addon"><button class="searchicon"><img src="img/serch.svg"></button></span>
+                            <div class="drop_down2 boxs">
+
+                                <ul class="drop_menu2 boxs">
+
+                                    <li><a href="javascript:void(0)" class="textcolor"><i class="bit_para">USD Dollar</i></a>
+                                    </li>
+                                    <li><a href="javascript:void(0)" class="textcolor"><i class="bit_para">Colombian Peso</i></a></li>
+                                    <li><a href="javascript:void(0)" class="textcolor"><i class="bit_para">Mexican Peso</i></a></li>
+                                    <li><a href="javascript:void(0)" class="textcolor"><i class="bit_para">Chilean Peso</i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class=" bell_ic">
+                            <a href="javascript:void(0)" class="bell bellicon"><img src="img/bell.svg"></a>
+                            <div class="drop_down3 boxs">
+
+                                <ul class="drop_menu3 boxs">
+
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">Advertise Advertise Advertise</h4>
+                                            <p class="textcolor">How many free autoresponders have</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">Nailing It On The Head</h4>
+                                            <p class="textcolor">Another title for this article can be</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">How To Boost Traffic Of Your Blog</h4>
+                                            <p class="textcolor">What makes one logo better than</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">Search Engine Optimization</h4>
+                                            <p class="textcolor">Adwords Keyword research</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            <h4 class="textcolor">Branding Do You Know Who You Are</h4>
+                                            <p class="textcolor">I have been questioned many people</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="javascript:void(0)" style="text-align:center">All notifications</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="homelang">
+                            <i class="fa fa-angle-down textcolor" aria-hidden="true"></i>
+                            <select id="language" class="form-control textcolor" name="language_code">
+                                                                <option value="en-GB" selected="selected">EN</option>
+                                                                <option>FN</option>
+                                                            </select>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="homemid boxs">
+                <div class="nav_head stick_fixed boxs">
+                    <div class="bankreports bank_act_res  boxs">
+                        <div class="breadcrums boxs">
+                            <ul>
+                                <li><a href="user_information.html" class="textcolor">User Information</a></li>
+                                <li><i class="fa fa-angle-right textcolor" aria-hidden="true"></i></li>
+                                <li><a href="Anti_phishing_enable.html" class="textcolor">Anti-phishing code</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="bankreports bankreports1 formargin boxs">
+                    <div class="anti_head  boxs">
+                        <div class="boxs auti_hd">
+                            <h4 class="textcolor">Anti-phishing code</h4>
+                            <div class="bor_auti boxs">
+                                <h5 class="textcolor">What is an anti-phishing code?</h5>
+                                <p class="textcolor">An Anti-Phishing Code is a code that helps prevent phishing attempts from fake websites or email addresses. Once you've set your unique Anti-Phishing Code, it will be included in all genuine Obsidiam emails.</p>
+                                <img src="./img/anti1.png" class="img-responsive" alt="image">
+
+                                <form>
+                                    <div class="pass_top passmodal_top boxs ">
+
+                                        <div class="formstyle boxs">
+                                            <div class="form-group boxs">
+
+                                                <label class="textcolor">Phishing code</label>
+                                                <input type="text" id="psword" class="form-control textcolor req_sec1" placeholder="Enter phishing code" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="boxs auth_hd phish_hd">
+                                        <h2 class="textcolor">Enter<span class="au_img"><img src="./img/authy.png" class="img-responsive" alt="image"></span> Verification code </h2>
+                                        <div class="boxs formstyle">
+                                            <div class="form-group box">
+                                                <label class="textcolor">Enter 6 digits code </label>
+
+                                            </div>
+                                            <div class="form-group code_div boxs">
+                                                <input type="number" id="len11" class="form-control req_sec1" maxlength="1">
+                                                <input type="number" id="len21" class="form-control req_sec1" maxlength="1">
+                                                <input type="number" id="len31" class="form-control req_sec1" maxlength="1">
+                                                <input type="number" id="len41" class="form-control req_sec1" maxlength="1">
+                                                <input type="number" id="len51" class="form-control req_sec1" maxlength="1">
+                                                <input type="text" id="len61" class="form-control req_sec1" maxlength="1" oninput="this.value=this.value.replace(/[^0-9]/g,'');">
+                                            </div>
+                                        </div>
+                                        <div class="sign_btn boxs">
+                                            <button type="button" class="obs_btn1" disabled="" data-dismiss="modal" data-target="#anti_phishing" data-toggle="modal">CREATE ANTI-PHISHING CODE</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="anti_phishing" class="modal fade qrcode in" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <div class="qrcode_scan amount_div boxs">
+                        <img src="./img/email-marketing.svg" class="img-responsive" alt="qr_code">
+                        <h5 class="textcolor">Success! We just sent you a test email! </h5>
+                        <p class="textcolor">Be on the lookout for an email from us. It could take a few minutes to show up in your inbox. We sent you a test email so you can see how the anti-phishing code would look from now on.</p>
+
+
+                        <div class="sign_btn drag_bt codebtn boxs">
+                            <button type="button" data-dismiss="modal">Go back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <!-- <script src="js/dataTables.rowReorder.min.js"></script> -->
+    <script src="js/dataTables.responsive.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
