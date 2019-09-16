@@ -1,0 +1,1164 @@
+@media(max-width:1199px) {
+
+    /*    choose warehouse page*/
+    .list_menu a h6 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .list_menu a {
+        padding: 15px 0px;
+    }
+
+    /*    choose warehouse page end*/
+
+    /*    create pick page*/
+    .button_div {
+        margin-top: 60px;
+    }
+
+    /*    create pick page end*/
+
+    /*    index page */
+    .sign h1 {
+        font-size: 28px;
+    }
+
+    /*    index page  end*/
+
+    /*    modal*/
+    .modal-body h3 {
+        font-size: 24px;
+    }
+
+    /*    modal end*/
+}
+
+@media(max-width:991px) {
+
+    .cancel {
+        font-size: 13px;
+    }
+
+    .scanlist_button {
+        padding: 15px 0px;
+    }
+
+    /*    career code page*/
+    .scanout {
+        width: 100%;
+    }
+
+    .scancarrier .form-control,
+    .scancarrier label {
+        width: 100%;
+    }
+
+    /*    career code page end*/
+
+    /*    change password page*/
+    .home h3 {
+        font-size: 22px;
+    }
+
+    .scanlist .form-control {
+        height: 38px;
+    }
+
+    /*    change password page end*/
+
+    /*    choose date page*/
+    .back_button {
+        margin: 20px 0px 20px;
+    }
+
+    /*    choose date page end*/
+
+    /*    choose warehouse page*/
+    .cw_home h3 {
+        margin: 15px 0;
+    }
+
+    /*    choose warehouse page end*/
+
+    /*    execute loading page */
+    .park {
+        font-size: 16px;
+    }
+
+    /*    execute loading page end*/
+
+    /*    inbound page*/
+    .list_menu3 a h6 {
+        font-size: 16px;
+    }
+
+    /*    inbound page end*/
+
+    /*    index page*/
+    .splash_logo {
+        padding: 35px 0px;
+        width: 150px;
+    }
+
+    .sign {
+        padding: 25px;
+    }
+
+    .sign button {
+        margin: 30px auto 0px;
+    }
+
+    /*    index page end*/
+
+    /*    modal*/
+    .modal-body h3 {
+        font-size: 22px;
+        padding: 15px 0px 15px;
+    }
+
+    .radio_div [type="radio"]:checked + label,
+    .radio_div [type="radio"]:not(:checked) + label {
+        font-size: 14px;
+    }
+
+    /*    modal end*/
+
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:767px) {
+    .header .hamburger {
+        display: block;
+    }
+
+    /*add article pallet 2 page*/
+    .main_inner {
+        width: 100%;
+    }
+
+    .cancel {
+        width: 136px;
+    }
+
+    .inboundpallet {
+        padding: 30px 30px;
+    }
+
+    .add_pallet h1 {
+        font-size: 28px;
+    }
+
+    /*add article pallet 2 page end*/
+
+    /*    article overview page*/
+    .scanlist_button {
+        padding: 15px 0px;
+    }
+
+    .cancel {
+        font-size: 12px;
+    }
+
+    /*    article overview page end*/
+
+    /*    career code page*/
+    .scanout {
+        margin-top: 15px;
+    }
+
+    .scancarrier .form-control {
+        height: 44px;
+        margin-top: 15px;
+    }
+
+    /*    career code page end*/
+
+    /*    choose printer page*/
+    .accordion {
+        margin-top: 10px;
+    }
+
+    /*    choose printer page end*/
+
+    /*    choose warehouse page*/
+    .home h3 {
+        font-size: 20px;
+    }
+
+    .list_menu a h6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    /*    choose warehouse page end*/
+
+    /*    create pick page*/
+    .button_div {
+        margin-top: 40px;
+    }
+
+    .minWidth {
+        min-width: 530px;
+    }
+
+    .oveFlow {
+        overflow-x: scroll;
+    }
+
+    /*    create pick page end*/
+
+    /*    execute loading page*/
+    .scanlist2 .form-control {
+        width: 180px;
+    }
+
+    /*    execute loading page end*/
+
+    /*    index page*/
+    .sign h1 {
+        font-size: 26px;
+    }
+
+    .splash_logo {
+        padding: 25px 0px;
+        width: 140px;
+    }
+
+    /*    index page end*/
+
+    /*    location pick page*/
+    .park_btn {
+        width: 125px;
+        height: 38px;
+    }
+
+    /*    location pick page end*/
+
+    /*pause list page*/
+    .overFlow {
+        overflow-x: scroll;
+    }
+
+    .overFlow .addpallet {
+        min-width: 530px;
+    }
+
+    /*pause list page end*/
+
+    .prepare_list {
+        height: 60vh;
+    }
+
+    /*    prepare execute page*/
+    .prEx_btn button {
+        width: 127px;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    /*    prepare execute page end*/
+
+    .customer_out {
+        height: 55vh;
+    }
+
+    /*    modal*/
+    .modal-dialog {
+        width: 90%;
+    }
+
+    /*    modal end*/
+}
+
+@media(max-width:560px) {
+    .scanlist .form-control {
+        height: 36px;
+    }
+
+    /*add article pallet 2 page*/
+    .inboundpallet {
+        padding: 20px 20px;
+    }
+
+    .add_pallet h1 {
+        font-size: 24px;
+    }
+
+    .palletlist .form-control {
+        width: 140px;
+    }
+
+    .cancel {
+        width: 109px;
+        font-size: 12px;
+    }
+
+    .save {
+        width: 107px;
+        height: 36px;
+        font-size: 12px;
+        margin-left: 4px;
+    }
+
+    .cancel_btn {
+        margin-left: 4px;
+    }
+
+    .noean {
+        margin-left: 3px;
+    }
+
+    .scanlist_button {
+        padding-bottom: 10px;
+    }
+
+    .homelogo {
+        padding-left: 25px;
+    }
+
+    .homelogo a img {
+        width: 21px;
+    }
+
+    .user img:nth-child(1) {
+        width: 32px;
+    }
+
+    .user a.icon_drop img {
+        width: initial;
+    }
+
+    .user_info p {
+        font-size: 12px;
+    }
+
+    .head {
+        padding: 5px 15px;
+    }
+
+    .main {
+        margin-top: 42px;
+        padding-top: 15px;
+    }
+
+    /*add article pallet 2 page end*/
+
+    /*    article overview page*/
+    .cancel {
+        height: 36px;
+    }
+
+    /*    article overview page end*/
+
+    /*    career code page*/
+    .scancarrier .form-control {
+        height: 40px;
+    }
+
+    .scancarrier .form-control {
+        margin-top: 8px;
+    }
+
+    /*    career code page end*/
+
+    /*    change password page*/
+    .scanlist .form-control {
+        width: 100%;
+    }
+
+    /*    change password page end*/
+
+    /*    choose printer page*/
+    .c_home {
+        padding-top: 15px;
+    }
+
+    /*    choose printer page end*/
+
+    /*    choose warehouse page*/
+    .list_menu a {
+        padding: 10px 0px;
+    }
+
+    .list_menu a h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .list_menu_d a {
+        margin-top: 0;
+    }
+
+    /*    choose warehouse page end*/
+
+    /*    create pick page*/
+    .create_head li {
+        width: 30%;
+    }
+
+    .create_head li:last-child {
+        width: 8%;
+    }
+
+    /*    create pick page end*/
+
+    /*    choose transmart printer page*/
+    .printer_box ul li a {
+        height: 38px;
+    }
+
+    .choose_tans p {
+        line-height: 18px;
+    }
+
+    .printer_box ul li {
+        margin-bottom: 10px;
+    }
+
+    /*    choose transmart printer page end*/
+
+    /*    customer overview page*/
+    .customer a:nth-child(1) {
+        margin-top: 15px;
+    }
+
+    .customer a {
+        margin: 0;
+        margin-bottom: 10px;
+        line-height: 32px;
+    }
+
+    /*    customer overview page end*/
+
+    /*    edit pack page */
+    .palletlist2 label {
+        line-height: 22px;
+    }
+
+    /*    edit pack page end*/
+
+    /*    execute loading page*/
+    .park {
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%
+    }
+
+    /*    execute loading page end*/
+
+    /*    execute sucess page */
+    .scanlist3 .form-control {
+        width: 180px;
+    }
+
+    /*    execute sucess page end*/
+
+
+    /*    execute unsucess page*/
+    .scanlist4 .form-control {
+        width: 180px;
+    }
+
+    /*    execute unsucess page end*/
+
+    /*    home page*/
+    .list_menu2 a svg {
+        width: 22px;
+    }
+
+    .list_menu2 a {
+        margin: 12px 3px;
+    }
+
+    .list_menu2 a span {
+        font-size: 14px;
+    }
+
+    /*    home page end*/
+
+    /*    index page*/
+    .sign h1 {
+        font-size: 24px;
+    }
+
+    /*    index page end*/
+
+    /*    location pick page*/
+    .park_btn {
+        width: 80px;
+        font-size: 14px;
+        margin-top: 0;
+        margin-left: 5px;
+        height: 34px;
+    }
+
+    .pallet_List label {
+        width: 110px;
+    }
+
+    /*    location pick page end*/
+
+    /*    manual page*/
+    .manual_scanlist .form-control {
+        width: 50%;
+    }
+
+    /*    manual page end*/
+
+    /*    manual execute page*/
+    .manualEx_scanlist .form-control {
+        width: 50%;
+    }
+
+    /*    manual execute page end*/
+
+    /*    manual loading page*/
+    .mLscanlist .form-control {
+        width: 50%;
+    }
+
+    /*    manual loading page end*/
+
+    /*    pick customer page*/
+    .back_button {
+        margin: 15px 0px 15px;
+    }
+
+    /*    pick customer page end*/
+
+    /*    ready recipt page*/
+    .scan_list_rr .form-control {
+        width: 50%;
+    }
+
+    .scan_list_rr .scanlist_button .cancel {
+        width: 106px;
+    }
+
+    /*    ready recipt page end*/
+
+    /*    recipt store page*/
+    .r_store_list .form-control {
+        width: 50%;
+    }
+
+    /*    recipt store page end*/
+
+    /*    prepare execute page*/
+    .prepExe_lst .form-control {
+        width: 50%;
+    }
+
+    .prEx_btn button {
+        width: 127px;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    /*    prepare execute page end*/
+
+    /*    modal*/
+    .modal-body h3 {
+        font-size: 18px;
+        padding: 15px 0px 15px;
+    }
+
+    .modal-content {
+        padding: 20px;
+    }
+
+    .modal_button button {
+        width: 154px;
+    }
+
+    /*    modal end*/
+}
+
+@media(max-width:414px) {
+    .addpallet {
+        padding: 15px 15px;
+    }
+
+    /*add article pallet 2 page*/
+    .home h3 {
+        font: 22px;
+    }
+
+    .add_pallet h1 {
+        font-size: 22px;
+    }
+
+    label {
+        line-height: 22px;
+        width: 90px;
+    }
+
+    .palletlist .form-control {
+        width: 110px;
+    }
+
+    .cancel {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .save {
+        width: 100%;
+        margin-left: 0;
+        height: 40px;
+    }
+
+    .packgroup_button {
+        margin-bottom: 0;
+    }
+
+    .inboundpallet {
+        padding: 10px 15px 10px;
+    }
+
+    .logo a img {
+        width: 85px;
+    }
+
+
+
+    .addGroup_main {
+        margin-top: 52px;
+    }
+
+    /*add article pallet 2 page end*/
+
+    /*    adjustment page*/
+    .form_group label {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .form_group .form-control {
+        width: 100%;
+    }
+
+    .errorpara p {
+        line-height: 20px;
+    }
+
+    .scanlist_button .save {
+        margin-bottom: 0px;
+    }
+
+    .cancel,
+    .save {
+        height: 36px;
+    }
+
+    .scanlist_button {
+        padding-top: 10px;
+    }
+
+    /*    adjustment page end*/
+
+    /*    article overview page*/
+    .addArt_btn {
+        margin-bottom: 0;
+    }
+
+    /*    article overview page end*/
+
+    .add_head h4 {
+        font-size: 14px;
+    }
+
+    /*    career code page*/
+    .scancarrier .form-control {
+        margin-top: 15px;
+    }
+
+    .scancarrier label {
+        font-size: 14px;
+    }
+
+    /*    career code page end*/
+
+    /*    change password page*/
+    .scanlist label {
+        width: 100%;
+    }
+
+    .scanlist .form-control {
+        /*        height: 36px;*/
+        height: 32px;
+    }
+
+    /*    change password page end*/
+
+    /*    choose printer page */
+    .home h3 {
+        font-size: 20px;
+    }
+
+    /*    choose printer page end*/
+
+    /*    choose warehouse page*/
+    .list_menu a {
+        width: 46%;
+        margin: 5px 5px;
+        float: left;
+    }
+
+    .list_menu {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .cancelbtn2 {
+        width: 109px;
+        margin-bottom: 0;
+    }
+
+    .save_btn2 {
+        width: 107px;
+        margin-left: 15px;
+    }
+
+    /*    choose warehouse page end*/
+
+    /*    edit pack page*/
+    .palletlist2 .form-control {
+        width: 150px;
+    }
+
+    /*    edit pack page end*/
+
+    /*    execute loading page*/
+    .scanlist2 label {
+        width: 140px;
+    }
+
+    .park {
+        font-size: 14px;
+    }
+
+    /*    execute loading page end*/
+
+    /*    execute sucess page */
+    .scanlist3 .form-control {
+        width: 100%;
+    }
+
+    /*    execute sucess page end*/
+
+    /*    execute unsucess page*/
+    .scanlist4 .form-control {
+        width: 100%;
+    }
+
+    .scanlist4 .form-group {
+        margin-top: 8px;
+    }
+
+    /*    execute unsucess page end*/
+
+    /*    home page*/
+    .list_menu2 a {
+        width: 44%;
+        float: left;
+        margin-left: 10px;
+        min-height: 78px;
+    }
+
+    .list_menu2 {
+        margin-top: 15px;
+    }
+
+    /*    home page end*/
+
+    /*    inbound page*/
+    .list_menu3 a {
+        min-height: initial;
+    }
+
+    /*inbound page end*/
+
+    /*inbound add page*/
+    .formGroup .nice-select .current {
+        margin-top: -3px;
+        display: block;
+    }
+
+    /*inbound add page end*/
+
+    /*    inbound add pallet page*/
+    .inb_cancelBtn,
+    .inb_saveBtn {
+        width: 47%;
+        float: left;
+    }
+
+    .inb_saveBtn {
+        margin-left: 15px;
+    }
+
+    /*    inbound add pallet page end*/
+
+    /*    index page*/
+    .splash_inner {
+        width: 100%;
+    }
+
+    .splash_logo {
+        padding: 15px 0px 25px;
+        width: 130px;
+    }
+
+    .sign h1 {
+        font-size: 20px;
+    }
+
+    .sign {
+        padding: 15px;
+    }
+
+    .sign .form-control {
+        height: 38px;
+    }
+
+    .sign .input-group-addon {
+        height: 38px;
+    }
+
+    /*    index page end*/
+
+    /*    location pick page*/
+    .prelist_button {
+        margin-bottom: 15px;
+    }
+
+    .pallet_List label {
+        width: 140px;
+    }
+
+    .park_btn {
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .parkGroup button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /*    location pick page end*/
+
+    /*    location error page*/
+    .locerr_palletlist label {
+        width: 140px;
+    }
+
+    .locerr_palletlist .form-group span.content {
+        padding-left: 0;
+    }
+
+    .prelist_button_cr button {
+        margin-top: 0;
+    }
+
+    /*    location error page end*/
+
+    /*    manual page*/
+    .manual_scanlist .form-control {
+        width: 50%;
+    }
+
+    .manual_scanlist label {
+        width: 48%;
+    }
+
+    /*    manual page end*/
+
+    /*    manual execute page*/
+    .manualEx_scanlist .form-control {
+        width: 100%;
+    }
+
+    .manualEx_scanlist .scanlist_button {
+        padding-top: 15px;
+    }
+
+    .manualEx_scanlist .nice-select .current {
+        margin-top: -4px;
+        display: block;
+    }
+
+    /*    manual execute page end*/
+
+
+    /*manual loading page*/
+    .mLscanlist .form-control {
+        width: 100%;
+    }
+
+    /*manual loading page end*/
+
+    /*    buttons*/
+    .cancel {
+        width: 130px;
+        display: block;
+        margin: 15px auto 10px;
+        float: none;
+        width: 100%;
+    }
+
+    .save {
+        width: 130px;
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+    }
+
+    /*    buttons end*/
+
+    /*    move page*/
+    .moves_list {
+        margin-top: 15px;
+    }
+
+    .moves_list a {
+        float: left;
+        width: 44%;
+    }
+
+    .moves_list a:nth-child(2) {
+        margin-left: 15px;
+    }
+
+    /*    move page end*/
+
+    /*    packgroup page*/
+    .packgroup_button button {
+        margin-top: 0;
+    }
+
+    .groupname li,
+    .grouppack li {
+        width: 32%;
+    }
+
+    /*    packgroup page end*/
+
+    /*    pallet add page*/
+    .inboundpallet2 label {
+        width: 140px;
+    }
+
+    /*    pallet add page end*/
+
+    /*    pick customer page*/
+    .customer_s a {
+        line-height: 29px;
+    }
+
+    .back_button {
+        margin: 0px 0px 0px;
+    }
+
+    /*    pick customer page end*/
+
+    /*    ready recipt page*/
+    .scan_list_rr label {
+        width: 48%;
+    }
+
+    .scan_list_rr .nice-select .current {
+        display: block;
+        margin-top: -4px;
+    }
+
+    .scan_list_rr .cancel {
+        margin: 10px auto 10px;
+    }
+
+    /*    ready recipt page end*/
+
+    /*    recipt store page*/
+    .r_store_list label {
+        width: 38%;
+    }
+
+    .r_store_list .cancel {
+        margin: 10px auto 10px;
+    }
+
+    /*    recipt store page end*/
+
+    /*    recount page*/
+    .recount_pall label {
+        width: 150px;
+    }
+
+    /*    recount page end*/
+
+    /*    prepare execute page*/
+    .prepExe_lst label {
+        width: 48%;
+    }
+
+    .prEx_btn button {
+        display: block;
+        margin: 20px auto 0;
+        width: 100%;
+    }
+
+    .scanlistButton .cancel {
+        margin-top: 0;
+    }
+
+    /*    prepare execute page end*/
+
+    .in_palletLst label {
+        width: 48%;
+    }
+
+    .in_palletLst .form-control {
+        width: 50%;
+    }
+
+    .list_menu_d {
+        margin-top: 0;
+    }
+
+    .park_button {
+        /*        width: 130px;*/
+        width: 100%;
+        height: 36px;
+        display: block;
+        margin: 20px auto 0;
+        font-size: 12px;
+    }
+
+    .scanlist2 .cancel {
+        margin-top: 0;
+    }
+
+    .refresh_btn {
+        margin-top: 10px;
+    }
+
+    .addArt_btn {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .pause_btns {
+        margin-top: 10px;
+    }
+
+    .adjustmentList label {
+        width: 50%;
+    }
+
+    /*    modal*/
+    .radio_div [type="radio"]:checked + label,
+    .radio_div [type="radio"]:not(:checked) + label {
+        font-size: 12px;
+    }
+
+    .modal-body h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .modal_button {
+        margin: 0;
+    }
+
+    /*    modal end*/
+
+    .move_btn_box {
+        margin-top: 15px;
+    }
+
+    .head {
+        padding: 5px 8px;
+    }
+
+
+    .user_info p {
+        font-size: 11px;
+    }
+
+    .homelogo {
+        padding-left: 44px;
+    }
+
+    .user img:nth-child(1) {
+        width: 26px;
+    }
+
+    .scanlist .form-control {
+        padding: 4px 10px;
+    }
+
+    .labelRes label {
+        width: 43%;
+    }
+
+    .scanlist .form-group .content,
+    .palletlist .form-group .content {
+        padding-left: 1px;
+        line-height: 22px;
+    }
+
+    .scanlist .formGroup_m {
+        margin-top: 0;
+    }
+
+    .scanlist3 label {
+        width: 50%;
+    }
+
+    .scanlist3 .form-control {
+        width: 48%;
+    }
+    
+    .pck_btn .cancel {
+        width: 109px;
+        float: left;
+        margin: 0;
+    }
+    .pck_btn .save {
+        width: 109px;
+        float: left;
+        margin-left: 15px;
+    }
+    
+    .lochde {
+        display: none;
+    }
+    
+    .desklochde {
+        display: block;
+    }
+    
+    .desklochde button {
+        height: 36px;
+        margin-left: 0;
+        width:100%;
+    }
+    
+    .palletlist .content_div {
+        margin-bottom: 5px;
+    }
+    
+    .scan_list_rr .scanlist_button .cancel {
+        width: 100%;
+    }
+}
+
+@media(max-width:320px) {}

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176" height="60" viewBox="0 0 176 60">
+    <defs>
+        <path id="a" d="M.185.4h197v59.233h-197z"/>
+        <path id="c" d="M.185.4h197v59.233h-197z"/>
+        <path id="e" d="M.185.4h197v59.233h-197z"/>
+        <path id="g" d="M.185.4h197v59.233h-197z"/>
+        <path id="i" d="M.185.4h197v59.233h-197z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path fill="#6166AF" fill-rule="nonzero" d="M18.026.401v10.193h2.55v36.423c0 .702-.286 1.34-.748 1.802l-3.607 3.604 7.209 7.211 3.607-3.604a12.708 12.708 0 0 0 3.733-9.013V.401H18.026z" mask="url(#b)"/>
+        </g>
+        <g>
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path fill="#6166AF" fill-rule="nonzero" d="M11.127 32.914a2.543 2.543 0 0 1-.748-1.802V10.594H.186v20.518c0 3.519 1.426 6.705 3.733 9.013l3.607 3.604 7.209-7.212-3.608-3.603z" mask="url(#d)"/>
+        </g>
+        <g>
+            <mask id="f" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+            <path fill="#6166AF" fill-rule="nonzero" d="M52.438 10.597h-.002c-11.021 0-14.018 6.176-14.018 12.547v8.033c0 6.372 2.997 12.551 14.018 12.551v-.013l.002.013c11.022 0 14.018-6.179 14.018-12.551v-8.033c0-6.371-2.997-12.547-14.018-12.547zm5.098 20.055c0 2.657-1.609 4.155-5.096 4.155h-.004c-3.488-.002-5.096-1.498-5.096-4.155v-6.979c0-2.659 1.608-4.156 5.096-4.157l.002-.004.002.004c3.487 0 5.096 1.498 5.096 4.157v6.979z" mask="url(#f)"/>
+        </g>
+        <g>
+            <mask id="h" fill="#fff">
+                <use xlink:href="#g"/>
+            </mask>
+            <path fill="#6166AF" fill-rule="nonzero" d="M66.453 1.547a3.955 3.955 0 0 1 3.95 3.951 3.955 3.955 0 0 1-3.95 3.95 3.955 3.955 0 0 1-3.951-3.95 3.956 3.956 0 0 1 3.951-3.951m0-1.146a5.096 5.096 0 0 0-5.098 5.098A5.097 5.097 0 1 0 66.453.401" mask="url(#h)"/>
+        </g>
+        <g>
+            <mask id="j" fill="#fff">
+                <use xlink:href="#i"/>
+            </mask>
+            <path fill="#6166AF" fill-rule="nonzero" d="M67.574 6.129c.4-.2.629-.604.629-1.175v-.459c0-.914-.487-1.374-1.574-1.374h-1.976v4.755h1.145V6.33h.573l1.087 1.547h1.317l-1.201-1.748zm-.485-1.291c0 .288-.144.46-.548.46h-.743V4.181h.743c.376 0 .548.116.548.429v.228z" mask="url(#j)"/>
+        </g>
+        <text fill="#6166AF" font-family="TitilliumWeb-Bold, Titillium Web" font-size="28" font-weight="bold">
+            <tspan x="79" y="38">Scanner</tspan>
+        </text>
+    </g>
+</svg>
