@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/fav.png" type="image/ico" sizes="16x16">
+        
+        <title>Ijo | Outbound | Orders</title>
+
+       
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/hamburgers.css" rel="stylesheet">
+        <link href="css/slick-theme.css" rel="stylesheet">
+        <link href="css/slick.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+        <link href="css/nice-select.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
+
+        
+    </head>
+    <body>
+        <div class="header">
+            <div class="headerfixed">
+                <ul>
+                    <li>
+                        <div class="headerIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#abd8a5" fill-rule="evenodd" d="M11.9 4.2H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 2.8H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 4.9H9.8a.701.701 0 0 1 0-1.4h2.1a.701.701 0 0 1 0 1.4M6.3 9.8H2.1a.701.701 0 0 1 0-1.4h4.2a.701.701 0 0 1 0 1.4m6.102-8.695L11.398.083a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L8.598.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L5.798.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L2.998.082a.28.28 0 0 0-.396 0L1.598 1.105a.28.28 0 0 1-.396 0L.477.37C.3.19 0 .317 0 .57v12.862c0 .254.3.38.477.201l.725-.735a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l.725.735c.177.18.477.053.477-.2V.57c0-.253-.3-.38-.477-.2l-.725.735a.28.28 0 0 1-.396 0"/>
+                            </svg>
+                        </div>
+                        <div class="headertext1">
+                            <h2>26</h2>
+                        </div>
+                        <div class="headertext2">
+                            <p>Inbounds<span>in progress</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="headerIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
+                            <path fill="#abd8a5" fill-rule="evenodd" d="M13.378 1.571c.344 0 .622.283.622.63v8.17c0 .347-.28.629-.622.629H.622A.626.626 0 0 1 0 10.37V.63C0 .28.278 0 .623 0H4.59c.171 0 .387.116.484.26l.702 1.05c.096.145.312.261.484.261h7.118z"/>
+                            </svg>
+                        </div>
+                        <div class="headertext1">
+                            <h2>67</h2>
+                        </div>
+                        <div class="headertext2">
+                            <p>Outbounds<span>in progress</span></p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="headerIcon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#abd8a5" fill-rule="evenodd" d="M11.9 4.2H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 2.8H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 4.9H9.8a.701.701 0 0 1 0-1.4h2.1a.701.701 0 0 1 0 1.4M6.3 9.8H2.1a.701.701 0 0 1 0-1.4h4.2a.701.701 0 0 1 0 1.4m6.102-8.695L11.398.083a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L8.598.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L5.798.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L2.998.082a.28.28 0 0 0-.396 0L1.598 1.105a.28.28 0 0 1-.396 0L.477.37C.3.19 0 .317 0 .57v12.862c0 .254.3.38.477.201l.725-.735a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l.725.735c.177.18.477.053.477-.2V.57c0-.253-.3-.38-.477-.2l-.725.735a.28.28 0 0 1-.396 0"/>
+                            </svg>
+                        </div>
+                        <div class="headertext1">
+                            <h2>314</h2>
+                        </div>
+                        <div class="headertext2">
+                            <p>Open <span>dossiers</span></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidenav" id="mySidenav">
+            <div class="sidenavtoparrow boxs">
+                <a href="javascript:void(0)" class="opensidenav">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <g fill="none" fill-rule="evenodd">
+                    <path d="M-6-4h24v24H-6z"/>
+                    <path fill="#ABD8A5"  d="M8 0L6.6 1.4 12.2 7H0v2h12.2l-5.6 5.6L8 16l8-8z"/>
+                    </g>
+                    </svg>
+                </a>
+                <a href="javascript:void(0)" class="closesidenav opentext">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12">
+                    <path fill="#ABD8A5" fill-rule="evenodd" d="M11.833 1.333L10.667.167 6 4.833 1.333.167.167 1.333 4.833 6 .167 10.667l1.166 1.166L6 7.167l4.667 4.666 1.166-1.166L7.167 6z"/>
+                    </svg> 
+                </a>
+            </div>
+            <div class="sidenavlogo boxs">
+                <a href="index.html"><img src="img/logo.svg" alt="logo" class=""> <span class="opentext">software</span></a>
+            </div>
+            <div class="sidenavlinks boxs">
+                <ul>
+                    <li><a href="index.html" class=" clicklink">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill=" #4a4a49" fill-rule="evenodd" d="M7 8.75A.875.875 0 1 0 7 7a.875.875 0 0 0 0 1.75zM7 14A7 7 0 1 0 7 0a7 7 0 0 0 0 14zm.889-7.633A1.75 1.75 0 0 0 5.261 8.08C3.216 8.509 1.75 9.29 1.75 7a5.25 5.25 0 0 1 10.5 0c0 2.29-1.466 1.508-3.512 1.079a1.736 1.736 0 0 0-.23-1.093l2.228-2.228a.433.433 0 0 0-.002-.617.441.441 0 0 0-.616-.001L7.889 6.367z"/>
+                            </svg>
+                            <span class="opentext">Dashboard</span>
+                        </a>
+                    </li>
+                    <li><a href="crm_company.html" class=" clicklink">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                            <g fill="#4A4A49" fill-rule="evenodd">
+                            <path d="M4.875 2.645c1.334 0 2.414 1.056 2.414 2.36 0 1.302-1.08 2.359-2.414 2.359-1.333 0-2.413-1.057-2.413-2.36s1.08-2.36 2.413-2.36M8.894 10.138a3.206 3.206 0 0 0-.544-1.206 3.15 3.15 0 0 0-1.658-1.14l-.45-.13-.876 3.37-.159-2.216a.434.434 0 0 0 .305-.402v-.208a.437.437 0 0 0-.438-.428h-.398a.437.437 0 0 0-.437.428v.208c0 .194.132.35.305.402l-.16 2.216-.875-3.37-.45.13a3.138 3.138 0 0 0-.61.246c-.412.22-.77.531-1.049.894-.265.363-.45.778-.543 1.206-.053.246-.093.493-.146.739a.633.633 0 0 0 .371.7c1.101.454 2.4.713 3.793.713 1.393 0 2.68-.26 3.794-.713a.634.634 0 0 0 .384-.7l-.159-.74M11.865 2.476a.395.395 0 0 1-.398-.389c0-.22.173-.389.398-.389.226 0 .398.169.398.39 0 .22-.186.388-.398.388m-1.326 0a.395.395 0 0 1-.398-.389c0-.22.172-.389.398-.389.225 0 .398.169.398.39 0 .22-.173.388-.398.388m-1.313 0a.395.395 0 0 1-.398-.389c0-.22.172-.389.398-.389.212 0 .398.169.398.39 0 .22-.186.388-.398.388M10.539.13C9.014.13 7.78 1.01 7.78 2.087c0 .648.438 1.219 1.114 1.569a1.94 1.94 0 0 1-.504.817c-.093.103-.013.272.133.246.623-.117 1.26-.454 1.67-.687.107.013.213.013.332.013 1.526 0 2.76-.882 2.76-1.958S12.064.13 10.538.13"/>
+                            </g>
+                            </svg>
+                            <span class="opentext">CRM</span>
+                        </a>
+                    </li>
+                    <li><a href="warehouse.html" class="clicklink">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#4A4A49" fill-rule="evenodd" d="M3.756 14h6.488v-1.024H3.756V14zm0-1.707h6.488v-1.025H3.756v1.025zm0-1.708h6.488V9.561H3.756v1.024zm1.878-5.122h2.732a.341.341 0 0 1 0 .683H5.634a.341.341 0 0 1 0-.683zM7 0L0 4.439V14h3.073V9.22a.342.342 0 0 1 .342-.342h7.17c.189 0 .342.153.342.342V14H14V4.439L7 0z"/>
+                            </svg>
+                            <span class="opentext">Warehouse</span>
+                        </a>
+                    </li>
+                    <li><a href="inbound_recipt.html" class="clicklink">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#4A4A49" fill-rule="evenodd" d="M11.9 4.2H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 2.8H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 4.9H9.8a.701.701 0 0 1 0-1.4h2.1a.701.701 0 0 1 0 1.4M6.3 9.8H2.1a.701.701 0 0 1 0-1.4h4.2a.701.701 0 0 1 0 1.4m6.102-8.695L11.398.083a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L8.598.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L5.798.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L2.998.082a.28.28 0 0 0-.396 0L1.598 1.105a.28.28 0 0 1-.396 0L.477.37C.3.19 0 .317 0 .57v12.862c0 .254.3.38.477.201l.725-.735a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l.725.735c.177.18.477.053.477-.2V.57c0-.253-.3-.38-.477-.2l-.725.735a.28.28 0 0 1-.396 0"/>
+                            </svg>
+                            <span class="opentext">Inbound</span>
+                        </a>
+                    </li>
+                    <li><a href="outbond.html" class="clicklink active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#4A4A49" fill-rule="evenodd" d="M12.833 1.167V10.5H9.718c-.291 0-.431.245-.49.362-.618.933-1.446 1.237-2.228 1.237-.793 0-1.61-.316-2.228-1.237-.094-.175-.199-.362-.479-.362H1.167V1.167h11.666zM13.417 0H.583C0 0 0-.012 0 .583v12.25C0 14 0 14 1.167 14h11.666C14 14 14 14 14 12.833V.583C14-.012 14 0 13.417 0zM7 9.333c.537 0 .875-.35.875-.898V5.833h-1.75v2.602c0 .548.338.898.875.898zm-2.672-3.5h5.344L7 2.917 4.328 5.833z"/>
+                            </svg>
+                            <span class="opentext">Outbound</span>
+                        </a>
+                    </li>
+                    <li><a href="freedossiers.html" class="clicklink">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
+                            <path fill="#4A4A49" fill-rule="evenodd" d="M13.378 1.571c.344 0 .622.283.622.63v8.17c0 .347-.28.629-.622.629H.622A.626.626 0 0 1 0 10.37V.63C0 .28.278 0 .623 0H4.59c.171 0 .387.116.484.26l.702 1.05c.096.145.312.261.484.261h7.118z"/>
+                            </svg>
+                            <span class="opentext">Dossier</span>
+                        </a>
+                    </li>
+                    <li><a href="reporting.html" class="clicklink">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <g fill="#4A4A49" fill-rule="evenodd">
+                            <path d="M1.881 10.436H.35a.36.36 0 0 0-.35.361v2.785c0 .196.16.362.35.362h1.531a.36.36 0 0 0 .35-.362v-2.785a.343.343 0 0 0-.35-.361M5.367 7.862H3.835a.36.36 0 0 0-.35.361v5.344c0 .196.16.362.35.362h1.532a.36.36 0 0 0 .35-.362V8.223a.351.351 0 0 0-.35-.361M8.852 5.303H7.321a.36.36 0 0 0-.35.361v7.918c0 .196.16.361.35.361h1.531a.36.36 0 0 0 .35-.36V5.663a.36.36 0 0 0-.35-.361M13.767 2.488L11.842.124a.355.355 0 0 0-.54 0L9.377 2.488c-.19.24-.03.602.262.602h.817v10.492c0 .196.16.362.35.362h1.531a.36.36 0 0 0 .35-.362V3.09h.817c.292 0 .467-.362.263-.602"/>
+                            </g>
+                            </svg>
+                            <span class="opentext">Reports</span>
+                        </a>
+                    </li>
+                    <li><a href="systemUser.html" class="clicklink">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="15" viewBox="0 0 14 15">
+                            <defs>
+                            <path id="a" d="M13.38 14.98H0V0h13.38v14.98z"/>
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                            <path fill="#4A4A49" d="M3.107 6.554a.712.712 0 0 0 .716-.703V3.51a.71.71 0 0 0-.716-.702h-.239V0H.956v2.81H.718A.711.711 0 0 0 0 3.51v2.34c0 .387.323.704.718.704h.238v8.426h1.912V6.554h.239zm4.778 5.617a.713.713 0 0 0 .717-.703v-2.34a.713.713 0 0 0-.717-.702h-.239V0H5.735v8.426h-.239a.713.713 0 0 0-.717.703v2.34c0 .385.323.702.717.702h.239v2.809h1.911v-2.81h.239zm4.54-5.617h.238a.711.711 0 0 0 .717-.703V3.51a.71.71 0 0 0-.717-.702h-.238V0h-1.912v2.81h-.239a.71.71 0 0 0-.716.701v2.34c0 .387.322.704.716.704h.239v8.426h1.912V6.554z" mask="url(#b)"/>
+                            </g>
+                            </svg>
+                            <span class="opentext">System</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidenavuser boxs">
+                <a href="#">
+                    <p>
+                        <img src="img/user.png" alt="user" class="userimg"> 
+                        <span class="usertext opentext">
+                            Jane Doe
+                            <span class="useraccount">My account</span>
+                            <img src="img/arrowright.svg" alt="arrow" class="arrowright"> 
+                        </span>
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="bodyrightcontent boxs">
+            <div class="bodyinner boxs">
+                <div class="responsiveheader boxs">
+                    <h2>  <button class="hamburger hamburger--squeeze opensidenav" type="button" aria-label="Menu" aria-controls="navigation">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button> 
+                        Outbound
+                        <a href="javascript:void(0)" class="outbondinfo">
+                            <img src="img/outbondinfo.svg" alt="outbondinfo">
+                            <div class="errorhoverdiv">
+                                <h6>Picking</h6>
+                                <p>This overview displays all registered orders in the system. In order to start picking, select a customer and status 'Prepared'. The result displays all orders ready to be picked for that customer.</p>
+                                <p>The next step is to select which orders you would like to pick. It is possible to select more than one order. After that click 'Start picking'</p>
+                                <h6>Assign picker</h6>
+                                <p>Whenever the order is 'Prepared', it is possible to have a picker assigned to pick this order. Use the dropdown to assign a picker.</p>
+                            </div>
+                        </a>
+                    </h2>
+                    <div class="bodytabs boxs">
+                        <ul>
+                            <li><a href="outbond.html" class="clickme active">Orders</a></li>
+                            <li><a href="outbond_backorder.html" class="clickme">Backorders</a></li>
+                            <li><a href="outbond_picklist.html" class="clickme"> Picklists</a></li>
+                            <li><a href="outbond_packlist.html" class="clickme">Packlists</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bodytabsdata boxs ">
+                    <div class="Databoxs boxs">
+                        <div class="inputsection boxs inputsectioncrm">
+                            <div class="inputsection1 boxs ">
+                                <div class="Formgroup boxs width150">
+                                    <input type="text" class="form-control" placeholder="Outbound number">
+                                </div>
+                                <div class="Formgroup boxs width150">
+                                    <input type="text" class="form-control" placeholder="Order number">
+                                </div>
+                                <div class="Formgroup boxs width150">
+                                    <select class="form-control">
+                                        <option value="">Customer</option>
+                                        <option value="Customer">Customer2</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width150">
+                                    <select class="form-control">
+                                        <option value="">Status</option>
+                                        <option value="Status">Status2</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width138">
+                                    <input type="text" class="form-control datep" placeholder="Ship date ">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="Formgroup boxs width150">
+                                    <select class="form-control">
+                                        <option value="">Type</option>
+                                        <option value="Type2">Type2</option>
+                                    </select>
+                                </div>
+                                <div class="searchbox  searchHide">
+                                    <a class="serachIcon" href="#">
+                                        <img src="img/search.svg" alt="search">
+                                    </a>
+                                </div>
+                                <div class="SearchLink">
+                                    <a href="javascript:void(0)" class="Searchclick searchhideshow"><span class="advancesearch">Advanced search</span><span class="regularsearch">Regular search</span></a>
+                                </div>
+                            </div>
+                            <div class="inputsection1 boxs inputhideshow">
+                                <div class="Formgroup boxs width138">
+                                    <input type="text" class="form-control datep" placeholder="Ship date from  ">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="Formgroup boxs width138">
+                                    <input type="text" class="form-control datep" placeholder="Ship date to  ">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="Formgroup boxs width150">
+                                    <input type="text" class="form-control" placeholder="Ship to name">
+                                </div>
+                                <div class="Formgroup boxs width150">
+                                    <select class="form-control">
+                                        <option value="">Warehouse</option>
+                                        <option value="Type2">Warehouse2</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width150">
+                                    <select class="form-control">
+                                        <option value="">Supplier</option>
+                                        <option value="Type2">Supplier2</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width150">
+                                    <select class="form-control">
+                                        <option value="">Country</option>
+                                        <option value="Type2">Country2</option>
+                                    </select>
+                                </div>
+                                <div class="searchbox">
+                                    <a class="serachIcon" href="#">
+                                        <img src="img/search.svg" alt="search">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="TableBox boxs TableBoxcrm TableBoxsystem TableBoxoutbond">
+                            <div class="Tableboxinner boxs">
+                                <div class="forscroll boxs">
+                                    <div class="tableheading boxs">
+                                        <ul>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="checkdiv" id="selectall">
+                                                <label for="selectall" class='selectalllabel'>
+                                                    Select all
+                                                </label>
+                                            </div>
+                                            <li class="outbondwidth1">Outbound nr </li>
+                                            <li class="outbondwidth1">Order number</li>
+                                            <li class="outbondwidth1">Customer <a class="tabledrop" href="javascript:void(0)"> <img src="img/droparrow.svg" alt="drop"></a></li>
+                                            <li class="outbondwidth1">Ship date <a class="tabledrop" href="javascript:void(0)"> <img src="img/droparrow.svg" alt="drop"></a></li>
+                                            <li class="outbondwidth2">Lines <a class="tabledrop" href="javascript:void(0)"> <img src="img/droparrow.svg" alt="drop"></a></li>
+                                            <li class="outbondwidth1">Warehouse <a class="tabledrop" href="javascript:void(0)"> <img src="img/droparrow.svg" alt="drop"></a></li>
+                                            <li class="outbondwidth1">Supplier <a class="tabledrop" href="javascript:void(0)"> <img src="img/droparrow.svg" alt="drop"></a></li>
+                                            <li class="outbondwidth3">Ship to name <a class="tabledrop" href="javascript:void(0)"> <img src="img/droparrow.svg" alt="drop"></a></li>
+                                            <li class="outbondwidth1">Status <a class="tabledrop" href="javascript:void(0)"> <img src="img/droparrow.svg" alt="drop"></a></li>
+                                            <li class="outbondwidth1">Actions</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tableData boxs ">
+                                        <ul>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="checkdiv" id="one">
+                                                <label for="one">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">ImageBuilders</span></li>
+                                            <li class="outbondwidth1"><span class="">02.12.2016</span></li>
+                                            <li class="outbondwidth2"><span class="">14/51</span></li>
+                                            <li class="outbondwidth1"><span class="">01</span></li>
+                                            <li class="outbondwidth1"><span class="">DPD</span></li>
+                                            <li class="outbondwidth3"><span class="">Blaise Pascal</span></li>
+                                            <li class="outbondwidth1"><span class="">Invoiced</span></li>
+                                            <li class="outbondwidth1 Action palletarrow">
+                                                <a href="javascript:void(0)" data-toggle="modal" data-target="#addArticle">
+                                                    <span>
+                                                        <img src="img/download.svg" alt="edit" class="img-responsive">
+                                                    </span>
+                                                </a>
+                                                <a href="javascript:void(0)" data-target="#adjustmentmodaledit" data-toggle="modal">
+                                                    <span>
+                                                        <img src="img/outbondship.svg" alt="edit" class="img-responsive">
+                                                    </span>
+                                                </a>
+                                                <b>
+                                                    <a href="outbonddetailinvoice.html">
+                                                        <img src="img/arrowright.svg" alt="rightarrow">
+                                                    </a>
+                                                </b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tableData boxs ">
+                                        <ul>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="checkdiv" id="two">
+                                                <label for="two">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">ImageBuilders</span></li>
+                                            <li class="outbondwidth1"><span class="">02.12.2016</span></li>
+                                            <li class="outbondwidth2"><span class="">14/51</span></li>
+                                            <li class="outbondwidth1"><span class="">01</span></li>
+                                            <li class="outbondwidth1"><span class="">DPD</span></li>
+                                            <li class="outbondwidth3"><span class="">Blaise Pascal</span></li>
+                                            <li class="outbondwidth1"><span class="">Invoiced</span></li>
+                                            <li class="outbondwidth1 Action palletarrow">
+                                                <a href="javascript:void(0)" data-target="#adjustmentmodaloutbond" data-toggle="modal">
+                                                    <span>
+                                                        <img src="img/download.svg" alt="edit" class="img-responsive">
+                                                    </span>
+                                                </a>
+                                                <b>
+                                                    <a href="outbonddetailinvoice.html">
+                                                        <img src="img/arrowright.svg" alt="rightarrow">
+                                                    </a>
+                                                </b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tableData boxs ">
+                                        <ul>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="checkdiv" id="three">
+                                                <label for="three">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">ImageBuilders</span></li>
+                                            <li class="outbondwidth1"><span class="">02.12.2016</span></li>
+                                            <li class="outbondwidth2"><span class="">14/51</span></li>
+                                            <li class="outbondwidth1"><span class="">01</span></li>
+                                            <li class="outbondwidth1"><span class="">DPD</span></li>
+                                            <li class="outbondwidth3"><span class="">Blaise Pascal</span></li>
+                                            <li class="outbondwidth1"><span class="">Invoiced</span></li>
+                                            <li class="outbondwidth1 Action palletarrow">
+                                                <b>
+                                                    <a href="editpalletmeasurement.html">
+                                                        <img src="img/arrowright.svg" alt="rightarrow">
+                                                    </a>
+                                                </b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tableData boxs ">
+                                        <ul>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="checkdiv" id="four">
+                                                <label for="four">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">ImageBuilders</span></li>
+                                            <li class="outbondwidth1"><span class="">02.12.2016</span></li>
+                                            <li class="outbondwidth2"><span class="">14/51</span></li>
+                                            <li class="outbondwidth1"><span class="">01</span></li>
+                                            <li class="outbondwidth1"><span class="">DPD</span></li>
+                                            <li class="outbondwidth3"><span class="">Blaise Pascal</span></li>
+                                            <li class="outbondwidth1"><span class="">Invoiced</span></li>
+                                            <li class="outbondwidth1 Action palletarrow">
+                                                <a href="addorder.html">
+                                                    <span>
+                                                        <img src="img/edit.svg" alt="edit" class="img-responsive">
+                                                    </span>
+                                                </a>
+
+                                                <b>
+                                                    <a href="outbonddetailinvoice.html">
+                                                        <img src="img/arrowright.svg" alt="rightarrow">
+                                                    </a>
+                                                </b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tableData boxs ">
+                                        <ul>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="checkdiv" id="five">
+                                                <label for="five">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">ImageBuilders</span></li>
+                                            <li class="outbondwidth1"><span class="">02.12.2016</span></li>
+                                            <li class="outbondwidth2"><span class="">14/51</span></li>
+                                            <li class="outbondwidth1"><span class="">01</span></li>
+                                            <li class="outbondwidth1"><span class="">DPD</span></li>
+                                            <li class="outbondwidth3"><span class="">Blaise Pascal</span></li>
+                                            <li class="outbondwidth1"><span class="">Invoiced</span></li>
+                                            <li class="outbondwidth1 Action palletarrow">
+                                                <b>
+                                                    <a href="outbonddetailinvoice.html">
+                                                        <img src="img/arrowright.svg" alt="rightarrow">
+                                                    </a>
+                                                </b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tableData boxs ">
+                                        <ul>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="checkdiv" id="six">
+                                                <label for="six">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">ImageBuilders</span></li>
+                                            <li class="outbondwidth1"><span class="">02.12.2016</span></li>
+                                            <li class="outbondwidth2"><span class="">14/51</span></li>
+                                            <li class="outbondwidth1"><span class="">01</span></li>
+                                            <li class="outbondwidth1"><span class="">DPD</span></li>
+                                            <li class="outbondwidth3"><span class="">Blaise Pascal</span></li>
+                                            <li class="outbondwidth1"><span class="">Adjusted</span></li>
+                                            <li class="outbondwidth1 Action palletarrow">
+                                                <b>
+                                                    <a href="outbonddetailadjust.html">
+                                                        <img src="img/arrowright.svg" alt="rightarrow">
+                                                    </a>
+                                                </b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tableData boxs ">
+                                        <ul>
+                                            <div class="book">
+                                                <input type="checkbox" name="tick" class="checkdiv" id="seven">
+                                                <label for="seven">
+                                                    <span class="bookbox"></span>
+                                                </label>
+                                            </div>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">1392005152</span></li>
+                                            <li class="outbondwidth1"><span class="">ImageBuilders</span></li>
+                                            <li class="outbondwidth1"><span class="">02.12.2016</span></li>
+                                            <li class="outbondwidth2"><span class="">14/51</span></li>
+                                            <li class="outbondwidth1"><span class="">01</span></li>
+                                            <li class="outbondwidth1"><span class="">DPD</span></li>
+                                            <li class="outbondwidth3"><span class="">Blaise Pascal</span></li>
+                                            <li class="outbondwidth1"><span class="">Concept</span></li>
+                                            <li class="outbondwidth1 Action palletarrow">
+                                                <b>
+                                                    <a href="outbonddetailconcept.html">
+                                                        <img src="img/arrowright.svg" alt="rightarrow">
+                                                    </a>
+                                                </b>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="Addshiptoicon Systemontableiconactivity">
+                                    <div class="onhovershowhide onhovershowhidepallet">
+                                        <div class="btn">
+                                            <img src="img/plus.svg" alt="addshipto" class="img-responsive">
+                                        </div>
+                                        <div class="Onhoverbox">
+                                            <!-- <a href="javascript:void(0)"><img src="img/formadd.svg" alt="addshipto" class="img-responsive">Import .CSV/Excel 
+                                            </a> -->
+                                            <a class="upld_btn hvr-sweep-to-right"  for="file-upload" href="javascript:void(0)">
+                                                <input type="file" id="file-upload"  multiple="multiple" class="inputupload2"/>
+                                                <img src="img/formadd.svg" alt="formadd" class="img-responsive">Import .CSV/Excel 
+                                            </a>
+                                            <a href="addorder.html"><img src="img/formadd.svg" alt="addshipto" class="img-responsive">Add order </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--adjustment overview modal start-->
+        <div class="modal fade Adjustmentmodaloutbond" id="adjustmentmodaloutbond" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modalcenter" role="document">
+                <div class="modal-content boxs">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/close.svg" alt="close"></span></button>
+
+                    </div>
+                    <div class="modal-body boxs">
+                        <h2>Adjustment overview</h2>
+                        <div class="modaltable boxs modaltableadjustment responscroll">
+                            <div class="boxs forscroll">
+                                <div class="modaltableheading boxs">
+                                    <ul class="modalflexo boxs">
+                                        <li class="adjoverviewliwidth1">Article code</li>
+                                        <li class="adjoverviewliwidth2">Description</li>
+                                        <li class="adjoverviewliwidth3">Batch</li>
+                                        <li class="adjoverviewliwidth4">Location</li>
+                                        <li class="adjoverviewliwidth5">Expected </li>
+                                        <li class="adjoverviewliwidth6">Actual </li>
+                                        <li class="adjoverviewliwidth7">Adjustment description</li>
+                                        <li class="adjoverviewliwidth8">Category</li>
+                                    </ul>
+                                </div>
+                                <div class="modaltabledataoutbond boxs adjustmentoubondappend">
+                                    <div class="modaltabledata boxs">
+                                        <ul class="modalflexo boxs">
+                                            <li class="adjoverviewliwidth1a"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="8387"></li>
+                                            <li class="adjoverviewliwidth2a"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="Watermattress Mesamoll 180/210 - 1392005152 "></li>
+                                            <li class="adjoverviewliwidth3a"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="31A100 "></li>
+                                            <li class="adjoverviewliwidth4"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="01P.EA17CA "></li>
+                                            <li class="adjoverviewliwidth5"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="2 "></li>
+                                            <li class="adjoverviewliwidth6"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="4 "></li>
+                                            <li class="adjoverviewliwidth7a"><textarea  class="inputwidth100 amountinput form-control normalplaceholder" placeholder="31A100 "></textarea></li>
+                                            <li class="adjoverviewliwidth8">
+                                                <select class="modalselect inputwidth100">
+                                                    <option>Order cancelled</option>
+                                                    <option>Order cancelled2</option>
+                                                </select>
+                                            </li>
+                                            <a href="javascript:void(0)" class="otbndmdldelete">
+                                                <img src="img/delete.svg" alt="delete" class="">
+                                            </a>
+                                        </ul>
+                                    </div>
+                                    <div class="modaltabledata boxs">
+                                        <ul class="modalflexo boxs">
+                                            <li class="adjoverviewliwidth1a"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="8387"></li>
+                                            <li class="adjoverviewliwidth2a"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="Watermattress Mesamoll 180/210 - 1392005152 "></li>
+                                            <li class="adjoverviewliwidth3a"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="31A100 "></li>
+                                            <li class="adjoverviewliwidth4"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="01P.EA17CA "></li>
+                                            <li class="adjoverviewliwidth5"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="2 "></li>
+                                            <li class="adjoverviewliwidth6"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="4 "></li>
+                                            <li class="adjoverviewliwidth7a"><textarea  class="inputwidth100 amountinput form-control normalplaceholder" placeholder="31A100 "></textarea></li>
+                                            <li class="adjoverviewliwidth8">
+                                                <select class="modalselect inputwidth100">
+                                                    <option>Order cancelled</option>
+                                                    <option>Order cancelled2</option>
+                                                </select>
+                                            </li>
+                                            <a href="javascript:void(0)" class="otbndmdldelete">
+                                                <img src="img/delete.svg" alt="delete" class="">
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modaltabledata boxs">
+                                    <ul class="modalflexo boxs">
+                                        <li class="adjoverviewliwidth7"><button class="form-control amountinput addnewline inputwidth100" >Add new line</button>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Modalbtns boxs invoicemodalbtns">
+                            <a href="javascript:void(0)" class="btn whitebtn hvr-sweep-to-right" data-dismiss="modal">Cancel</a>
+                            <a href="javascript:void(0)" class="btn greenbtn hvr-sweep-to-right" data-dismiss="modal">Save</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--adjustment overview2 modal end-->
+        <div class="modal fade Adjustmentmodaloutbond" id="adjustmentmodaloutbond2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modalcenter" role="document">
+                <div class="modal-content boxs">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/close.svg" alt="close"></span></button>
+
+                    </div>
+                    <div class="modal-body boxs">
+                        <h2>Adjustment overview</h2>
+                        <div class="modaltable boxs modaltableadjustment responscroll">
+                            <div class="boxs forscroll">
+                                <div class="modaltableheading boxs">
+                                    <ul class="modalflexo boxs">
+                                        <li class="adjoverview2liwidth1">Article code</li>
+                                        <li class="adjoverview2liwidth2">Description</li>
+                                        <li class="adjoverview2liwidth3">Batch</li>
+                                        <li class="adjoverview2liwidth4">Adjustment description</li>
+                                        <li class="adjoverview2liwidth5">Category</li>
+                                    </ul>
+                                </div>
+                                <div class="modaltabledataoutbond boxs adjustmentoubondappend2">
+                                    <div class="modaltabledata boxs">
+                                        <ul class="modalflexo boxs">
+                                            <li class="adjoverview2liwidth1"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="8387"></li>
+                                            <li class="adjoverview2liwidth2"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="Watermattress Mesamoll 180/210 - 1392005152 "></li>
+                                            <li class="adjoverview2liwidth3"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="31A100 "></li>
+                                            <li class="adjoverview2liwidth4"><textarea  class="inputwidth100 amountinput form-control normalplaceholder" placeholder="31A100 "></textarea></li>
+                                            <li class="adjoverview2liwidth5">
+                                                <select class="modalselect inputwidth100">
+                                                    <option>Order cancelled</option>
+                                                    <option>Order cancelled2</option>
+                                                </select>
+                                            </li>
+                                            <a href="javascript:void(0)" class="otbndmdldelete">
+                                                <img src="img/delete.svg" alt="delete" class="">
+                                            </a>
+                                        </ul>
+                                    </div>
+                                    <div class="modaltabledata boxs">
+                                        <ul class="modalflexo boxs">
+                                            <li class="adjoverview2liwidth1"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="8387"></li>
+                                            <li class="adjoverview2liwidth2"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="Watermattress Mesamoll 180/210 - 1392005152 "></li>
+                                            <li class="adjoverview2liwidth3"><input type="text" class="inputwidth100 amountinput form-control normalplaceholder" placeholder="31A100 "></li>
+                                            <li class="adjoverview2liwidth4"><textarea  class="inputwidth100 amountinput form-control normalplaceholder" placeholder="31A100 "></textarea></li>
+                                            <li class="adjoverview2liwidth5">
+                                                <select class="modalselect inputwidth100">
+                                                    <option>Order cancelled</option>
+                                                    <option>Order cancelled2</option>
+                                                </select>
+                                            </li>
+                                            <a href="javascript:void(0)" class="otbndmdldelete">
+                                                <img src="img/delete.svg" alt="delete" class="">
+                                            </a>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modaltabledata boxs">
+                                    <ul class="modalflexo boxs">
+                                        <li class="adjoverviewliwidth7"><button class="form-control amountinput addnewline2 inputwidth100" >Add new line</button>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Modalbtns boxs invoicemodalbtns">
+                            <a href="javascript:void(0)" class="btn whitebtn hvr-sweep-to-right" data-dismiss="modal">Cancel</a>
+                            <a href="javascript:void(0)" class="btn greenbtn hvr-sweep-to-right" data-dismiss="modal">Save</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--adjustment overview2 modal end-->
+
+
+
+        <!--combine modal start-->
+        <div class="modal fade systemadjust combinepackModal" id="combinepack" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modalcenter" role="document">
+                <div class="modal-content boxs">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/close.svg" alt="close"></span></button>
+
+                    </div>
+                    <div class="modal-body boxs">
+                        <h2>Combine pack</h2>
+                        <div class="systemmodalinput combinepack">
+                            <div class="boxs ">
+                                <label>Pack group name</label>
+                                <input type="text" class="form-control normalplaceholder" placeholder="SR1 def list">
+                            </div>
+                            <div class="boxs ">
+                                <label>Description</label>
+                                <textarea class="form-control normalplaceholder"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="Modalbtns boxs invoicemodalbtns">
+                            <a href="javascript:void(0)" class="btn whitebtn hvr-sweep-to-right" data-dismiss="modal">Cancel</a>
+                            <a href="javascript:void(0)" class="btn greenbtn hvr-sweep-to-right" data-dismiss="modal">Prepare packlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--combine end-->
+
+        <!--assign picker modal start-->
+        <div class="modal fade" id="assignpicker" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modalcenter" role="document">
+                <div class="modal-content boxs">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/close.svg" alt="close"></span></button>
+
+                    </div>
+                    <div class="modal-body boxs">
+                        <h2>Assign picker</h2>
+                        <div class="systemmodalinput">
+                            <div class="boxs ">
+                                <label>Select picker</label>
+                                <div class="boxs">
+                                    <select class="normalselectcol selectwidth100">
+                                        <option>Jane Doe</option>
+                                        <option>Jane Doe2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="Modalbtns boxs invoicemodalbtns">
+                            <a href="javascript:void(0)" class="btn whitebtn hvr-sweep-to-right" data-dismiss="modal">Cancel</a>
+                            <a href="javascript:void(0)" class="btn greenbtn hvr-sweep-to-right" data-dismiss="modal">Save</a>
+                            <a href="javascript:void(0)" class="btn whitebtn hvr-sweep-to-right printpicklistmodal" data-dismiss="modal"><img src="img/outbondcheckdownload.svg" alt="print">Print picklists</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--assign picker-->
+
+        <!--add article modal start-->
+        <div class="modal fade addItemmodaloutbnd" id="addArticle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modalcenter" role="document">
+                <div class="modal-content boxs">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="img/close.svg" alt="close"></span></button>
+
+                    </div>
+                    <div class="modal-body boxs">
+                        <h2>Add article/item</h2>
+                        <div class="modaltable boxs outbondmodaltable responscroll">
+                            <div class="boxs forscroll">
+                                <div class="modaltableheading boxs">
+                                    <ul class="modalflexo boxs">
+                                        <li class="additemliwidth1">Article code</li>
+                                        <li class="additemliwidth2">Description</li>
+                                        <li class="additemliwidth3">Batch</li>
+                                        <li class="additemliwidth4">Amount</li>
+                                    </ul>
+                                </div>
+                                <div class="modaltabledataoutbond boxs aticleoutbondappend">
+                                    <div class="modaltabledata boxs">
+                                        <ul class="modalflexo boxs">
+                                            <li class="additemliwidth1"><input type="text" class="form-control amountinput normalplaceholder" placeholder="3847568874"></li>
+                                            <li class="additemliwidth2"><div class="normalplaceholder">Closet xxl Grey</div>
+                                                <div class="detail_des boxs">
+                                                    <div class="d_cont boxs">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore adipisci provident cum praesentium saepe, ratione. Magnam natus assumenda culpa, hic magni inventore dolore iste explicabo, voluptate tenetur, illo, cumque quibusdam.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="additemliwidth3">
+                                                <select class="modalselect">
+                                                    <option value='3847568875'>3847568874</option>
+                                                    <option value='3847568875'>3847568875</option>
+                                                </select>
+                                                <span class="modalincrease">
+                                                    <a href="javascript:void(0)" class="inputincrease" onclick="increaseValue()">
+                                                        <span><img src="img/plus.svg" alt="plus"></span>
+                                                    </a>
+                                                </span>
+                                            </li>
+                                            <li class="additemliwidth4"><input type="text" class="form-control amountinput" id="number1" value="1"></li>
+                                            <a href="javascript:void(0)" class="otbndmdldelete">
+                                                <img src="img/delete.svg" alt="delete" class="">
+                                            </a>
+
+                                        </ul>
+                                    </div>
+                                    <div class="modaltabledata boxs">
+                                        <ul class="modalflexo boxs">
+                                            <li class="additemliwidth1"><input type="text" class="form-control amountinput normalplaceholder" placeholder="3847568874"></li>
+                                            <li class="additemliwidth2"><div class="normalplaceholder">Closet xxl Grey</div>
+                                                <div class="detail_des boxs">
+                                                    <div class="d_cont boxs">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore adipisci provident cum praesentium saepe, ratione. Magnam natus assumenda culpa, hic magni inventore dolore iste explicabo, voluptate tenetur, illo, cumque quibusdam.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="additemliwidth3">
+                                                <select class="modalselect">
+                                                    <option value='3847568875'>3847568874</option>
+                                                    <option value='3847568875'>3847568875</option>
+                                                </select>
+                                                <span class="modalincrease">
+                                                    <a href="javascript:void(0)" class="inputincrease" onclick="increaseValue()">
+                                                        <span><img src="img/plus.svg" alt="plus"></span>
+                                                    </a>
+                                                </span>
+                                            </li>
+                                            <li class="additemliwidth4"><input type="text" class="form-control amountinput" id="number1" value="1"></li>
+                                            <a href="javascript:void(0)" class="otbndmdldelete">
+                                                <img src="img/delete.svg" alt="delete" class="">
+                                            </a>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="modaltabledata boxs">
+                                    <ul class="modalflexo boxs">
+                                        <li class="additemliwidth1"><button class="form-control amountinput addonemoreitem" >Add one more</button>
+                                        <li class="additemliwidth2"></li>
+                                        <li class="additemliwidth3">
+                                            <select class="modalselect">
+                                                <option value='3847568875'></option>
+                                                <option value='3847568875'></option>
+                                            </select>
+                                        </li>
+                                        <li class="additemliwidth4"><input type="text" class="form-control amountinput" id="number1" value="1"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Addshiptoicon modalshipto boxs">
+                            <div class="onhovershowhide">
+                                <a class="btn" href="addorder.html">
+                                    <img src="img/plus.svg" alt="addshipto" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="Modalbtns boxs invoicemodalbtns">
+                            <a href="javascript:void(0)" class="btn whitebtn hvr-sweep-to-right" data-dismiss="modal">Cancel</a>
+                            <a href="javascript:void(0)" class="btn greenbtn hvr-sweep-to-right" data-dismiss="modal">Save</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--add article modal end-->
+        <div class="checkboxonclickbox pushcheck   boxs">
+            <div class="checkinner boxs">
+                <div class="ckecktop boxs">
+                    <p><span class="Numbering">1 items selected </span> <input type="button"  class="uncheckDiv" value="Deselect"/><span></span><span class="closeimg"><a href="javascript:void(0)" class="closeimglink"><img src="img/close.svg" alt="close"></a></span></p>
+                </div>
+                <div class="Permissionbox boxs">
+                    <button type="submit" class="btn1 btnsubmit hvr-sweep-to-right otbndbtnwdintl">Start picking</button>
+                    <button type="submit" class="btn1 btnsubmit hvr-sweep-to-right otbndbtnwdintl pickingnone" data-toggle="modal" data-target="#assignpicker">Assign and start picking</button>
+                    <div class="Permissionouter pickingnone">
+                        <div class="permissioninner boxs">
+                            <button class="btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                <path fill="#ABD8A5" fill-rule="evenodd" d="M7.74 0H5.117c-.82 0-.984.143-.984.912v3.346H.857l5.572 5.17L12 4.259H8.723V.912C8.723.143 8.549 0 7.739 0M12 11.314v-.343c0-.507-.136-.685-.632-.685H.632c-.468 0-.632.168-.632.685v.343c0 .532.164.686.632.686h10.736c.477 0 .632-.165.632-.686"/>
+                                </svg>
+                                Print picklists</button>
+                        </div>
+                    </div>
+                    <div class="Permissionouter ">
+                        <div class="permissioninner boxs">
+                            <button class="btn" data-target="#combinepack" data-toggle="modal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14">
+                                <g fill="#ABD8A5" fill-rule="evenodd">
+                                <path d="M11.439 7.55a.777.777 0 0 0 0-1.1L10.11 5.122V.778A.778.778 0 0 0 9.333 0H1.556C.696 0 0 .697 0 1.555v10.89C0 13.302.696 14 1.556 14h7.777c.43 0 .778-.349.778-.778V8.878L11.44 7.55zm-9.883 4.894V1.555h7v3.89c0 .205.081.403.227.55L9.79 7 8.783 8.006a.776.776 0 0 0-.227.55v3.888h-7z"/>
+                                <path d="M17.111 1.555v10.89h-7V8.877L11.44 7.55a.777.777 0 0 0 0-1.1L10.11 5.122V1.555h7zm-8.328 6.45a.776.776 0 0 0-.227.55v4.667c0 .43.348.778.777.778h7.778c.859 0 1.556-.697 1.556-1.556V1.555C18.667.697 17.97 0 17.11 0H9.333a.778.778 0 0 0-.777.778v4.666c0 .206.081.405.227.55L9.79 7 8.783 8.006zM3.111 4.667h3.111a.778.778 0 0 0 0-1.556h-3.11a.778.778 0 0 0 0 1.556M3.111 10.89h3.111a.778.778 0 0 0 0-1.556h-3.11a.778.778 0 1 0 0 1.555M3.889 7.778H7a.778.778 0 0 0 0-1.556H3.889a.778.778 0 0 0 0 1.556"/>
+                                <path d="M11.667 4.667h3.11a.778.778 0 1 0 0-1.556h-3.11a.778.778 0 1 0 0 1.556M11.667 10.89h3.11a.778.778 0 1 0 0-1.556h-3.11a.777.777 0 1 0 0 1.555M13.222 7.778h2.334a.778.778 0 1 0 0-1.556h-2.334a.778.778 0 1 0 0 1.556"/>
+                                </g>
+                                </svg>
+                                Combine pick</button>
+                        </div>
+                    </div>
+                    <div class="Permissionouter pickingnone">
+                        <div class="permissioninner boxs">
+                            <button class="btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                                <path fill="#ABD8A5" fill-rule="evenodd" d="M7.74 0H5.117c-.82 0-.984.143-.984.912v3.346H.857l5.572 5.17L12 4.259H8.723V.912C8.723.143 8.549 0 7.739 0M12 11.314v-.343c0-.507-.136-.685-.632-.685H.632c-.468 0-.632.168-.632.685v.343c0 .532.164.686.632.686h10.736c.477 0 .632-.165.632-.686"/>
+                                </svg>
+                                Order reports</button>
+                        </div>
+                    </div>
+                    <div class="Permissionouter ">
+                        <div class="permissioninner boxs">
+                            <button class="btn">
+                                <svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+                                <title>Page 1</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="System-User-management" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="3.-Edit-selection" transform="translate(-557.000000, -569.000000)" fill="#F16A5E">
+                                <g id="EditBar" transform="translate(50.000000, 514.000000)">
+                                <g id="Group-4" transform="translate(495.000000, 45.000000)">
+                                <g id="Page-1" transform="translate(12.000000, 10.000000)">
+                                <path d="M4.57864747,1.80986655 L4.72072275,1.12460639 L8.40905683,1.12460639 L8.55075723,1.80986655 L4.57864747,1.80986655 Z M12.565602,1.80986655 L9.69935523,1.80986655 L9.41707902,0.44834308 C9.36272305,0.187434398 9.13255361,0 8.86639676,0 L4.26300795,0 C3.99647623,0 3.76668166,0.187434398 3.71232569,0.44834308 L3.43042435,1.80986655 L0.562303194,1.80986655 C0.251911831,1.80986655 0,2.06140351 0,2.37216974 C0,2.68293597 0.251911831,2.93447293 0.562303194,2.93447293 L3.88364073,2.93447293 L3.89226271,2.93447293 L9.23939121,2.93447293 L9.24051582,2.93447293 L9.24201529,2.93447293 L12.5652272,2.93447293 C12.8756185,2.93447293 13.1275304,2.68293597 13.1275304,2.37216974 C13.1275304,2.06140351 12.8759934,1.80986655 12.565602,1.80986655 L12.565602,1.80986655 Z M11.6231819,3.68421053 C11.617184,3.68383566 11.6111861,3.68383566 11.6048133,3.68383566 C11.3026691,3.68383566 11.0530064,3.92375169 11.0432599,4.22814515 L10.6680162,15.8933123 C10.6680162,16.1590943 10.4520918,16.3753936 10.1866847,16.3753936 L2.94272005,16.3753936 C2.6765632,16.3753936 2.46026391,16.1590943 2.45988904,15.8753186 L2.08502024,4.22852002 C2.07489879,3.91812865 1.79974509,3.66359274 1.50509822,3.6845854 C1.19470685,3.69433198 0.951042135,3.95411606 0.961163593,4.26450742 L1.33565752,15.8933123 C1.33565752,16.7795022 2.05653021,17.5 2.94272005,17.5 L10.1866847,17.5 C11.0721248,17.5 11.7926226,16.7795022 11.7922477,15.911306 L12.1671165,4.26450742 C12.177238,3.95411606 11.9335732,3.69433198 11.6231819,3.68421053 L11.6231819,3.68421053 Z M7.93522267,14.8894137 C8.24074074,14.8894137 8.4911531,14.6446244 8.497151,14.3376068 L8.6845854,4.25663518 C8.6905833,3.94624381 8.44316989,3.68983356 8.13240366,3.68421053 C7.83100915,3.67071525 7.56597691,3.92525116 7.55997901,4.23601739 L7.37254461,14.3169891 C7.36654671,14.6273804 7.61396011,14.8837907 7.92435148,14.8894137 L7.93522267,14.8894137 Z M5.19380717,14.8894137 L5.20467836,14.8894137 C5.51506973,14.8837907 5.76210826,14.6273804 5.75648523,14.3169891 L5.56905083,4.23601739 C5.56305293,3.92525116 5.29277253,3.66921577 4.99625131,3.68421053 C4.68585995,3.68983356 4.43882141,3.94624381 4.44444444,4.25663518 L4.63187884,14.3376068 C4.63750187,14.6446244 4.88791423,14.8894137 5.19380717,14.8894137 L5.19380717,14.8894137 Z" id="Fill-1"></path>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </svg>
+                                Delete selection</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="checkboxonclickbox2 boxs">
+            <div class="checkinner boxs">
+                <div class="ckecktop boxs">
+                    <p><span class="Numbering">1 items selected </span> <input type="button"  class="uncheckDiv" value="Deselect"/><span></span><span class="closeimg"><a href="javascript:void(0)" class="closeimglink"><img src="img/close.svg" alt="close"></a></span></p>
+                </div>
+                <div class="Permissionbox boxs">
+                    <div class="Permissionouter ">
+                        <div class="permissioninner boxs">
+                            <button class="btn">
+                                <svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+                                <title>Page 1</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="System-User-management" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="3.-Edit-selection" transform="translate(-557.000000, -569.000000)" fill="#F16A5E">
+                                <g id="EditBar" transform="translate(50.000000, 514.000000)">
+                                <g id="Group-4" transform="translate(495.000000, 45.000000)">
+                                <g id="Page-1" transform="translate(12.000000, 10.000000)">
+                                <path d="M4.57864747,1.80986655 L4.72072275,1.12460639 L8.40905683,1.12460639 L8.55075723,1.80986655 L4.57864747,1.80986655 Z M12.565602,1.80986655 L9.69935523,1.80986655 L9.41707902,0.44834308 C9.36272305,0.187434398 9.13255361,0 8.86639676,0 L4.26300795,0 C3.99647623,0 3.76668166,0.187434398 3.71232569,0.44834308 L3.43042435,1.80986655 L0.562303194,1.80986655 C0.251911831,1.80986655 0,2.06140351 0,2.37216974 C0,2.68293597 0.251911831,2.93447293 0.562303194,2.93447293 L3.88364073,2.93447293 L3.89226271,2.93447293 L9.23939121,2.93447293 L9.24051582,2.93447293 L9.24201529,2.93447293 L12.5652272,2.93447293 C12.8756185,2.93447293 13.1275304,2.68293597 13.1275304,2.37216974 C13.1275304,2.06140351 12.8759934,1.80986655 12.565602,1.80986655 L12.565602,1.80986655 Z M11.6231819,3.68421053 C11.617184,3.68383566 11.6111861,3.68383566 11.6048133,3.68383566 C11.3026691,3.68383566 11.0530064,3.92375169 11.0432599,4.22814515 L10.6680162,15.8933123 C10.6680162,16.1590943 10.4520918,16.3753936 10.1866847,16.3753936 L2.94272005,16.3753936 C2.6765632,16.3753936 2.46026391,16.1590943 2.45988904,15.8753186 L2.08502024,4.22852002 C2.07489879,3.91812865 1.79974509,3.66359274 1.50509822,3.6845854 C1.19470685,3.69433198 0.951042135,3.95411606 0.961163593,4.26450742 L1.33565752,15.8933123 C1.33565752,16.7795022 2.05653021,17.5 2.94272005,17.5 L10.1866847,17.5 C11.0721248,17.5 11.7926226,16.7795022 11.7922477,15.911306 L12.1671165,4.26450742 C12.177238,3.95411606 11.9335732,3.69433198 11.6231819,3.68421053 L11.6231819,3.68421053 Z M7.93522267,14.8894137 C8.24074074,14.8894137 8.4911531,14.6446244 8.497151,14.3376068 L8.6845854,4.25663518 C8.6905833,3.94624381 8.44316989,3.68983356 8.13240366,3.68421053 C7.83100915,3.67071525 7.56597691,3.92525116 7.55997901,4.23601739 L7.37254461,14.3169891 C7.36654671,14.6273804 7.61396011,14.8837907 7.92435148,14.8894137 L7.93522267,14.8894137 Z M5.19380717,14.8894137 L5.20467836,14.8894137 C5.51506973,14.8837907 5.76210826,14.6273804 5.75648523,14.3169891 L5.56905083,4.23601739 C5.56305293,3.92525116 5.29277253,3.66921577 4.99625131,3.68421053 C4.68585995,3.68983356 4.43882141,3.94624381 4.44444444,4.25663518 L4.63187884,14.3376068 C4.63750187,14.6446244 4.88791423,14.8894137 5.19380717,14.8894137 L5.19380717,14.8894137 Z" id="Fill-1"></path>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </svg>
+                                Delete selection</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxs checkboxonclickboxpicklist ">
+            <div class="checkinner boxs">
+                <div class="ckecktop boxs">
+                    <p><span class="Numbering">1 items selected </span> <input type="button"  class="uncheckDiv" value="Deselect"/><span></span><span class="closeimg"><a href="javascript:void(0)" class="closeimglinkpicklist"><img src="img/close.svg" alt="close"></a></span></p>
+                </div>
+                <div class="Permissionbox boxs">
+                    <button type="submit" class="btn1 btnsubmit hvr-sweep-to-right otbndbtnwdintl">Start picking</button>
+                    <div class="Permissionouter ">
+                        <div class="permissioninner boxs">
+                            <button class="btn" data-target="#combinepack" data-toggle="modal">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="14" viewBox="0 0 19 14">
+                                <g fill="#ABD8A5" fill-rule="evenodd">
+                                <path d="M11.439 7.55a.777.777 0 0 0 0-1.1L10.11 5.122V.778A.778.778 0 0 0 9.333 0H1.556C.696 0 0 .697 0 1.555v10.89C0 13.302.696 14 1.556 14h7.777c.43 0 .778-.349.778-.778V8.878L11.44 7.55zm-9.883 4.894V1.555h7v3.89c0 .205.081.403.227.55L9.79 7 8.783 8.006a.776.776 0 0 0-.227.55v3.888h-7z"/>
+                                <path d="M17.111 1.555v10.89h-7V8.877L11.44 7.55a.777.777 0 0 0 0-1.1L10.11 5.122V1.555h7zm-8.328 6.45a.776.776 0 0 0-.227.55v4.667c0 .43.348.778.777.778h7.778c.859 0 1.556-.697 1.556-1.556V1.555C18.667.697 17.97 0 17.11 0H9.333a.778.778 0 0 0-.777.778v4.666c0 .206.081.405.227.55L9.79 7 8.783 8.006zM3.111 4.667h3.111a.778.778 0 0 0 0-1.556h-3.11a.778.778 0 0 0 0 1.556M3.111 10.89h3.111a.778.778 0 0 0 0-1.556h-3.11a.778.778 0 1 0 0 1.555M3.889 7.778H7a.778.778 0 0 0 0-1.556H3.889a.778.778 0 0 0 0 1.556"/>
+                                <path d="M11.667 4.667h3.11a.778.778 0 1 0 0-1.556h-3.11a.778.778 0 1 0 0 1.556M11.667 10.89h3.11a.778.778 0 1 0 0-1.556h-3.11a.777.777 0 1 0 0 1.555M13.222 7.778h2.334a.778.778 0 1 0 0-1.556h-2.334a.778.778 0 1 0 0 1.556"/>
+                                </g>
+                                </svg>
+                                Combine pick</button>
+                        </div>
+                    </div>
+                    <div class="Permissionouter ">
+                        <div class="permissioninner boxs">
+                            <button class="btn">
+                                <svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+                                <title>Page 1</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="System-User-management" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="3.-Edit-selection" transform="translate(-557.000000, -569.000000)" fill="#F16A5E">
+                                <g id="EditBar" transform="translate(50.000000, 514.000000)">
+                                <g id="Group-4" transform="translate(495.000000, 45.000000)">
+                                <g id="Page-1" transform="translate(12.000000, 10.000000)">
+                                <path d="M4.57864747,1.80986655 L4.72072275,1.12460639 L8.40905683,1.12460639 L8.55075723,1.80986655 L4.57864747,1.80986655 Z M12.565602,1.80986655 L9.69935523,1.80986655 L9.41707902,0.44834308 C9.36272305,0.187434398 9.13255361,0 8.86639676,0 L4.26300795,0 C3.99647623,0 3.76668166,0.187434398 3.71232569,0.44834308 L3.43042435,1.80986655 L0.562303194,1.80986655 C0.251911831,1.80986655 0,2.06140351 0,2.37216974 C0,2.68293597 0.251911831,2.93447293 0.562303194,2.93447293 L3.88364073,2.93447293 L3.89226271,2.93447293 L9.23939121,2.93447293 L9.24051582,2.93447293 L9.24201529,2.93447293 L12.5652272,2.93447293 C12.8756185,2.93447293 13.1275304,2.68293597 13.1275304,2.37216974 C13.1275304,2.06140351 12.8759934,1.80986655 12.565602,1.80986655 L12.565602,1.80986655 Z M11.6231819,3.68421053 C11.617184,3.68383566 11.6111861,3.68383566 11.6048133,3.68383566 C11.3026691,3.68383566 11.0530064,3.92375169 11.0432599,4.22814515 L10.6680162,15.8933123 C10.6680162,16.1590943 10.4520918,16.3753936 10.1866847,16.3753936 L2.94272005,16.3753936 C2.6765632,16.3753936 2.46026391,16.1590943 2.45988904,15.8753186 L2.08502024,4.22852002 C2.07489879,3.91812865 1.79974509,3.66359274 1.50509822,3.6845854 C1.19470685,3.69433198 0.951042135,3.95411606 0.961163593,4.26450742 L1.33565752,15.8933123 C1.33565752,16.7795022 2.05653021,17.5 2.94272005,17.5 L10.1866847,17.5 C11.0721248,17.5 11.7926226,16.7795022 11.7922477,15.911306 L12.1671165,4.26450742 C12.177238,3.95411606 11.9335732,3.69433198 11.6231819,3.68421053 L11.6231819,3.68421053 Z M7.93522267,14.8894137 C8.24074074,14.8894137 8.4911531,14.6446244 8.497151,14.3376068 L8.6845854,4.25663518 C8.6905833,3.94624381 8.44316989,3.68983356 8.13240366,3.68421053 C7.83100915,3.67071525 7.56597691,3.92525116 7.55997901,4.23601739 L7.37254461,14.3169891 C7.36654671,14.6273804 7.61396011,14.8837907 7.92435148,14.8894137 L7.93522267,14.8894137 Z M5.19380717,14.8894137 L5.20467836,14.8894137 C5.51506973,14.8837907 5.76210826,14.6273804 5.75648523,14.3169891 L5.56905083,4.23601739 C5.56305293,3.92525116 5.29277253,3.66921577 4.99625131,3.68421053 C4.68585995,3.68983356 4.43882141,3.94624381 4.44444444,4.25663518 L4.63187884,14.3376068 C4.63750187,14.6446244 4.88791423,14.8894137 5.19380717,14.8894137 L5.19380717,14.8894137 Z" id="Fill-1"></path>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </g>
+                                </svg>
+                                Delete selection</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/jquery.nice-select.js"></script>
+        <script src="js/filedrag.js"></script>
+        <script src="js/moment.js"></script>
+        <script src="js/bootstrap-datetimepicker.min.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+</html>

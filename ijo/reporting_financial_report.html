@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/fav.png" type="image/ico" sizes="16x16">
+
+    <title>Ijo | Reporting | Financial Reports</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+    <link href="css/nice-select.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="headerfixed">
+            <ul>
+                <li>
+                    <div class="headerIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#abd8a5" fill-rule="evenodd"
+                                d="M11.9 4.2H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 2.8H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 4.9H9.8a.701.701 0 0 1 0-1.4h2.1a.701.701 0 0 1 0 1.4M6.3 9.8H2.1a.701.701 0 0 1 0-1.4h4.2a.701.701 0 0 1 0 1.4m6.102-8.695L11.398.083a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L8.598.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L5.798.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L2.998.082a.28.28 0 0 0-.396 0L1.598 1.105a.28.28 0 0 1-.396 0L.477.37C.3.19 0 .317 0 .57v12.862c0 .254.3.38.477.201l.725-.735a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l.725.735c.177.18.477.053.477-.2V.57c0-.253-.3-.38-.477-.2l-.725.735a.28.28 0 0 1-.396 0" />
+                        </svg>
+                    </div>
+                    <div class="headertext1">
+                        <h2>26</h2>
+                    </div>
+                    <div class="headertext2">
+                        <p>Inbounds<span>in progress</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="headerIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
+                            <path fill="#abd8a5" fill-rule="evenodd"
+                                d="M13.378 1.571c.344 0 .622.283.622.63v8.17c0 .347-.28.629-.622.629H.622A.626.626 0 0 1 0 10.37V.63C0 .28.278 0 .623 0H4.59c.171 0 .387.116.484.26l.702 1.05c.096.145.312.261.484.261h7.118z" />
+                        </svg>
+                    </div>
+                    <div class="headertext1">
+                        <h2>67</h2>
+                    </div>
+                    <div class="headertext2">
+                        <p>Outbounds<span>in progress</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="headerIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#abd8a5" fill-rule="evenodd"
+                                d="M11.9 4.2H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 2.8H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 4.9H9.8a.701.701 0 0 1 0-1.4h2.1a.701.701 0 0 1 0 1.4M6.3 9.8H2.1a.701.701 0 0 1 0-1.4h4.2a.701.701 0 0 1 0 1.4m6.102-8.695L11.398.083a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L8.598.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L5.798.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L2.998.082a.28.28 0 0 0-.396 0L1.598 1.105a.28.28 0 0 1-.396 0L.477.37C.3.19 0 .317 0 .57v12.862c0 .254.3.38.477.201l.725-.735a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l.725.735c.177.18.477.053.477-.2V.57c0-.253-.3-.38-.477-.2l-.725.735a.28.28 0 0 1-.396 0" />
+                        </svg>
+                    </div>
+                    <div class="headertext1">
+                        <h2>314</h2>
+                    </div>
+                    <div class="headertext2">
+                        <p>Open <span>dossiers</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidenav" id="mySidenav">
+        <div class="sidenavtoparrow boxs">
+            <a href="javascript:void(0)" class="opensidenav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M-6-4h24v24H-6z" />
+                        <path fill="#ABD8A5" d="M8 0L6.6 1.4 12.2 7H0v2h12.2l-5.6 5.6L8 16l8-8z" />
+                    </g>
+                </svg>
+            </a>
+            <a href="javascript:void(0)" class="closesidenav opentext">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12">
+                    <path fill="#ABD8A5" fill-rule="evenodd"
+                        d="M11.833 1.333L10.667.167 6 4.833 1.333.167.167 1.333 4.833 6 .167 10.667l1.166 1.166L6 7.167l4.667 4.666 1.166-1.166L7.167 6z" />
+                </svg>
+            </a>
+        </div>
+        <div class="sidenavlogo boxs">
+            <a href="index.html"><img src="img/logo.svg" alt="logo" class=""> <span class="opentext">software</span></a>
+        </div>
+        <div class="sidenavlinks boxs">
+            <ul>
+                <li><a href="index.html" class=" clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill=" #4a4a49" fill-rule="evenodd"
+                                d="M7 8.75A.875.875 0 1 0 7 7a.875.875 0 0 0 0 1.75zM7 14A7 7 0 1 0 7 0a7 7 0 0 0 0 14zm.889-7.633A1.75 1.75 0 0 0 5.261 8.08C3.216 8.509 1.75 9.29 1.75 7a5.25 5.25 0 0 1 10.5 0c0 2.29-1.466 1.508-3.512 1.079a1.736 1.736 0 0 0-.23-1.093l2.228-2.228a.433.433 0 0 0-.002-.617.441.441 0 0 0-.616-.001L7.889 6.367z" />
+                        </svg>
+                        <span class="opentext">Dashboard</span>
+                    </a>
+                </li>
+                <li><a href="crm_company.html" class=" clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                            <g fill="#4A4A49" fill-rule="evenodd">
+                                <path
+                                    d="M4.875 2.645c1.334 0 2.414 1.056 2.414 2.36 0 1.302-1.08 2.359-2.414 2.359-1.333 0-2.413-1.057-2.413-2.36s1.08-2.36 2.413-2.36M8.894 10.138a3.206 3.206 0 0 0-.544-1.206 3.15 3.15 0 0 0-1.658-1.14l-.45-.13-.876 3.37-.159-2.216a.434.434 0 0 0 .305-.402v-.208a.437.437 0 0 0-.438-.428h-.398a.437.437 0 0 0-.437.428v.208c0 .194.132.35.305.402l-.16 2.216-.875-3.37-.45.13a3.138 3.138 0 0 0-.61.246c-.412.22-.77.531-1.049.894-.265.363-.45.778-.543 1.206-.053.246-.093.493-.146.739a.633.633 0 0 0 .371.7c1.101.454 2.4.713 3.793.713 1.393 0 2.68-.26 3.794-.713a.634.634 0 0 0 .384-.7l-.159-.74M11.865 2.476a.395.395 0 0 1-.398-.389c0-.22.173-.389.398-.389.226 0 .398.169.398.39 0 .22-.186.388-.398.388m-1.326 0a.395.395 0 0 1-.398-.389c0-.22.172-.389.398-.389.225 0 .398.169.398.39 0 .22-.173.388-.398.388m-1.313 0a.395.395 0 0 1-.398-.389c0-.22.172-.389.398-.389.212 0 .398.169.398.39 0 .22-.186.388-.398.388M10.539.13C9.014.13 7.78 1.01 7.78 2.087c0 .648.438 1.219 1.114 1.569a1.94 1.94 0 0 1-.504.817c-.093.103-.013.272.133.246.623-.117 1.26-.454 1.67-.687.107.013.213.013.332.013 1.526 0 2.76-.882 2.76-1.958S12.064.13 10.538.13" />
+                            </g>
+                        </svg>
+                        <span class="opentext">CRM</span>
+                    </a>
+                </li>
+                <li><a href="warehouse.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#4A4A49" fill-rule="evenodd"
+                                d="M3.756 14h6.488v-1.024H3.756V14zm0-1.707h6.488v-1.025H3.756v1.025zm0-1.708h6.488V9.561H3.756v1.024zm1.878-5.122h2.732a.341.341 0 0 1 0 .683H5.634a.341.341 0 0 1 0-.683zM7 0L0 4.439V14h3.073V9.22a.342.342 0 0 1 .342-.342h7.17c.189 0 .342.153.342.342V14H14V4.439L7 0z" />
+                        </svg>
+                        <span class="opentext">Warehouse</span>
+                    </a>
+                </li>
+                <li><a href="inbound_recipt.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#4A4A49" fill-rule="evenodd"
+                                d="M11.9 4.2H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 2.8H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 4.9H9.8a.701.701 0 0 1 0-1.4h2.1a.701.701 0 0 1 0 1.4M6.3 9.8H2.1a.701.701 0 0 1 0-1.4h4.2a.701.701 0 0 1 0 1.4m6.102-8.695L11.398.083a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L8.598.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L5.798.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L2.998.082a.28.28 0 0 0-.396 0L1.598 1.105a.28.28 0 0 1-.396 0L.477.37C.3.19 0 .317 0 .57v12.862c0 .254.3.38.477.201l.725-.735a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l.725.735c.177.18.477.053.477-.2V.57c0-.253-.3-.38-.477-.2l-.725.735a.28.28 0 0 1-.396 0" />
+                        </svg>
+                        <span class="opentext">Inbound</span>
+                    </a>
+                </li>
+                <li><a href="outbond.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#4A4A49" fill-rule="evenodd"
+                                d="M12.833 1.167V10.5H9.718c-.291 0-.431.245-.49.362-.618.933-1.446 1.237-2.228 1.237-.793 0-1.61-.316-2.228-1.237-.094-.175-.199-.362-.479-.362H1.167V1.167h11.666zM13.417 0H.583C0 0 0-.012 0 .583v12.25C0 14 0 14 1.167 14h11.666C14 14 14 14 14 12.833V.583C14-.012 14 0 13.417 0zM7 9.333c.537 0 .875-.35.875-.898V5.833h-1.75v2.602c0 .548.338.898.875.898zm-2.672-3.5h5.344L7 2.917 4.328 5.833z" />
+                        </svg>
+                        <span class="opentext">Outbound</span>
+                    </a>
+                </li>
+                <li><a href="freedossiers.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
+                            <path fill="#4A4A49" fill-rule="evenodd"
+                                d="M13.378 1.571c.344 0 .622.283.622.63v8.17c0 .347-.28.629-.622.629H.622A.626.626 0 0 1 0 10.37V.63C0 .28.278 0 .623 0H4.59c.171 0 .387.116.484.26l.702 1.05c.096.145.312.261.484.261h7.118z" />
+                        </svg>
+                        <span class="opentext">Dossier</span>
+                    </a>
+                </li>
+                <li><a href="reporting.html" class="clicklink active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <g fill="#4A4A49" fill-rule="evenodd">
+                                <path
+                                    d="M1.881 10.436H.35a.36.36 0 0 0-.35.361v2.785c0 .196.16.362.35.362h1.531a.36.36 0 0 0 .35-.362v-2.785a.343.343 0 0 0-.35-.361M5.367 7.862H3.835a.36.36 0 0 0-.35.361v5.344c0 .196.16.362.35.362h1.532a.36.36 0 0 0 .35-.362V8.223a.351.351 0 0 0-.35-.361M8.852 5.303H7.321a.36.36 0 0 0-.35.361v7.918c0 .196.16.361.35.361h1.531a.36.36 0 0 0 .35-.36V5.663a.36.36 0 0 0-.35-.361M13.767 2.488L11.842.124a.355.355 0 0 0-.54 0L9.377 2.488c-.19.24-.03.602.262.602h.817v10.492c0 .196.16.362.35.362h1.531a.36.36 0 0 0 .35-.362V3.09h.817c.292 0 .467-.362.263-.602" />
+                            </g>
+                        </svg>
+                        <span class="opentext">Reports</span>
+                    </a>
+                </li>
+                <li><a href="systemUser.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14"
+                            height="15" viewBox="0 0 14 15">
+                            <defs>
+                                <path id="a" d="M13.38 14.98H0V0h13.38v14.98z" />
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <path fill="#4A4A49"
+                                    d="M3.107 6.554a.712.712 0 0 0 .716-.703V3.51a.71.71 0 0 0-.716-.702h-.239V0H.956v2.81H.718A.711.711 0 0 0 0 3.51v2.34c0 .387.323.704.718.704h.238v8.426h1.912V6.554h.239zm4.778 5.617a.713.713 0 0 0 .717-.703v-2.34a.713.713 0 0 0-.717-.702h-.239V0H5.735v8.426h-.239a.713.713 0 0 0-.717.703v2.34c0 .385.323.702.717.702h.239v2.809h1.911v-2.81h.239zm4.54-5.617h.238a.711.711 0 0 0 .717-.703V3.51a.71.71 0 0 0-.717-.702h-.238V0h-1.912v2.81h-.239a.71.71 0 0 0-.716.701v2.34c0 .387.322.704.716.704h.239v8.426h1.912V6.554z"
+                                    mask="url(#b)" />
+                            </g>
+                        </svg>
+                        <span class="opentext">System</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidenavuser boxs">
+            <a href="#">
+                <p>
+                    <img src="img/user.png" alt="user" class="userimg">
+                    <span class="usertext opentext">
+                        Jane Doe
+                        <span class="useraccount">My account</span>
+                        <img src="img/arrowright.svg" alt="arrow" class="arrowright">
+                    </span>
+                </p>
+            </a>
+        </div>
+    </div>
+    <div class="bodyrightcontent boxs">
+        <div class="bodyinner boxs">
+            <div class="responsiveheader boxs">
+                <h2> <button class="hamburger hamburger--squeeze opensidenav" type="button" aria-label="Menu"
+                        aria-controls="navigation">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    Reporting</h2>
+                <div class="bodytabs boxs">
+                    <ul>
+                        <li><a href="reporting.html" class="clickme">Warehouse reports</a></li>
+                        <li><a href="reporting_dossier_report.html" class="clickme">Dossier reports</a></li>
+                        <li><a href="reporting_financial_report.html" class="clickme active">Financial reports</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bodytabsdata boxs">
+                <!--  cargo start  -->
+                <div class="Databoxs boxs">
+                    <div class="inputsection boxs inputsectioncrm pplaceholder_report tabcontent_product_width">
+                        <div class="inputsection1 boxs ">
+
+                            <div class="Formgroup boxs width195 ">
+                                <select class="form-control inbound_outbound_report" id="colorselector3">
+                                    <option value="">Select type report</option>
+                                    <option value="cargo_id1">Cargo export</option>
+                                    <option value="cargo_id2">Customer margin export</option>
+                                    <option value="cargo_id3">Yearly margin export</option>
+                                    <option value="cargo_id4">Cost overview activity</option>
+                                    <option value="cargo_id5">Cost overview storage</option>
+                                </select>
+                            </div>
+
+                            <!--  cargo 1st option start  -->
+
+                            <div class="boxs tabcontent_product" id="cargo_id1">
+                                <div class="Formgroup boxs width195 marfin">
+                                    <select class="form-control">
+                                        <option value="">Select customer</option>
+                                        <option value="Select status2">Vertie Yale</option>
+                                        <option value="Select status3">Emelda Strait</option>
+                                        <option value="Select status3">All customers</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <select class="form-control">
+                                        <option value="">Supplier</option>
+                                        <option value="Select status2">Best Supplier</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <select class="form-control">
+                                        <option value="">Transport type</option>
+                                        <option value="Select status2">Road</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <input type="text" class="form-control datep" placeholder="Start dossier">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <input type="text" class="form-control datep" placeholder="End dossier">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <input type="text" class="form-control datep" placeholder="Shipment from">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <input type="text" class="form-control datep" placeholder="Shipment to">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="get_reportp searchbox">
+                                    <a href="#" class="btn1 get_repttttp cargo_report1">
+                                        Get report
+                                    </a>
+                                </div>
+
+                                <div class="boxs">
+                                    <div class="report_download_box boxs">
+                                        <div class="report_dwnld_inner cargo_report11 boxs">
+                                            <i class="fa" aria-hidden="true">
+                                                <img src="img/icon_for_report.svg" alt="icon_for_report">
+                                            </i>
+                                            <a href="#" class="btn1 btn1_opctyyy">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--  cargo 1st option end  -->
+
+                            <!--  cargo 2nd option start  -->
+                            <div class="boxs tabcontent_product" id="cargo_id2">
+                                <div class="Formgroup boxs width195 marfin">
+                                    <select class="form-control">
+
+                                        <option value="">Select customer</option>
+                                        <option value="Select status2">Vertie Yale</option>
+                                        <option value="Select status3">Emelda Strait</option>
+                                        <option value="Select status3">All customers</option>
+
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <select class="form-control">
+                                        <option value="">Select user</option>
+                                        <option value="Select status2">All users</option>
+                                        <option value="Select status2">Emelda Strait</option>
+                                        <option value="Select status3">Vertie Yale</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <select class="form-control">
+                                        <option value="">Countries</option>
+                                        <option value="Select status1">All users</option>
+                                        <option value="Select status2">India</option>
+                                        <option value="Select status3">Australia</option>
+                                        <option value="Select status4">South Africa</option>
+                                    </select>
+                                </div>
+
+                                <div class="Formgroup boxs width195">
+                                    <input type="text" class="form-control datep" placeholder="Date from">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <input type="text" class="form-control datep" placeholder="Date to">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="get_reportp searchbox">
+                                    <a href="#" class="btn1 get_repttttp cargo_report2">
+                                        Get report
+                                    </a>
+                                </div>
+
+                                <div class="boxs">
+                                    <div class="report_download_box boxs">
+                                        <div class="report_dwnld_inner cargo_report21 boxs">
+                                            <i class="fa" aria-hidden="true">
+                                                <img src="img/icon_for_report.svg" alt="icon_for_report">
+                                            </i>
+                                            <a href="#" class="btn1 btn1_opctyyy">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--  cargo 2nd option end  -->
+
+                            <!--  cargo 3rd option start  -->
+                            <div class="boxs tabcontent_product" id="cargo_id3">
+                                <div class="Formgroup boxs width195 marfin">
+                                    <select class="form-control">
+
+                                        <option value="">Select customer</option>
+                                        <option value="Select status2">Vertie Yale</option>
+                                        <option value="Select status3">Emelda Strait</option>
+                                        <option value="Select status3">All customers</option>
+
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <select class="form-control">
+                                        <option value="Select status">Year</option>
+                                        <option value="Select status2">2017</option>
+                                        <option value="Select status2">2018</option>
+                                    </select>
+                                </div>
+
+
+
+                                <div class="get_reportp searchbox">
+                                    <a href="#" class="btn1 get_repttttp cargo_report3">
+                                        Get report
+                                    </a>
+                                </div>
+                                <div class="boxs">
+                                    <div class="report_download_box boxs">
+                                        <div class="report_dwnld_inner cargo_report31 boxs">
+                                            <i class="fa" aria-hidden="true">
+                                                <img src="img/icon_for_report.svg" alt="icon_for_report">
+                                            </i>
+                                            <a href="#" class="btn1 btn1_opctyyy">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--  cargo 3rd option end  -->
+
+                            <!--  cargo 4th option start  -->
+                            <div class="boxs tabcontent_product" id="cargo_id4">
+                                <div class="Formgroup boxs width195 marfin">
+                                    <select class="form-control">
+                                        <option value="">Select customer</option>
+                                        <option value="Select status2">Vertie Yale</option>
+                                        <option value="Select status3">Emelda Strait</option>
+                                        <option value="Select status3">All customers</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <input type="text" class="form-control datep" placeholder="Invoice from">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <input type="text" class="form-control datep" placeholder="Invoice to">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+
+
+                                <div class="get_reportp searchbox">
+                                    <a href="#" class="btn1 get_repttttp cargo_report4">
+                                        Get report
+                                    </a>
+                                </div>
+
+                                <div class="boxs">
+                                    <div class="report_download_box boxs">
+                                        <div class="report_dwnld_inner cargo_report41 boxs">
+                                            <i class="fa" aria-hidden="true">
+                                                <img src="img/icon_for_report.svg" alt="icon_for_report">
+                                            </i>
+                                            <a href="#" class="btn1 btn1_opctyyy">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!--  cargo 4th option end  -->
+
+                            <!--  cargo 5th option start  -->
+                            <div class="boxs tabcontent_product" id="cargo_id5">
+                                <div class="Formgroup boxs width195 marfin">
+                                    <select class="form-control">
+                                        <option value="">Select customer</option>
+                                        <option value="Select status2">Vertie Yale</option>
+                                        <option value="Select status3">Emelda Strait</option>
+                                        <option value="Select status3">All customers</option>
+                                    </select>
+                                </div>
+                                <div class="Formgroup boxs width195">
+                                    <input type="text" class="form-control datep" placeholder="Storage date">
+                                    <img src="img/calender.svg" class="calenderD" alt="calender">
+                                </div>
+
+                                <div class="get_reportp searchbox">
+                                    <a href="#" class="btn1 get_repttttp cargo_report5">
+                                        Get report
+                                    </a>
+                                </div>
+
+                                <div class="boxs">
+                                    <div class="report_download_box boxs">
+                                        <div class="report_dwnld_inner cargo_report51 boxs">
+                                            <i class="fa" aria-hidden="true">
+                                                <img src="img/icon_for_report.svg" alt="icon_for_report">
+                                            </i>
+                                            <a href="#" class="btn1 btn1_opctyyy">Download</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  cargo 5th option end  -->
+                        </div>
+                    </div>
+                </div>
+                <!--  cargo end  -->
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
+
+    <!--invoice modal end-->
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/filedrag.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

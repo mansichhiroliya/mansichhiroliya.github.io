@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/fav.png" type="image/ico" sizes="16x16">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ijo | Warehouse</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+    <link href="css/nice-select.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+                      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+                      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+                    <![endif]-->
+</head>
+
+<body>
+    <div class="header">
+        <div class="headerfixed">
+            <ul>
+                <li>
+                    <div class="headerIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#abd8a5" fill-rule="evenodd"
+                                d="M11.9 4.2H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 2.8H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 4.9H9.8a.701.701 0 0 1 0-1.4h2.1a.701.701 0 0 1 0 1.4M6.3 9.8H2.1a.701.701 0 0 1 0-1.4h4.2a.701.701 0 0 1 0 1.4m6.102-8.695L11.398.083a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L8.598.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L5.798.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L2.998.082a.28.28 0 0 0-.396 0L1.598 1.105a.28.28 0 0 1-.396 0L.477.37C.3.19 0 .317 0 .57v12.862c0 .254.3.38.477.201l.725-.735a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l.725.735c.177.18.477.053.477-.2V.57c0-.253-.3-.38-.477-.2l-.725.735a.28.28 0 0 1-.396 0" />
+                        </svg>
+                    </div>
+                    <div class="headertext1">
+                        <h2>26</h2>
+                    </div>
+                    <div class="headertext2">
+                        <p>Inbounds<span>in progress</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="headerIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
+                            <path fill="#abd8a5" fill-rule="evenodd"
+                                d="M13.378 1.571c.344 0 .622.283.622.63v8.17c0 .347-.28.629-.622.629H.622A.626.626 0 0 1 0 10.37V.63C0 .28.278 0 .623 0H4.59c.171 0 .387.116.484.26l.702 1.05c.096.145.312.261.484.261h7.118z" />
+                        </svg>
+                    </div>
+                    <div class="headertext1">
+                        <h2>67</h2>
+                    </div>
+                    <div class="headertext2">
+                        <p>Outbounds<span>in progress</span></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="headerIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#abd8a5" fill-rule="evenodd"
+                                d="M11.9 4.2H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 2.8H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 4.9H9.8a.701.701 0 0 1 0-1.4h2.1a.701.701 0 0 1 0 1.4M6.3 9.8H2.1a.701.701 0 0 1 0-1.4h4.2a.701.701 0 0 1 0 1.4m6.102-8.695L11.398.083a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L8.598.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L5.798.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L2.998.082a.28.28 0 0 0-.396 0L1.598 1.105a.28.28 0 0 1-.396 0L.477.37C.3.19 0 .317 0 .57v12.862c0 .254.3.38.477.201l.725-.735a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l.725.735c.177.18.477.053.477-.2V.57c0-.253-.3-.38-.477-.2l-.725.735a.28.28 0 0 1-.396 0" />
+                        </svg>
+                    </div>
+                    <div class="headertext1">
+                        <h2>314</h2>
+                    </div>
+                    <div class="headertext2">
+                        <p>Open <span>dossiers</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="sidenav" id="mySidenav">
+        <div class="sidenavtoparrow boxs">
+            <a href="javascript:void(0)" class="opensidenav">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M-6-4h24v24H-6z" />
+                        <path fill="#ABD8A5" d="M8 0L6.6 1.4 12.2 7H0v2h12.2l-5.6 5.6L8 16l8-8z" />
+                    </g>
+                </svg>
+            </a>
+            <a href="javascript:void(0)" class="closesidenav opentext">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 12 12">
+                    <path fill="#ABD8A5" fill-rule="evenodd"
+                        d="M11.833 1.333L10.667.167 6 4.833 1.333.167.167 1.333 4.833 6 .167 10.667l1.166 1.166L6 7.167l4.667 4.666 1.166-1.166L7.167 6z" />
+                </svg>
+            </a>
+        </div>
+        <div class="sidenavlogo boxs">
+            <a href="index.html"><img src="img/logo.svg" alt="logo" class=""> <span class="opentext">software</span></a>
+        </div>
+        <div class="sidenavlinks boxs">
+            <ul>
+                <li><a href="index.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill=" #4a4a49" fill-rule="evenodd"
+                                d="M7 8.75A.875.875 0 1 0 7 7a.875.875 0 0 0 0 1.75zM7 14A7 7 0 1 0 7 0a7 7 0 0 0 0 14zm.889-7.633A1.75 1.75 0 0 0 5.261 8.08C3.216 8.509 1.75 9.29 1.75 7a5.25 5.25 0 0 1 10.5 0c0 2.29-1.466 1.508-3.512 1.079a1.736 1.736 0 0 0-.23-1.093l2.228-2.228a.433.433 0 0 0-.002-.617.441.441 0 0 0-.616-.001L7.889 6.367z" />
+                        </svg>
+                        <span class="opentext">Dashboard</span>
+                    </a>
+                </li>
+                <li><a href="crm_company.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                            <g fill="#4A4A49" fill-rule="evenodd">
+                                <path
+                                    d="M4.875 2.645c1.334 0 2.414 1.056 2.414 2.36 0 1.302-1.08 2.359-2.414 2.359-1.333 0-2.413-1.057-2.413-2.36s1.08-2.36 2.413-2.36M8.894 10.138a3.206 3.206 0 0 0-.544-1.206 3.15 3.15 0 0 0-1.658-1.14l-.45-.13-.876 3.37-.159-2.216a.434.434 0 0 0 .305-.402v-.208a.437.437 0 0 0-.438-.428h-.398a.437.437 0 0 0-.437.428v.208c0 .194.132.35.305.402l-.16 2.216-.875-3.37-.45.13a3.138 3.138 0 0 0-.61.246c-.412.22-.77.531-1.049.894-.265.363-.45.778-.543 1.206-.053.246-.093.493-.146.739a.633.633 0 0 0 .371.7c1.101.454 2.4.713 3.793.713 1.393 0 2.68-.26 3.794-.713a.634.634 0 0 0 .384-.7l-.159-.74M11.865 2.476a.395.395 0 0 1-.398-.389c0-.22.173-.389.398-.389.226 0 .398.169.398.39 0 .22-.186.388-.398.388m-1.326 0a.395.395 0 0 1-.398-.389c0-.22.172-.389.398-.389.225 0 .398.169.398.39 0 .22-.173.388-.398.388m-1.313 0a.395.395 0 0 1-.398-.389c0-.22.172-.389.398-.389.212 0 .398.169.398.39 0 .22-.186.388-.398.388M10.539.13C9.014.13 7.78 1.01 7.78 2.087c0 .648.438 1.219 1.114 1.569a1.94 1.94 0 0 1-.504.817c-.093.103-.013.272.133.246.623-.117 1.26-.454 1.67-.687.107.013.213.013.332.013 1.526 0 2.76-.882 2.76-1.958S12.064.13 10.538.13" />
+                            </g>
+                        </svg>
+                        <span class="opentext">CRM</span>
+                    </a>
+                </li>
+                <li><a href="warehouse.html" class="active clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#4A4A49" fill-rule="evenodd"
+                                d="M3.756 14h6.488v-1.024H3.756V14zm0-1.707h6.488v-1.025H3.756v1.025zm0-1.708h6.488V9.561H3.756v1.024zm1.878-5.122h2.732a.341.341 0 0 1 0 .683H5.634a.341.341 0 0 1 0-.683zM7 0L0 4.439V14h3.073V9.22a.342.342 0 0 1 .342-.342h7.17c.189 0 .342.153.342.342V14H14V4.439L7 0z" />
+                        </svg>
+                        <span class="opentext">Warehouse</span>
+                    </a>
+                </li>
+                <li><a href="inbound_recipt.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#4A4A49" fill-rule="evenodd"
+                                d="M11.9 4.2H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 2.8H2.1a.701.701 0 0 1 0-1.4h9.8a.701.701 0 0 1 0 1.4m0 4.9H9.8a.701.701 0 0 1 0-1.4h2.1a.701.701 0 0 1 0 1.4M6.3 9.8H2.1a.701.701 0 0 1 0-1.4h4.2a.701.701 0 0 1 0 1.4m6.102-8.695L11.398.083a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L8.598.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L5.798.082a.28.28 0 0 0-.396 0l-1.004 1.02a.28.28 0 0 1-.396 0L2.998.082a.28.28 0 0 0-.396 0L1.598 1.105a.28.28 0 0 1-.396 0L.477.37C.3.19 0 .317 0 .57v12.862c0 .254.3.38.477.201l.725-.735a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l1.004 1.02c.11.11.286.11.396 0l1.004-1.02a.28.28 0 0 1 .396 0l.725.735c.177.18.477.053.477-.2V.57c0-.253-.3-.38-.477-.2l-.725.735a.28.28 0 0 1-.396 0" />
+                        </svg>
+                        <span class="opentext">Inbound</span>
+                    </a>
+                </li>
+                <li><a href="outbond.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <path fill="#4A4A49" fill-rule="evenodd"
+                                d="M12.833 1.167V10.5H9.718c-.291 0-.431.245-.49.362-.618.933-1.446 1.237-2.228 1.237-.793 0-1.61-.316-2.228-1.237-.094-.175-.199-.362-.479-.362H1.167V1.167h11.666zM13.417 0H.583C0 0 0-.012 0 .583v12.25C0 14 0 14 1.167 14h11.666C14 14 14 14 14 12.833V.583C14-.012 14 0 13.417 0zM7 9.333c.537 0 .875-.35.875-.898V5.833h-1.75v2.602c0 .548.338.898.875.898zm-2.672-3.5h5.344L7 2.917 4.328 5.833z" />
+                        </svg>
+                        <span class="opentext">Outbound</span>
+                    </a>
+                </li>
+                <li><a href="freedossiers.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="11" viewBox="0 0 14 11">
+                            <path fill="#4A4A49" fill-rule="evenodd"
+                                d="M13.378 1.571c.344 0 .622.283.622.63v8.17c0 .347-.28.629-.622.629H.622A.626.626 0 0 1 0 10.37V.63C0 .28.278 0 .623 0H4.59c.171 0 .387.116.484.26l.702 1.05c.096.145.312.261.484.261h7.118z" />
+                        </svg>
+                        <span class="opentext">Dossier</span>
+                    </a>
+                </li>
+                <li><a href="reporting.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                            <g fill="#4A4A49" fill-rule="evenodd">
+                                <path
+                                    d="M1.881 10.436H.35a.36.36 0 0 0-.35.361v2.785c0 .196.16.362.35.362h1.531a.36.36 0 0 0 .35-.362v-2.785a.343.343 0 0 0-.35-.361M5.367 7.862H3.835a.36.36 0 0 0-.35.361v5.344c0 .196.16.362.35.362h1.532a.36.36 0 0 0 .35-.362V8.223a.351.351 0 0 0-.35-.361M8.852 5.303H7.321a.36.36 0 0 0-.35.361v7.918c0 .196.16.361.35.361h1.531a.36.36 0 0 0 .35-.36V5.663a.36.36 0 0 0-.35-.361M13.767 2.488L11.842.124a.355.355 0 0 0-.54 0L9.377 2.488c-.19.24-.03.602.262.602h.817v10.492c0 .196.16.362.35.362h1.531a.36.36 0 0 0 .35-.362V3.09h.817c.292 0 .467-.362.263-.602" />
+                            </g>
+                        </svg>
+                        <span class="opentext">Reports</span>
+                    </a>
+                </li>
+                <li><a href="systemUser.html" class="clicklink">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14"
+                            height="15" viewBox="0 0 14 15">
+                            <defs>
+                                <path id="a" d="M13.38 14.98H0V0h13.38v14.98z" />
+                            </defs>
+                            <g fill="none" fill-rule="evenodd">
+                                <path fill="#4A4A49"
+                                    d="M3.107 6.554a.712.712 0 0 0 .716-.703V3.51a.71.71 0 0 0-.716-.702h-.239V0H.956v2.81H.718A.711.711 0 0 0 0 3.51v2.34c0 .387.323.704.718.704h.238v8.426h1.912V6.554h.239zm4.778 5.617a.713.713 0 0 0 .717-.703v-2.34a.713.713 0 0 0-.717-.702h-.239V0H5.735v8.426h-.239a.713.713 0 0 0-.717.703v2.34c0 .385.323.702.717.702h.239v2.809h1.911v-2.81h.239zm4.54-5.617h.238a.711.711 0 0 0 .717-.703V3.51a.71.71 0 0 0-.717-.702h-.238V0h-1.912v2.81h-.239a.71.71 0 0 0-.716.701v2.34c0 .387.322.704.716.704h.239v8.426h1.912V6.554z"
+                                    mask="url(#b)" />
+                            </g>
+                        </svg>
+                        <span class="opentext">System</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidenavuser boxs">
+            <a href="#">
+                <p>
+                    <img src="img/user.png" alt="user" class="userimg">
+                    <span class="usertext opentext">
+                        Jane Doe
+                        <span class="useraccount">My account</span>
+                        <img src="img/arrowright.svg" alt="arrow" class="arrowright">
+                    </span>
+                </p>
+            </a>
+        </div>
+    </div>
+    <div class="bodyrightcontent boxs">
+        <div class="bodyinner boxs">
+            <div class="responsiveheader boxs">
+                <h2> <button class="hamburger hamburger--squeeze opensidenav" type="button" aria-label="Menu"
+                        aria-controls="navigation">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                    Warehouse</h2>
+                <div class="bodytabs boxs">
+                    <ul>
+                        <li><a href="javascript:void(0)" class="clickme active" data-type="a">Damage detail</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="bodytabsdata boxs ">
+                <div class="Databoxs boxs movesA movesa">
+                    <div class="damage_detail boxs">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="damage boxs">
+                                    <div class="general_set boxs">
+                                        <div class="preferr_accord boxs" data-id="1">
+                                            <h5>Damage Status history<span><img src="img/loactionangle.svg" alt="angle"
+                                                        class="img-responsive"></span></h5>
+                                        </div>
+                                        <div class="preferr_accordbottom damageacc boxs" style="display: block;">
+                                            <div class="damage_labels boxs">
+                                                <p><span>Pre handled at</span>21-12-2018 11:45</p>
+                                                <p><span>Informed at</span>21-12-2018 11:47</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="general_set damage_set boxs">
+                                        <div class="preferr_accord boxs" data-id="1">
+                                            <h5>Damage Report<span><img src="img/loactionangle.svg" alt="angle"
+                                                        class="img-responsive"></span></h5>
+                                        </div>
+                                        <div class="preferr_accordbottom damageacc boxs" style="display: block;">
+                                            <div class="damage_labels boxs">
+                                                <p><span>Receipt number</span>0000369173</p>
+                                                <p><span>Damage date</span>21-12-2018</p>
+                                                <p><span>Customer</span>Santa Maria AB</p>
+                                                <p><span>Article number</span>100385</p>
+                                                <p><span>Batch</span>0000369173</p>
+                                                <p><span>Article Description</span>AME BBQ SAUCE KENTUCKY WHISKEY 470GX6
+                                                </p>
+                                                <p><span>Weight</span>4.49</p>
+                                                <p><span>Frontsize</span>23.4</p>
+                                                <p><span>Depth</span>15.5</p>
+                                                <p><span>Height</span>17.0</p>
+                                                <p><span>Damage report</span>0</p>
+                                                <p><span>Damange Amount</span>1</p>
+                                                <p><span>Location</span>01A.AA14AA</p>
+                                                <p><span>Damage description</span>Het artikel is zo gelost (uit de
+                                                    container gehaald). <br />Het artikel zelf lijkt niet beschadigd,
+                                                    alleen de<br /> doos... Sjors
+                                                </p>
+                                            </div>
+                                            <div class="boxs addphoto">
+                                                <h5>Photos</h5>
+                                                <div class="row">
+                                                    <div class="col-sm-4 col-xs-6">
+                                                        <div class="photos_closed boxs">
+                                                            <img src="img/gallery_img.png" alt="images"
+                                                                class="img-responsive">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 col-xs-6">
+                                                        <div class="photos_closed boxs">
+                                                            <img src="img/gallery_img.png" alt="images"
+                                                                class="img-responsive">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 col-xs-6">
+                                                        <div class="photos_closed boxs">
+                                                            <img src="img/gallery_img.png" alt="images"
+                                                                class="img-responsive">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 col-xs-6">
+                                                        <div class="photos_closed boxs">
+                                                            <img src="img/gallery_img.png" alt="images"
+                                                                class="img-responsive">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 col-xs-6">
+                                                        <div class="photos_closed boxs">
+                                                            <img src="img/gallery_img.png" alt="images"
+                                                                class="img-responsive">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-4 col-xs-6">
+                                                        <div class="photos_closed boxs">
+                                                            <img src="img/gallery_img.png" alt="images"
+                                                                class="img-responsive">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="damage_button boxs">
+                                                    <a href="warehouse.html"
+                                                        class="btncancel hvr-sweep-to-right">Cancel</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/filedrag.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

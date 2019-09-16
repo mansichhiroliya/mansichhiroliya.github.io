@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>add copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.0214445%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.02" offset="80%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.04" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.12" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.06" offset="20%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-3" cx="11" cy="11" r="11"></circle>
+        <filter x="-54.5%" y="-54.5%" width="209.1%" height="209.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="purchase-mbl/setup/select-equipment/normal" transform="translate(-218.000000, -506.000000)">
+            <g id="Supplier" transform="translate(130.000000, 488.000000)">
+                <g id="add-copy-3" transform="translate(96.000000, 26.000000)">
+                    <g id="button-bg-copy-2">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <circle stroke="url(#linearGradient-1)" stroke-width="0.5" stroke-linejoin="square" fill="#837EBE" fill-rule="evenodd" cx="11" cy="11" r="10.75"></circle>
+                        <circle stroke="url(#linearGradient-2)" stroke-width="0.5" stroke-linejoin="square" cx="11" cy="11" r="10.75"></circle>
+                    </g>
+                    <path d="M6,5 L6,13.64828 L9.52356,13.64828 L9.52356,11.22944 L6.96924,11.22944 L6.96924,10.30064 L9.52368,10.30064 L9.52368,9.1856 L6.96924,9.1856 L6.96924,8.25668 L9.52368,8.25668 L9.52368,7.8248 L11.82864,7.8248 L11.82816,5 L6,5 Z M6.96924,6.24116 L10.86168,6.24116 L10.86168,7.16996 L10.86156,7.16996 L6.96924,7.16996 L6.96924,6.24116 Z M10.05036,8.3516 L10.05036,17 L15.87972,17 L15.87864,8.3516 L10.05036,8.3516 Z M11.0196,10.52144 L14.9118,10.52144 L14.9118,9.59264 L11.0196,9.59264 L11.0196,10.52144 Z M11.0196,12.53708 L14.9118,12.53708 L14.9118,11.60828 L11.0196,11.60828 L11.0196,12.53708 Z M11.0196,14.58104 L14.9118,14.58104 L14.9118,13.65224 L11.0196,13.65224 L11.0196,14.58104 Z" id="Fill-1" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
