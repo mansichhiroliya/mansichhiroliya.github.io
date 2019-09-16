@@ -1,0 +1,767 @@
+@media(max-width:1350px) {
+    .fs_left img.upperImg {
+        top: -50px;
+        left: -70px;
+        width: 120px;
+    }
+    .welcomeBox {
+        padding: 50px 63px;
+        top: 53%;
+        left: 64%;
+    }
+}
+
+@media(max-width:1199px) {
+    .header_inner {
+        padding: 10px 13px;
+    }
+    /*    firstScreen page*/
+    .fs_left img.upperImg {
+        top: -50px;
+        left: -60px;
+        width: 120px;
+    }
+    /*    firstScreen page end*/
+    .navigation li a {
+        padding: 10px 10px;
+    }
+    .line {
+        right: 11px;
+    }
+    .invitation {
+        width: 390px;
+    }
+    .meet_img img {
+        float: right;
+        width: 400px;
+    }
+    .weekend_img img {
+        height: 350px;
+    }
+    .timeline {
+        margin: 10px 0px 10px 60px;
+    }
+    .map, .map img {
+        min-height: 628px;
+    }
+    .dnSlide-main .dnSlide-left-btn {
+        left: 20%;
+    }
+    .dnSlide-main .dnSlide-right-btn {
+        right: 20%;
+    }
+    .town_photos .col-sm-4 {
+        margin: 3px;
+    }
+    .function {
+        margin-left: -84px;
+    }
+    .weekend_img2 {
+        margin-left: 3px;
+    }
+    .function_left{
+        left: 87px;
+    }
+    /* vedio start */
+    /* .vedio {
+        width: 454px;
+    } */
+    /* vedio end */
+    .banner {
+        padding: 0px 13px;
+    }
+}
+
+@media(max-width:991px) {
+    /*    firstScreen page*/
+    .welcomeBox {
+        padding: 50px 33px;
+        top: 53%;
+        left: 51%;
+        width: 384px;
+    }
+    .fs_right {
+        width: 56%;
+    }
+    .fs_left {
+        width: 44%;
+    }
+    .welcomeBox h2 {
+        font-size: 34px;
+    }
+    .invt_btn {
+        line-height: 34px;
+        padding: 9px 20px 7px;
+        margin-top: 20px;
+    }
+    .welcomeBox p.uppTxt {
+        margin-bottom: 22px;
+    }
+    .form_wrap p {
+        margin-top: 20px;
+    }
+    .welcomeBox {
+        left: 85%;
+        top: 54%;
+    }
+    /*    firstScreen page end*/
+    .logo{
+        width: 14%;
+    }
+    .logo a img {
+        width: 90px;
+    }
+    .navigation li a {
+        font-size: 12px;
+        padding: 7px 7px;
+    }
+    .banner {
+        margin-top: 90px;
+    }
+    .invitation h2 {
+        font-size: 33px;
+        line-height: 29px;
+    }
+    .invitation h1 {
+        font-size: 59px;
+        line-height: 70px;
+    }
+    .invitation p {
+        font-size: 17px;
+        line-height: 25px;
+        padding: 20px 0px;
+    }
+    .invitation {
+        width: 330px;
+        padding: 190px 20px;
+    }
+    .yellow_heading {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .white_heading {
+        font-size: 25px;
+    }
+    .story p {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 30px 0px;
+    }
+    .meet_img img {
+        width: 300px;
+    }
+    .meet1 {
+        height: 400px;
+    }
+    .play img {
+        width: 70px;
+    }
+    .weekend .col-sm-6 {
+        width: 100%;
+    }
+    .function p {
+        padding: 15px 0px;
+    }
+    .function h4 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .weekend {
+        display: block;
+    }
+    .weekend_img img {
+        height: initial;
+        width: 100%;
+    }
+    .function {
+        margin-left: 0;
+        width: 475px;
+        float: inherit;
+        margin-top: -100px;
+    }
+    .function_rht {
+        margin-left: 0px;
+        margin-right: 0px;
+        z-index: 9;
+        position: relative;
+
+
+    }
+    .heading {
+        padding: 13px 80px;
+    }
+    .overlay p {
+        font-size: 15px;
+        color: #fff;
+        padding: 10px 10px;
+    }
+    .obious_inner p {
+        font-size: 15px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        padding: 16px 20px;
+    }
+    .obious_inner h4 {
+        font-size: 30px;
+    }
+    .obious_inner {
+        padding: 30px 0px;
+    }
+    .obious {
+        margin-top: 50px;
+        margin-left: -110px;
+    }
+    .question p, .question p a {
+        font-size: 13px;
+    }
+    .rspv_inn {
+        padding: 20px 0px;
+    }
+    .rspv_inn p {
+        line-height: 30px;
+    }
+    .rspv_inn a {
+        width: 209.8px;
+        line-height: 30px;
+    }
+    .border_div2 {
+        height: 93%;
+        width: 96%;
+    }
+    .homerspv {
+        margin-top: -130px;
+    }
+    .town_photos .col-sm-6 {
+        margin: 4px;
+        display: inline-block;
+    }
+    .gifts {
+        padding: 281px 0px 90px 0px;
+    }
+    .function_left {
+        left: 0px;
+    }
+    /* vedios start */
+    /* .vedio {
+        width: 346px;
+    } */
+    /* vedio end */
+    .popup .modal-dialog {
+        width: 90%;
+    }
+    .line2, .line{
+        width: 17px;
+    }
+    .photo_lft img {
+        height: 200px;
+        width: 100%;
+    }
+    .photo_low img {
+        height: 170px;
+    }
+    .town_photos {
+        margin-bottom: -260px;
+    }
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:767px) {
+    .header .hamburger {
+        display: block;
+    }
+    .form_container {
+        width: 100%;
+    }
+    .form_bottom {
+        padding: 25px 40px 50px;
+    }
+    .optSec_in {
+        padding-left: 20px;
+        margin-bottom: 30px;
+    }
+    .button_wraper {
+        padding-left: 15px;
+    }
+    .opt_Sec h2 {
+        margin-top: 40px;
+    }
+    .navigation {
+        display: none;
+    }
+    .question {
+        margin: 40px auto 30px;
+    }
+    .border_div {
+        width: 95%;
+        height: 95%;
+    }
+    .invitation {
+        width: 100%;
+        padding: 100px 85px;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo a img {
+        width: 80px;
+    }
+    .ourstory_inner .row, .proposal_inner .row {
+        display: block;
+        align-items: center;
+    }
+    .play {
+        position: absolute;
+        top: 160px;
+        left: 43%;
+    }
+    .proposal_rht {
+        padding-top: 20px;
+    }
+    .function {
+        margin: 0px;
+        width: 100%;
+    }
+    .corners {
+        display: none;
+    }
+    .timeline {
+        margin: 10px 0px 10px 150px;
+    }
+    .map, .map img {
+        min-height: initial;
+    }
+    .photos img {
+        width: 100%;
+        height: initial;
+    }
+    .formargin {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .gifts {
+        padding: 290px 0px 90px 0px;
+    }
+    .regis {
+        display: block;
+    }
+    .obious {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .gift_head {
+        padding-top: 40px;
+    }
+    .border_div2 {
+        width: 97%;
+        height: 93%;
+    }
+    .question p, .question p a {
+        font-size: 12px;
+    }
+    .question p {
+        padding: 0px 8px;
+    }
+    .modal-dialog {
+        width: 90%;
+    }
+    .overlay {
+        position: relative;
+        bottom: 42px;
+    }
+
+    .town_photos .col-sm-4 {
+        width: 48%;
+        float: left;
+    }
+
+    .town_photos {
+        margin-bottom: -31px;
+    }
+    .gifts {
+        padding: 17px 0px 90px 0px;
+    }
+    button.cross {
+        display: inline-block;
+        -webkit-appearance: none;
+        padding: 0;
+        cursor: pointer;
+        background: 0 0;
+        border: 0;
+        color: #fff;
+        margin: 16px;
+    }
+    .cross {
+        float: right;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: 1;
+        color: #fff;
+        text-shadow: 0 1px 0 #fff;
+       opacity: 1;
+    }
+    .function_left {
+        left: 0px; 
+    }
+    .slider_para p {
+        text-align: center;
+        padding: 15px 19px;
+    }
+    .slider_para p span {
+        float: unset;
+    }
+    .slider_para p {
+        font-size: 17px;
+    }
+    /* vedio start */
+    .vedio {
+        width: 100%;
+        height: 400px;
+    }
+    /* vedio end */
+    .banner {
+        margin-top: 82px;
+    }
+}
+
+@media(max-width:560px) {
+    .form_main {
+        padding: 20px 0;
+    }
+    .form_top h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding: 15px 0;
+    }
+    .form_bottom h3 {
+        font-size: 30px;
+    }
+    .opt_Sec h2 {
+        margin-top: 30px;
+    }
+    .optSec h2 {
+        font-size: 17px;
+    }
+    .optSec_in_lft label span, .optSec_in_rht label span {
+        font-size: 16px;
+    }
+    .form_bottom {
+        padding: 25px 22px 50px;
+    }
+    .optSec_in2 label {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .optSec2 h2 {
+        margin-bottom: 20px;
+    }
+    .optSec_in {
+        margin-bottom: 18px;
+    }
+    .fs_right {
+        display: none;
+    }
+    .fs_left {
+        width: 100%;
+    }
+    .welcomeBox {
+        left: initial;
+        top: 48%;
+        width: 90%;
+        position: initial;
+        transform: none;
+        margin: 20px auto 0;
+    }
+    .fs_inner {
+        display: initial;
+    }
+    .fs_left img.upperImg {
+        top: 7px;
+        left: 10px;
+        width: 100px;
+    }
+    .fs_left {
+        padding: 34px 0 0;
+    }
+    .welcomeBox h2 {
+        font-size: 30px;
+    }
+    .invt_btn {
+        font-size: 16px;
+    }
+    .question {
+        display: block;
+    }
+    .invitation h2 {
+        font-size: 25px;
+        line-height: 23px;
+    }
+    .invitation h1 {
+        font-size: 45px;
+        line-height: 66px;
+    }
+    .border_div {
+        width: 93%;
+        height: 93%;
+    }
+    .invitation {
+        width: 100%;
+        padding: 70px 45px;
+    }
+    .yellow_heading {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .white_heading {
+        font-size: 20px;
+    }
+    .proposal {
+        padding: 60px 0px;
+    }
+    .play {
+        top: 110px;
+    }
+    .function h6 {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .slider_anchor li a {
+        font-size: 17px;
+    }
+    .dnSlide-main .dnSlide-btn {
+        width: 55px !important;
+    }
+    .town li a {
+        font-size: 17px;
+    }
+    .weekend {
+        margin-bottom: 55px;
+    }
+    .direction {
+        padding: 55px 0px;
+    }
+    .schedule {
+        padding: 55px 0px;
+    }
+    .ques_out li {
+        display: block;
+    }
+    .ques_out ul {
+        display: block;
+        margin: 20px auto;
+        width: max-content;
+    }
+    .question p {
+        padding: 10px 8px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .question p a {
+        font-size: 14px;
+    }
+    .rspv_inn p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .border_div2 {
+        width: 95%;
+        height: 93%;
+    }
+    .rspv_inn a {
+        width: 200px;
+        line-height: 22px;
+    }
+    .homerspv {
+        margin-top: -60px;
+    }
+    .gifts {
+        padding: 290px 0px 55px 0px;
+    }
+    .date p {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .function p {
+        line-height: 25px;
+    }
+
+    .town_photos .col-sm-6 {
+        width: 47%;
+    }
+    .gifts {
+        padding: 17px 0px 55px 0px;
+    }
+    .vedio {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media(max-width:414px) {
+    .form_bottom h4 {
+        margin: 15px 0;
+    }
+    .form_bottom h3 {
+        font-size: 26px;
+    }
+    .opt_Sec h2 {
+        margin-top: 20px;
+    }
+    .form_main {
+        padding: 10px 0;
+    }
+    .form_bottom {
+        padding: 25px 12px 50px;
+    }
+    .optSec_in {
+        padding-left: 5px;
+    }
+    .optSec h2 {
+        font-size: 14px;
+    }
+    .optSec_in2 label {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    [type="radio"]:checked+label, [type="radio"]:not(:checked)+label {
+        height: 40px;
+    }
+    .optSec_in_lft label span, .optSec_in_rht label span {
+        font-size: 14px;
+    }
+    .optSec_in3 input {
+        height: 40px;
+    }
+    .optSec2 h2 {
+        margin-bottom: 15px;
+    }
+    .optSec textarea.form-control {
+        height: 120px;
+    }
+    .save_btn {
+        padding: 8px 71px;
+    }
+    .button_wraper p {
+        margin-top: 15px;
+    }
+    .optSec_in {
+        margin-bottom: 15px;
+    }
+    .form_main .container {
+        padding: 0;
+    }
+    /*    first screen page*/
+    .welcomeBox {
+        padding: 30px 15px;
+    }
+    .welcomeBox h2 {
+        font-size: 24px;
+    }
+    .welcomeBox p.uppTxt {
+        font-size: 16px;
+        margin: 11px 0 15px;
+        line-height: 20px;
+    }
+    .form_wrap input {
+        height: 40px;
+        font-size: 16px;
+    }
+    .invt_btn {
+        line-height: 28px;
+        padding: 8px 20px 4px;
+    }
+    .invt_btn {
+        font-size: 14px;
+    }
+    .form_wrap p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .fs_left img.upperImg {
+        top: 57px;
+        left: 3px;
+    }
+    .fs_left {
+        padding-top: 90px;
+    }
+    .welcomeBox p.uppTxt {
+        margin-top: 5px;
+    }
+    /*    first screen page end*/
+    .invitation p {
+        font-size: 15px;
+        line-height: 21px;
+        padding: 20px 0px;
+    }
+    .border_div {
+        width: 91%;
+        height: 93%;
+    }
+    .ourstory_inner {
+        padding: 40px 0px;
+    }
+    .meet_img {
+        margin-top: 0;
+        z-index: 9;
+        position: relative;
+    }
+    .play img {
+        width: 50px;
+    }
+    .play {
+        top: 90px;
+    }
+    .schedule {
+        padding: 40px 0px;
+    }
+    .function h6 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .days a {
+        width: 230px;
+        font-size: 12px;
+    }
+    .timeline {
+        margin: 10px 0px 10px 60px;
+    }
+    slider_anchor li, .town li {
+        padding: 0px 10px;
+    }
+    .slider_anchor li a, .town li a {
+        font-size: 15px;
+    }
+    .border_div2 {
+        width: 94%;
+        height: 93%;
+    }
+    .slider_para p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .slider_para {
+        margin-top: -25px;
+    }
+    .slider_para p {
+        padding: 0px 0px;
+    }
+    .slider_para p span {
+        float: unset;
+    }
+    .town_photos .col-sm-6 {
+        width: 100%;
+    }
+    .town_photos .col-sm-4 {
+        width: 100%;
+        float: left;
+    }
+    /* .vedio {
+        width: 100%;
+        height: 300px;
+    } */
+}
+
+@media(max-width:320px) {}
