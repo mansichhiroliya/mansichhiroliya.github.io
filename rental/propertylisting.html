@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rental | Property Listing</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="header">
+        <div class="head_inner boxs">
+            <div class="head_logo boxs">
+                <a href="index.html" class="headerlogo"><img src="img/logo.svg" class="img-responsive"></a>
+                <div class="head_lft openloc">
+                    <ul>
+                        <li><a href="javascript:void(0)">Noida<img src="img/dropdown.svg"></a></li>
+                        <li><a href="javascript:void(0)"> Select Gender<img src="img/dropdown.svg"></a></li>
+                    </ul>
+
+                </div>
+                <div class="location_drop">
+                    <form>
+                        <div class="location boxs">
+                            <h5>I’m Looking to rent a home in</h5>
+                            <div class="selection boxs">
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="one" name="loc">
+                                        <label for="one">Mumbai</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="five" name="loc">
+                                        <label for="five">Bangalore</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="two" name="loc">
+                                        <label for="two">New Delhi</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="six" name="loc">
+                                        <label for="six">Hyderabad</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="three" name="loc">
+                                        <label for="three">Kolkata</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="seven" name="loc">
+                                        <label for="seven">Ahmedabad</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="four" name="loc">
+                                        <label for="four">Chennai</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="eight" name="loc">
+                                        <label for="eight">Pune</label>
+                                    </li>
+                                </ul>
+                                <div class="sepration"></div>
+                            </div>
+                        </div>
+                        <div class="location boxs">
+                            <h5>For</h5>
+                            <div class="selection genderlist boxs">
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="nine" name="gender">
+                                        <label for="nine">Male</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="ten" name="gender">
+                                        <label for="ten">Female</label>
+                                    </li>
+                                </ul>
+                                <div class="update_btn boxs">
+                                    <button type="button">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="hambutt">
+                <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+            </div>
+            <div class="head_rht head_lft boxs">
+                <ul>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="postedproperty.html">My Property</a></li>
+                    <li><span>Login</span><a href="javascript:void(0)" class="clickacc">My Account<img src="img/dropdown.svg"></a>
+                        <div class="acc_det">
+                            <ul>
+                                <li><a href="javascript:void(0)" class="login" data-target="#loginmodal" data-toggle="modal">login</a></li>
+                                <li class="newcus">New Customer?<a href="javascript:void(0)" data-target="#registermodal" data-toggle="modal">Register</a></li>
+                                <li><a href="javascript:void(0)" class="tophead">My Account</a></li>
+                                <li><a href="my_account_profile.html" class="innerhead">Profile</a></li>
+                                <li><a href="my_account_Change_Password.html" class="innerhead ">Change Password</a></li>
+                                <li><a href="whislist.html" class="tophead">Wishlist</a></li>
+                                <li><a href="javascript:void(0)" class="tophead">Settings</a></li>
+                                <li><a href="Terms_Conditions.html" class="innerhead">Terms & Conditions</a></li>
+                                <li><a href="privacy.html" class="innerhead">Privacy Policy</a></li>
+                                <li><a href="index.html" class="tophead">Logout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="post"><a href="post_property.html">Post Property</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sidenav" id="mySidenav">
+        <a href="index.html"><img src="img/logo.svg" class="img-responsive"></a>
+        <li><a href="about_us.html">About</a></li>
+        <li><a href="postedproperty.html">My Property</a></li>
+        <li>
+            <a href="javascript:void(0)" class="clickacc">My Account<img src="img/dropdown.svg"></a>
+            <div class="acc_det">
+                <ul>
+                    <li><a href="javascript:void(0)" class="login" data-target="#loginmodal" data-toggle="modal">login</a></li>
+                    <li class="newcus">New Customer?<a href="javascript:void(0)" data-target="#registermodal" data-toggle="modal">Register</a></li>
+                    <li><a href="javascript:void(0)" class="tophead">My Account</a></li>
+                    <li><a href="my_account_profile.html" class="innerhead">Profile</a></li>
+                    <li><a href="my_account_Change_Password.html" class="innerhead">Change Password</a></li>
+                    <li><a href="whislist.html" class="tophead">Wishlist</a></li>
+                    <li><a href="javascript:void(0)" class="tophead">Settings</a></li>
+                    <li><a href="Terms_Conditions.html" class="innerhead">Terms & Conditions</a></li>
+                    <li><a href="privacy.html" class="innerhead">Privacy Policy</a></li>
+                    <li><a href="index.html" class="tophead">Logout</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="post"><a href="post_property.html">Post Property</a></li>
+    </div>
+    <section class="main proplist boxs">
+        <div class="container">
+            <div class="proplist_inner boxs">
+                <h1 class="banner_head">Find Property Near You</h1>
+            </div>
+        </div>
+    </section>
+    <section class="prop_content boxs">
+        <div class="container">
+            <div class="filter boxs">
+                <h4>Filter</h4>
+                <form>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="form-group boxs">
+                                <img src="img/dropdown.svg">
+                                <select class="form-control" palceholder="">
+                                    <option>Room Type</option>
+                                    <option>2BHK</option>
+                                    <option>3BHK</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="form-group boxs">
+                                <img src="img/dropdown.svg">
+                                <select class="form-control" palceholder="">
+                                    <option>Budget</option>
+                                    <option>5000-10000</option>
+                                    <option>10000-20000</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="form-group boxs">
+                                <img src="img/dropdown.svg">
+                                <select class="form-control" palceholder="">
+                                    <option>Furnishing</option>
+                                    <option>unfurnished</option>
+                                    <option>semifurnished</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="searchfilter form-group boxs">
+                                <button type="button">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="Propprice boxs">
+                <h2>Properties</h2>
+                <div class="sortby">
+                    <p>Sort By :</p>
+                    <select>
+                        <option>Highest Price</option>
+                        <option>Lowest Price</option>
+                    </select>
+                </div>
+            </div>
+            <div class="prop_list boxs">
+                <a href="javascript:void(0)">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="property_img boxs">
+                                <img src="img/15_image.png" class="img-responsive">
+                                <span class="hearticon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                <span class="photos">10 Photos</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="proplist_con boxs">
+                                <div class="proplist_top boxs">
+                                    <h6>Sector-62 | Private Room</h6>
+                                    <div class="proplist_top_lft boxs">
+                                        <h3 class="textright">INR. 8000k</h3>
+                                        <h3>Eduardo Fisher (2500 Sq-ft)</h3>
+                                        <ul>
+                                            <li>12456 street, Florida, USA. |</li>
+                                            <li>Gender - <span>Female</span></li>
+                                            <li class="textgreen">4 Rooms Avaliable</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="proplist_btm boxs">
+                                    <ul>
+                                        <li><span>Features:</span>4 Balconies, 4 Bed Rooms, 4 Bathrooms.</li>
+                                        <li><span>Amenties:</span>9 House amenities, 2 Society amenities.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="prop_list boxs">
+                <a href="javascript:void(0)">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="property_img boxs">
+                                <img src="img/2_image.png" class="img-responsive" alt="2_image">
+                                <span class="hearticon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                <span class="photos">10 Photos</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="proplist_con boxs">
+                                <div class="proplist_top boxs">
+                                    <h6>Sector-62 | Private Room</h6>
+                                    <div class="proplist_top_lft boxs">
+                                        <h3 class="textright">INR. 8000k</h3>
+                                        <h3>Chic Apartment (2500 Sq-ft)</h3>
+                                        <ul>
+                                            <li>12456 street, Florida, USA. |</li>
+                                            <li>Gender - <span>Female</span></li>
+                                            <li class="textgreen">4 Rooms Avaliable</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="proplist_btm boxs">
+                                    <ul>
+                                        <li><span>Features:</span>4 Balconies, 4 Bed Rooms, 4 Bathrooms.</li>
+                                        <li><span>Amenties:</span>9 House amenities, 2 Society amenities.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="prop_list boxs">
+                <a href="javascript:void(0)">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="property_img boxs">
+                                <img src="img/3_image.png" class="img-responsive" alt="3_image">
+                                <span class="hearticon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                <span class="photos">10 Photos</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="proplist_con boxs">
+                                <div class="proplist_top boxs">
+                                    <h6>Sector-62 | Private Room</h6>
+                                    <div class="proplist_top_lft boxs">
+                                        <h3 class="textright">INR. 8000k</h3>
+                                        <h3>Jenny Webb (2500 Sq-ft)</h3>
+                                        <ul>
+                                            <li>12456 street, Florida, USA. |</li>
+                                            <li>Gender - <span>Female</span></li>
+                                            <li class="textgreen">4 Rooms Avaliable</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="proplist_btm boxs">
+                                    <ul>
+                                        <li><span>Features:</span>4 Balconies, 4 Bed Rooms, 4 Bathrooms.</li>
+                                        <li><span>Amenties:</span>9 House amenities, 2 Society amenities.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="prop_list boxs">
+                <a href="javascript:void(0)">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="property_img boxs">
+                                <img src="img/4_image.png" class="img-responsive" alt="4_image">
+                                <span class="hearticon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                <span class="photos">10 Photos</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="proplist_con boxs">
+                                <div class="proplist_top boxs">
+                                    <h6>Sector-62 | Private Room</h6>
+                                    <div class="proplist_top_lft boxs">
+                                        <h3 class="textright">INR. 8000k</h3>
+                                        <h3>Priscilla Flores (2500 Sq-ft)</h3>
+                                        <ul>
+                                            <li>12456 street, Florida, USA. |</li>
+                                            <li>Gender - <span>Female</span></li>
+                                            <li class="textgreen">4 Rooms Avaliable</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="proplist_btm boxs">
+                                    <ul>
+                                        <li><span>Features:</span>4 Balconies, 4 Bed Rooms, 4 Bathrooms.</li>
+                                        <li><span>Amenties:</span>9 House amenities, 2 Society amenities.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="prop_list boxs">
+                <a href="javascript:void(0)">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="property_img boxs">
+                                <img src="img/5_image.png" class="img-responsive" alt="5_image">
+                                <span class="hearticon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                <span class="photos">10 Photos</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="proplist_con boxs">
+                                <div class="proplist_top boxs">
+                                    <h6>Sector-62 | Private Room</h6>
+                                    <div class="proplist_top_lft boxs">
+                                        <h3 class="textright">INR. 8000k</h3>
+                                        <h3>Max Nguyen (2500 Sq-ft)</h3>
+                                        <ul>
+                                            <li>12456 street, Florida, USA. |</li>
+                                            <li>Gender - <span>Female</span></li>
+                                            <li class="textgreen">4 Rooms Avaliable</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="proplist_btm boxs">
+                                    <ul>
+                                        <li><span>Features:</span>4 Balconies, 4 Bed Rooms, 4 Bathrooms.</li>
+                                        <li><span>Amenties:</span>9 House amenities, 2 Society amenities.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="prop_list boxs">
+                <a href="javascript:void(0)">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="property_img boxs">
+                                <img src="img/6_image.png" class="img-responsive" alt="6_image">
+                                <span class="hearticon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                <span class="photos">10 Photos</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="proplist_con boxs">
+                                <div class="proplist_top boxs">
+                                    <h6>Sector-62 | Private Room</h6>
+                                    <div class="proplist_top_lft boxs">
+                                        <h3 class="textright">INR. 8000k</h3>
+                                        <h3>Bessie Steward (2500 Sq-ft)</h3>
+                                        <ul>
+                                            <li>12456 street, Florida, USA. |</li>
+                                            <li>Gender - <span>Female</span></li>
+                                            <li class="textgreen">4 Rooms Avaliable</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="proplist_btm boxs">
+                                    <ul>
+                                        <li><span>Features:</span>4 Balconies, 4 Bed Rooms, 4 Bathrooms.</li>
+                                        <li><span>Amenties:</span>9 House amenities, 2 Society amenities.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="prop_list boxs">
+                <a href="javascript:void(0)">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="property_img boxs">
+                                <img src="img/7_image.png" class="img-responsive" alt="7_image">
+                                <span class="hearticon"><i class="fa fa-heart" aria-hidden="true"></i></span>
+                                <span class="photos">10 Photos</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="proplist_con boxs">
+                                <div class="proplist_top boxs">
+                                    <h6>Sector-62 | Private Room</h6>
+                                    <div class="proplist_top_lft boxs">
+                                        <h3 class="textright">INR. 8000k</h3>
+                                        <h3>Esther Howard (2500 Sq-ft)</h3>
+                                        <ul>
+                                            <li>12456 street, Florida, USA. |</li>
+                                            <li>Gender - <span>Female</span></li>
+                                            <li class="textgreen">4 Rooms Avaliable</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="proplist_btm boxs">
+                                    <ul>
+                                        <li><span>Features:</span>4 Balconies, 4 Bed Rooms, 4 Bathrooms.</li>
+                                        <li><span>Amenties:</span>9 House amenities, 2 Society amenities.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="pagin boxs">
+                <ul class="pagination">
+                    <li class="page-item prev">
+                        <a class="page-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="none" viewBox="0 0 10 16">
+                            <path fill="#222" fill-rule="evenodd" d="M.223 8.543a.774.774 0 0 1 0-1.086L7.265.326a1.09 1.09 0 0 1 1.555 0c.428.434.428 1.139 0 1.573L2.795 8l6.025 6.1c.428.435.428 1.14 0 1.574a1.09 1.09 0 0 1-1.555 0L.223 8.544z" clip-rule="evenodd"/>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item next">
+                        <a class="page-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="none" viewBox="0 0 10 16">
+                            <path fill="#222" fill-rule="evenodd" d="M8.918 8.543a.774.774 0 0 0 0-1.086L1.875.326a1.09 1.09 0 0 0-1.554 0 1.124 1.124 0 0 0 0 1.573L6.346 8 .32 14.1a1.125 1.125 0 0 0 0 1.574 1.09 1.09 0 0 0 1.554 0l7.043-7.13z" clip-rule="evenodd"/>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="foot_top boxs">
+        <div class="container">
+            <div class="foot_app boxs">
+                <div class="col-sm-5 nopadding">
+                    <div class="app_lft boxs">
+                        <h2>Find homes on the move</h2>
+                    </div>
+                </div>
+                <div class="col-sm-7 nopadding">
+                    <div class="app_rht boxs">
+                        <h4>Download the app</h4>
+                        <a href="javascript:void(0)"><img src="img/google play.svg" class="img-responsive"></a>
+                        <a href="javascript:void(0)"><img src="img/app store.svg" class="img-responsive"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer boxs">
+        <div class="container">
+            <div class="footer_inner boxs">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="foot_detial boxs">
+                            <a href="index.html"><img src="img/logofooter.svg" class="img-responsive"></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit pulvinar sit eget mi diam. Odio pharetra lacinia adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="foot_links boxs">
+                            <h6>Usefull Links</h6>
+                            <a href="about_us.html">About</a>
+                            <a href="propertylisting.html" class="active">List Your Property</a>
+                            <a href="javascript:void(0)">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="foot_links boxs">
+                            <h6>More Information</h6>
+                            <a href="javascript:void(0)">FAQ</a>
+                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="Terms_Conditions.html">Terms & Conditions</a>
+                        </div>
+                    </div>
+                    <div class='col-md-3 col-sm-4'>
+                        <div class="foot_links social_links boxs">
+                            <h6>We are social</h6>
+                            <a href="javascript:void(0)"><img src="img/fb.svg"></a>
+                            <a href="javascript:void(0)"><img src="img/instagram.svg"></a>
+                            <a href="javascript:void(0)"><img src="img/twitter.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="copy boxs">
+        <div class="container">
+            <div class="copy_inner boxs">
+                <p>© 2019 Rental Homes Pvt Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+    <div id="loginmodal" class="modal fade loginmodal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <a href="javascript:void(0)" class="close" data-dismiss="modal"><img src="img/close.svg"></a>
+                    <div class="col-sm-5 nopadding">
+                        <div class="modal_lft boxs">
+                            <h2>Hi, Welcome</h2>
+                            <p>Login to Continue</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 nopadding">
+                        <div class="modal_rht boxs">
+                            <img src="img/leaf.svg" class="img-responsive">
+                            <div class="modal_form boxs">
+                                <h6>Fill the form below:</h6>
+                                <form>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Email Id/Mobile Number">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <img src="img/eye.svg">
+                                        <input type="text" class="form-control" placeholder="Password">
+                                    </div>
+                                    <a href="#">Forgot password?</a>
+                                    <div class="loginvia boxs">
+                                        <button type="button">Login</button>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="img/facebook.svg"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="img/google.svg"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p class="boxs">If you have an account?<a href="#">Register Now</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="registermodal" class="modal fade loginmodal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <a href="javascript:void(0)" class="close" data-dismiss="modal"><img src="img/close.svg"></a>
+                    <div class="col-sm-5 nopadding">
+                        <div class="modal_lft register_lft boxs">
+                            <h2>Hi, Welcome</h2>
+                            <p>Create Account</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 nopadding">
+                        <div class="modal_rht boxs">
+                            <img src="img/leaf.svg" class="img-responsive">
+                            <div class="modal_form boxs">
+                                <h6>Fill the form below:</h6>
+                                <form>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Full Name">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Email Address">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Create Password">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Confirm Password">
+                                    </div>
+                                    <div class="loginvia boxs">
+                                        <button type="button">Register</button>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="img/facebook.svg"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="img/google.svg"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p class="boxs">Don’t have an account?<a href="#">Login</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

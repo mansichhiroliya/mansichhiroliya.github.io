@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" type="image/ico" sizes="16x16">
+    <title>Rental | About Us</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/hamburgers.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/media.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="head_inner boxs">
+            <div class="head_logo boxs">
+                <a href="index.html" class="headerlogo"><img src="img/logo.svg" class="img-responsive"></a>
+                <div class="head_lft openloc">
+                    <ul>
+                        <li><a href="javascript:void(0)">Noida<img src="img/dropdown.svg"></a></li>
+                        <li><a href="javascript:void(0)"> Select Gender<img src="img/dropdown.svg"></a></li>
+                    </ul>
+
+                </div>
+                <div class="location_drop">
+                    <form>
+                        <div class="location boxs">
+                            <h5>I’m Looking to rent a home in</h5>
+                            <div class="selection boxs">
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="one" name="loc">
+                                        <label for="one">Mumbai</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="five" name="loc">
+                                        <label for="five">Bangalore</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="two" name="loc">
+                                        <label for="two">New Delhi</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="six" name="loc">
+                                        <label for="six">Hyderabad</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="three" name="loc">
+                                        <label for="three">Kolkata</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="seven" name="loc">
+                                        <label for="seven">Ahmedabad</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="four" name="loc">
+                                        <label for="four">Chennai</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="eight" name="loc">
+                                        <label for="eight">Pune</label>
+                                    </li>
+                                </ul>
+                                <div class="sepration"></div>
+                            </div>
+                        </div>
+                        <div class="location boxs">
+                            <h5>For</h5>
+                            <div class="selection genderlist boxs">
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="nine" name="gender">
+                                        <label for="nine">Male</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" id="ten" name="gender">
+                                        <label for="ten">Female</label>
+                                    </li>
+                                </ul>
+                                <div class="update_btn boxs">
+                                    <button type="button">Update</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="hambutt">
+                <button class="hamburger hamburger--squeeze" type="button" aria-label="Menu" aria-controls="navigation">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+            </div>
+            <div class="head_rht head_lft boxs">
+                <ul>
+                    <li><a href="about_us.html" class="active">About</a></li>
+                    <li><a href="postedproperty.html">My Property</a></li>
+                    <li><span>Login</span><a href="javascript:void(0)" class="clickacc">My Account<img src="img/dropdown.svg"></a>
+                        <div class="acc_det">
+                            <ul>
+                                <li><a href="javascript:void(0)" class="login" data-target="#loginmodal" data-toggle="modal">login</a></li>
+                                <li class="newcus">New Customer?<a href="javascript:void(0)" data-target="#registermodal" data-toggle="modal">Register</a></li>
+                                <li><a href="javascript:void(0)" class="tophead">My Account</a></li>
+                                <li><a href="my_account_profile.html" class="innerhead">Profile</a></li>
+                                <li><a href="my_account_Change_Password.html" class="innerhead">Change Password</a></li>
+                                <li><a href="whislist.html" class="tophead">Wishlist</a></li>
+                                <li><a href="javascript:void(0)" class="tophead">Settings</a></li>
+                                <li><a href="Terms_Conditions.html" class="innerhead">Terms & Conditions</a></li>
+                                <li><a href="privacy.html" class="innerhead">Privacy Policy</a></li>
+                                <li><a href="index.html" class="tophead">Logout</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="post"><a href="post_property.html">Post Property</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sidenav" id="mySidenav">
+        <a href="index.html"><img src="img/logo.svg" class="img-responsive"></a>
+        <li><a href="about_us.html">About</a></li>
+        <li><a href="postedproperty.html">My Property</a></li>
+        <li>
+            <a href="javascript:void(0)" class="clickacc">My Account<img src="img/dropdown.svg"></a>
+            <div class="acc_det">
+                <ul>
+                    <li><a href="javascript:void(0)" class="login" data-target="#loginmodal" data-toggle="modal">login</a></li>
+                    <li class="newcus">New Customer?<a href="javascript:void(0)" data-target="#registermodal" data-toggle="modal">Register</a></li>
+                    <li><a href="javascript:void(0)" class="tophead">My Account</a></li>
+                    <li><a href="my_account_profile.html" class="innerhead">Profile</a></li>
+                    <li><a href="my_account_Change_Password.html" class="innerhead">Change Password</a></li>
+                    <li><a href="whislist.html" class="tophead">Wishlist</a></li>
+                    <li><a href="javascript:void(0)" class="tophead">Settings</a></li>
+                    <li><a href="Terms_Conditions.html" class="innerhead">Terms & Conditions</a></li>
+                    <li><a href="privacy.html" class="innerhead">Privacy Policy</a></li>
+                    <li><a href="index.html" class="tophead">Logout</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="post"><a href="post_property.html">Post Property</a></li>
+    </div>
+    <section class="main proplist aboutpage boxs">
+        <div class="container">
+            <div class="proplist_inner boxs">
+                <h1 class="banner_head">About Us</h1>
+            </div>
+        </div>
+    </section>
+    <section class="setting boxs">
+        <div class="container">
+            <div class="about_us boxs">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sodales imperdiet ipsum senectus fermentum convallis dolor. Bibendum nunc est, auctor eros, integer feugiat vivamus rutrum. Mauris, netus leo eu eget adipiscing nam
+                    interdum. Faucibus sit elit enim ut arcu imperdiet. Purus ullamcorper ornare id iaculis. Odio sed eleifend non faucibus et. In elit diam integer neque, viverra quisque lacinia eget orci.
+
+                    <p>Et feugiat phasellus duis faucibus eu. Pretium fermentum, mauris, gravida eu rhoncus. Imperdiet sed donec auctor ullamcorper in quisque in rhoncus. Consectetur aliquam, adipiscing nam commodo. Id cursus enim adipiscing mi nibh. Augue
+                        sed integer donec in ornare ornare eget turpis. Ut at semper enim fringilla mollis tortor volutpat, nec pellentesque. Augue ut mattis donec diam.</p>
+
+                    <p>In pellentesque diam etiam varius pulvinar enim. In integer et ante massa. Nisl, mi sapien aenean amet tortor lacus viverra viverra eget. Sit integer malesuada eu tincidunt suspendisse et ultrices. Tortor, lorem nibh at lorem nunc
+                        nulla consequat egestas. Vestibulum fusce a, sed id ultrices posuere. Sed hendrerit lectus aenean nunc. Purus blandit elementum odio nisi laoreet eget iaculis. Cras nibh egestas nisl ultrices leo eget urna odio. Lobortis tempus
+                        tortor diam nibh tempus.</p>
+
+                    <p>Porttitor lacus a nisl orci, quis viverra pretium. Varius ultrices tortor sit scelerisque. Aliquet semper at condimentum mauris nisi. Amet, eget egestas dolor scelerisque posuere sed quisque eget eget. Amet arcu feugiat est amet, tellus
+                        vestibulum at in. Et donec nunc enim nulla quisque. Non orci, amet mattis eget volutpat egestas. Libero sed felis pellentesque id amet, nulla nisl, egestas. Duis turpis est sit consectetur enim. Ullamcorper lectus vitae massa fusce.
+                        Elit varius at faucibus lobortis sapien non volutpat. Cras mollis dictum urna, tristique eget tellus.</p>
+
+                    <p>Enim, phasellus consectetur quam elit. Dignissim sed eu augue quam molestie orci eget gravida. Etiam vulputate mi quis faucibus nulla mattis nisl. Aliquam pharetra id urna in. Convallis orci amet, massa sed dolor amet.Lorem ipsum dolor
+                        sit amet, consectetur adipiscing elit. Pellentesque sodales imperdiet ipsum senectus fermentum convallis dolor. Bibendum nunc est, auctor eros, integer feugiat vivamus rutrum. Mauris, netus leo eu eget adipiscing nam interdum.
+                        Faucibus sit elit enim ut arcu imperdiet. Purus ullamcorper ornare id iaculis. Odio sed eleifend non faucibus et. In elit diam integer neque, viverra quisque lacinia eget orci.</p>
+
+                    <p>Et feugiat phasellus duis faucibus eu. Pretium fermentum, mauris, gravida eu rhoncus. Imperdiet sed donec auctor ullamcorper in quisque in rhoncus. Consectetur aliquam, adipiscing nam commodo. Id cursus enim adipiscing mi nibh. Augue
+                        sed integer donec in ornare ornare eget turpis. Ut at semper enim fringilla mollis tortor volutpat, nec pellentesque. Augue ut mattis donec diam.</p>
+
+                    <p>In pellentesque diam etiam varius pulvinar enim. In integer et ante massa. Nisl, mi sapien aenean amet tortor lacus viverra viverra eget. Sit integer malesuada eu tincidunt suspendisse et ultrices. Tortor, lorem nibh at lorem nunc
+                        nulla consequat egestas. Vestibulum fusce a, sed id ultrices posuere. Sed hendrerit lectus aenean nunc. Purus blandit elementum odio nisi laoreet eget iaculis. Cras nibh egestas nisl ultrices leo eget urna odio. Lobortis tempus
+                        tortor diam nibh tempus.</p>
+
+                    <p>Porttitor lacus a nisl orci, quis viverra pretium. Varius ultrices tortor sit scelerisque. Aliquet semper at condimentum mauris nisi. Amet, eget egestas dolor scelerisque posuere sed quisque eget eget. Amet arcu feugiat est amet, tellus
+                        vestibulum at in. Et donec nunc enim nulla quisque. Non orci, amet mattis eget volutpat egestas. Libero sed felis pellentesque id amet, nulla nisl, egestas. Duis turpis est sit consectetur enim. Ullamcorper lectus vitae massa fusce.
+                        Elit varius at faucibus lobortis sapien non volutpat. Cras mollis dictum urna, tristique eget tellus.</p>
+
+                    <p>Enim, phasellus consectetur quam elit. Dignissim sed eu augue quam molestie orci eget gravida. Etiam vulputate mi quis faucibus nulla mattis nisl. Aliquam pharetra id urna in. Convallis orci amet, massa sed dolor amet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="foot_top boxs">
+        <div class="container">
+            <div class="foot_app boxs">
+                <div class="col-sm-5 nopadding">
+                    <div class="app_lft boxs">
+                        <h2>Find homes on the move</h2>
+                    </div>
+                </div>
+                <div class="col-sm-7 nopadding">
+                    <div class="app_rht boxs">
+                        <h4>Download the app</h4>
+                        <a href="javascript:void(0)"><img src="img/google play.svg" class="img-responsive"></a>
+                        <a href="javascript:void(0)"><img src="img/app store.svg" class="img-responsive"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer boxs">
+        <div class="container">
+            <div class="footer_inner boxs">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="foot_detial boxs">
+                            <a href="index.html"><img src="img/logofooter.svg" class="img-responsive"></a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit pulvinar sit eget mi diam. Odio pharetra lacinia adipiscing.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="foot_links boxs">
+                            <h6>Usefull Links</h6>
+                            <a href="about_us.html" class="active">About</a>
+                            <a href="propertylisting.html">List Your Property</a>
+                            <a href="javascript:void(0)">Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="foot_links boxs">
+                            <h6>More Information</h6>
+                            <a href="javascript:void(0)">FAQ</a>
+                            <a href="privacy.html">Privacy Policy</a>
+                            <a href="Terms_Conditions.html">Terms & Conditions</a>
+                        </div>
+                    </div>
+                    <div class='col-md-3 col-sm-4'>
+                        <div class="foot_links social_links boxs">
+                            <h6>We are social</h6>
+                            <a href="javascript:void(0)"><img src="img/fb.svg"></a>
+                            <a href="javascript:void(0)"><img src="img/instagram.svg"></a>
+                            <a href="javascript:void(0)"><img src="img/twitter.svg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="copy boxs">
+        <div class="container">
+            <div class="copy_inner boxs">
+                <p>© 2019 Rental Homes Pvt Ltd. All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+    <div id="loginmodal" class="modal fade loginmodal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <a href="javascript:void(0)" class="close" data-dismiss="modal"><img src="img/close.svg"></a>
+                    <div class="col-sm-5 nopadding">
+                        <div class="modal_lft boxs">
+                            <h2>Hi, Welcome</h2>
+                            <p>Login to Continue</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 nopadding">
+                        <div class="modal_rht boxs">
+                            <img src="img/leaf.svg" class="img-responsive">
+                            <div class="modal_form boxs">
+                                <h6>Fill the form below:</h6>
+                                <form>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Email Id/Mobile Number">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <img src="img/eye.svg">
+                                        <input type="text" class="form-control" placeholder="Password">
+                                    </div>
+                                    <a href="#">Forgot password?</a>
+                                    <div class="loginvia boxs">
+                                        <button type="button">Login</button>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="img/facebook.svg"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="img/google.svg"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p class="boxs">If you have an account?<a href="#">Register Now</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="registermodal" class="modal fade loginmodal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content boxs">
+                <div class="modal-body boxs">
+                    <a href="javascript:void(0)" class="close" data-dismiss="modal"><img src="img/close.svg"></a>
+                    <div class="col-sm-5 nopadding">
+                        <div class="modal_lft register_lft boxs">
+                            <h2>Hi, Welcome</h2>
+                            <p>Create Account</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 nopadding">
+                        <div class="modal_rht boxs">
+                            <img src="img/leaf.svg" class="img-responsive">
+                            <div class="modal_form boxs">
+                                <h6>Fill the form below:</h6>
+                                <form>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Full Name">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Email Address">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Mobile Number">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Create Password">
+                                    </div>
+                                    <div class="form-group boxs">
+                                        <input type="text" class="form-control" placeholder="Confirm Password">
+                                    </div>
+                                    <div class="loginvia boxs">
+                                        <button type="button">Register</button>
+                                        <ul>
+                                            <li>
+                                                <a href="#"><img src="img/facebook.svg"></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><img src="img/google.svg"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <p class="boxs">Don’t have an account?<a href="#">Login</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

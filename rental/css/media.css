@@ -1,0 +1,562 @@
+@media(max-width:1199px) {
+    .header {
+        padding: 12px 30px;
+    }
+    .head_lft li {
+        display: inline-block;
+        padding: 0px 15px;
+    }
+    .head_lft li a {
+        font-size: 14px;
+    }
+    .head_lft li.post a {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+    .acc_det li a {
+        font-size: 14px;
+    }
+    .location_drop {
+        left: 130px;
+    }
+    .banner {
+        padding: 150px 0px;
+    }
+    .banner_head {
+        font-size: 60px;
+        line-height: 70.3px;
+    }
+    .property {
+        min-height: 452px;
+    }
+    .property_con h4 {
+        font-size: 28px;
+    }
+    .app_lft h2,
+    .heading {
+        font-size: 54px;
+    }
+    .social_links a {
+        margin-right: 10px;
+    }
+    .postedProp .row {
+        display: flex;
+        align-items: center;
+    }
+    .property_detail {
+        padding: 40px 0px 70px;
+    }
+    .mid_detail {
+        padding-bottom: 5px;
+    }
+    .mid_detail p,
+    .last_detail p {
+        padding-top: 0px;
+    }
+}
+
+@media(max-width:991px) {
+    .head_rht {
+        display: none;
+    }
+    .header .hamburger,
+    .hambutt {
+        display: block;
+    }
+    .head_logo {
+        padding-top: 0px;
+    }
+    .header {
+        padding: 20px 30px;
+    }
+    .acc_det {
+        position: relative;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: none;
+        border-radius: 6px;
+        padding: 16px 0px;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .banner_head {
+        font-size: 50px;
+        line-height: 60.3px;
+    }
+    .banner {
+        padding: 100px 0px;
+    }
+    .forbox {
+        width: 70%;
+    }
+    .forbox .form-control {
+        padding: 20px 53px;
+    }
+    .serach_addon button {
+        padding: 22px 42px;
+    }
+    .forbox img {
+        top: 20px;
+    }
+    .design_rht .row {
+        margin: 0px -15px;
+    }
+    .design_rht .col-sm-6 {
+        padding: 0px 15px;
+    }
+    .shared_room {
+        padding: 40px 20px;
+    }
+    .app_lft h2,
+    .heading {
+        font-size: 39px;
+    }
+    .design_lft p br {
+        display: none;
+    }
+    .fortopmar {
+        margin-top: -45px;
+    }
+    .designed_inn {
+        padding: 100px 0px;
+    }
+    .save {
+        padding-bottom: 80px;
+    }
+    .foot_links {
+        min-height: 193px;
+    }
+    .social_links {
+        margin-top: 20px;
+        min-height: initial;
+    }
+    .loginmodal .modal-dialog {
+        width: 90%;
+    }
+    .loginmodal .register_lft,
+    .loginmodal .modal_lft {
+        background: none;
+        height: initial;
+    }
+    .loginmodal .modal-body {
+        background: url(../img/register.png) no-repeat left;
+        background-size: cover;
+    }
+    .modal_lft {
+        padding: 60px 30px;
+    }
+    .loginvia li {
+        margin-left: 10px;
+    }
+    .modal_form {
+        padding: 0px 30px 40px;
+    }
+    .property_con h4 {
+        font-size: 23px;
+    }
+    .property_con {
+        padding: 20px 20px;
+    }
+    .property {
+        min-height: 375px;
+    }
+    .location_drop {
+        left: 80px;
+        width: 600px;
+    }
+    .location_drop .location {
+        width: 65%;
+    }
+    .location_drop .location:last-child {
+        width: 35%;
+    }
+    .main {
+        margin-top: 78px;
+    }
+    .tnc {
+        margin-bottom: 30px;
+    }
+    .postedProp .row {
+        display: block;
+    }
+    .postedProp .col-sm-3,
+    .postedProp .col-sm-9,
+    .prop_list .col-sm-3,
+    .prop_list .col-sm-9 {
+        width: 100%;
+    }
+    .proplist_top {
+        margin-top: 10px;
+    }
+    .detaillist {
+        margin-top: 10px;
+    }
+    .property_detail {
+        padding: 40px 0px 40px;
+    }
+    .filter {
+        padding: 25px 25px;
+    }
+    .proplist_btm li {
+        font-size: 16px;
+    }
+    .genderlist li {
+        width: 45%;
+    }
+}
+
+@media(max-width:767px) {
+    .banner {
+        padding: 70px 0px;
+    }
+    .banner_inn li {
+        padding: 0px 6px;
+    }
+    .banner_head {
+        font-size: 40px;
+        line-height: 50.3px;
+    }
+    .forbox {
+        width: 90%;
+    }
+    .forbox .form-control {
+        padding: 15px 40px;
+    }
+    .serach_addon button {
+        padding: 17px 30px;
+    }
+    .forbox img {
+        top: 15px;
+        left: 15px;
+    }
+    .designed_inn {
+        padding: 70px 0px;
+    }
+    .fortopmar {
+        margin-top: 0;
+    }
+    .shared_room {
+        margin-top: 30px;
+    }
+    .design_lft h2 br {
+        display: none
+    }
+    .property {
+        min-height: initial;
+        margin-top: 30px;
+    }
+    .reco_inn {
+        margin-top: -255px;
+    }
+    .app_rht {
+        padding-left: 00px;
+        border-left: none;
+        padding-top: 30px;
+    }
+    .foot_links {
+        margin-top: 20px;
+        min-height: initial;
+    }
+    .modal_lft {
+        padding-bottom: 0px;
+    }
+    .modal_rht img {
+        float: right;
+        position: absolute;
+        top: 0px;
+        right: 0;
+    }
+    .modal_form {
+        padding-top: 30px;
+    }
+    .modal_form a img {
+        position: relative;
+    }
+    .location_drop {
+        width: 90%;
+        margin: 0px auto;
+        float: initial;
+        left: initial;
+        padding: 20px 20px;
+    }
+    .location_drop .location {
+        width: 100%;
+    }
+    .location_drop .location:last-child {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .sepration {
+        display: none;
+    }
+    .update_btn {
+        margin-top: 10px;
+    }
+    .proplist {
+        padding: 70px 0px;
+    }
+    .tnc_text {
+        padding: 30px 30px 0px 30px;
+    }
+    .proplist_top_lft h3 {
+        font-size: 25px;
+    }
+    .proplist_top_lft li {
+        font-size: 20px;
+    }
+    .proplist_btm li {
+        font-size: 16px;
+    }
+    .address h4 {
+        font-family: 'RobotoMedium';
+        font-size: 22px;
+    }
+    .address_edit li a {
+        font-size: 18px;
+    }
+    .address_edit ul {
+        float: left;
+        margin-top: 10px;
+    }
+    .address_edit li:first-child {
+        padding-left: 0px;
+    }
+    .Propprice h2 {
+        font-size: 35px;
+    }
+    .app_lft {
+        padding-right: 0px;
+    }
+    .app_rht a {
+        margin-left: -24px;
+    }
+}
+
+@media(max-width:560px) {
+    .headerlogo img {
+        width: 110px;
+    }
+    .header {
+        padding: 20px 20px;
+    }
+    .main {
+        margin-top: 65.8px;
+    }
+    .banner {
+        padding: 50px 0px;
+    }
+    .banner_inn li {
+        display: block;
+        padding: 5px 20px;
+        border: none;
+    }
+    .banner_head {
+        font-size: 40px;
+        line-height: 40.3px;
+    }
+    .serach_addon button {
+        padding: 17px 20px;
+        font-size: 16px
+    }
+    .forbox .form-control {
+        font-size: 14px;
+        padding-right: 15px;
+    }
+    .designed_inn,
+    .home_owner,
+    .foot_top,
+    .footer,
+    .proplist,
+    .reco_detail {
+        padding: 50px 0px;
+    }
+    .app_lft h2,
+    .heading {
+        font-size: 33px;
+    }
+    .recommend {
+        padding: 50px 0px 250px;
+    }
+    .recommend_inn p br,
+    .home_inn p br {
+        display: none;
+    }
+    .form_all .form-group {
+        margin-top: 20px;
+        margin-bottom: 6px;
+    }
+    .save_btns {
+        margin-top: 30px;
+    }
+    .switches {
+        display: block;
+    }
+    .switches_btn {
+        margin-top: 20px;
+    }
+    .proplist_top_lft h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .postedProp,
+    .posted_add {
+        padding: 15px;
+    }
+    .proplist_top_lft li {
+        display: block;
+    }
+    .reco_detail_inner h3 {
+        margin-bottom: 0px;
+        font-size: 30px;
+    }
+    .detaillist a.mapimg {
+        margin-top: -6px;
+    }
+    .detaillist h4 {
+        font-size: 25px;
+    }
+    .breadcrums {
+        padding: 25px 0px;
+    }
+    .Propprice {
+        display: block;
+    }
+    .sortby {
+        margin-top: 20px;
+    }
+    .sortby {
+        justify-content: space-between;
+    }
+    .prop_list {
+        padding: 15px;
+    }
+    .location_drop {
+        top: 60px;
+    }
+    .app_rht a {
+        margin-left: -17px;
+    }
+}
+
+@media(max-width:414px) {
+    .header {
+        padding: 20px 10px;
+    }
+    .head_lft li {
+        display: inline-block;
+        padding: 0px 0px;
+        padding-left: 5px;
+    }
+    .head_lft li a {
+        font-size: 13px;
+    }
+    .head_lft a img {
+        margin-left: 5px;
+    }
+    .banner_head {
+        font-size: 32px;
+        line-height: 35.3px;
+    }
+    .forbox {
+        width: 100%;
+    }
+    .serach_addon button {
+        padding: 17px 10px;
+        font-size: 14px;
+    }
+    .forbox .form-control {
+        font-size: 13px;
+        padding-right: 10px;
+    }
+    .app_lft h2,
+    .heading,
+    .app_rht h4 {
+        font-size: 24px;
+    }
+    .property_con p {
+        font-size: 19px;
+    }
+    .footer_inner .col-xs-6 {
+        width: 100%;
+    }
+    .copy {
+        padding: 15px 0px;
+    }
+    .copy p {
+        font-size: 12px;
+    }
+    .loginvia {
+        display: block;
+        margin: 20px 0px;
+    }
+    .setting {
+        padding: 30px 0;
+    }
+    .tnc_text h3 {
+        font-size: 25px;
+    }
+    .chng_btns button {
+        padding: 14px 20px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .form_all .form-control {
+        font-size: 13px;
+        padding: 9px 25px;
+    }
+    .form_all .form-group .btn-primary {
+        padding: 7px 10px;
+    }
+    .fileUpload p {
+        font-size: 12px;
+    }
+    .gender {
+        display: block;
+    }
+    .radiodiv label {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .proplist_btm li {
+        width: 100%;
+    }
+    .detaillist h6 {
+        float: left;
+    }
+    .detaillist h6 span {
+        float: left;
+        margin-bottom: 10px;
+    }
+    .detaillist h4 {
+        font-size: 20px;
+    }
+    .detaillist a.mapimg {
+        margin-top: -20px;
+    }
+    .detaillist li {
+        font-size: 16px;
+    }
+    .pagin .pagination {
+        margin: 40px auto 0px;
+    }
+    .selection li,
+    .genderlist li {
+        width: 49%;
+    }
+    .listing a {
+        font-size: 16px;
+    }
+    .app_rht a {
+        margin-left: -14px;
+    }
+    .loginmodal .modal-body .close {
+        top: -30px;
+        right: -30px;
+    }
+    .loginmodal .modal-body .close img {
+        width: 73px;
+    }
+}
+
+@media(max-width:320px) {}
