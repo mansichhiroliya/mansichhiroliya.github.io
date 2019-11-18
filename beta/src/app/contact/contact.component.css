@@ -1,0 +1,297 @@
+/* review page */
+
+.main {
+    margin-top: 80px;
+    background: url(src/assets/img/banner.png) no-repeat center center;
+    background-size: cover;
+    padding: 35px 0px;
+}
+
+.main_inner h2 {
+    font-family: 'RobotoBold';
+    font-size: 44px;
+    color: #ffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main_inner p {
+    font-family: 'RobotoRegular';
+    font-size: 15px;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.your_reviews {
+    padding: 20px 0px;
+}
+
+.member_reviews {
+    border: 2px solid #b7b7b7;
+    border-radius: 10px;
+    margin-top: 25px;
+    box-shadow: 0 5px 10px #dedede;
+}
+
+.member-top {
+    padding: 25px;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.member-top h5 {
+    font-family: 'RobotoBold';
+    font-size: 18px;
+    color: #242424;
+    text-transform: capitalize;
+}
+
+.member-top h5 span {
+    float: right;
+}
+
+.member_bottom {
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.member_bottom p {
+    font-family: 'RobotoRegular';
+    font-size: 15px;
+    color: #242424;
+}
+
+.write_reviews {
+    padding: 25px 0px;
+}
+
+.write_reviews h3 {
+    font-family: 'RobotoBold';
+    font-size: 38px;
+    color: #3b39c1;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.write_reviews p {
+    font-family: 'RobotoRegular';
+    font-size: 15px;
+    color: #242424;
+    text-align: center;
+    padding-top: 20px;
+}
+
+fieldset,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+.rate_startbox {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #dcdcdc;
+    background: #ffffff;
+    padding: 10px 10px;
+    /*margin-bottom: 15px;*/
+}
+
+.rate_startbox span {
+    font-family: 'RobotoRegular';
+    float: left;
+    font-size: 17px;
+    color: #242424;
+}
+
+
+/****** Style Star Rating Widget *****/
+
+.rating {
+    border: none;
+    float: left;
+    padding: 0px 10px;
+}
+
+.rating>input {
+    display: none;
+}
+
+.rating>label:before {
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+}
+
+.rating>.half:before {
+    content: "\f089";
+    position: absolute;
+}
+
+.rating>label {
+    color: #ddd;
+    float: right;
+    cursor: pointer;
+}
+
+.rating>input:checked~label,
+.rating:not(:checked)>label:hover,
+.rating:not(:checked)>label:hover~label {
+    color: #ffaf67;
+}
+
+.rating>input:checked+label:hover,
+.rating>input:checked~label:hover,
+.rating>label:hover~input:checked~label,
+.rating>input:checked~label:hover~label {
+    color: #ffaf67;
+}
+
+.contact_form {
+    padding: 20px;
+    border: 2px solid #b7b7b7;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #dedede;
+    background-color: #fff;
+    margin: 20px 0px 40px;
+}
+
+.contact_form .form-group {
+    margin-bottom: 17px;
+}
+
+.contact_form .form-control {
+    height: 55px;
+    width: 100%;
+    padding: 16px 20px;
+    font-family: 'RobotoRegular';
+    font-size: 17px;
+    color: #242424;
+    border-radius: 10px;
+    border: 2px solid #3b39c1;
+    box-shadow: none;
+}
+
+.contact_form textarea.form-control {
+    height: 198px;
+    resize: none;
+}
+
+.contact_form .form-control:focus {
+    border-color: #edb207;
+}
+
+.contact_form .form-control:focus::placeholder {
+    color: #242424;
+}
+
+.contact_form .form-control::placeholder {
+    color: #a1a1a1;
+}
+
+.contact_form button {
+    width: 100%;
+    padding: 15px 0px;
+    font-family: 'RobotoBold';
+    font-size: 20px;
+    color: #fff;
+    background-color: #53aa0d;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.contact_form button:hover {
+    background-color: #f10000;
+}
+
+
+/* review page ends */
+
+.contact {
+    padding: 25px 0px;
+}
+
+.success {
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #d6ebc5;
+    border-radius: 10px;
+}
+
+.success p {
+    font-family: 'RobotoBold';
+    font-size: 20px;
+    color: #53aa0d;
+}
+
+.error {
+    background-color: #fcc2c2;
+    /* margin-top: 10px; */
+}
+
+.error p {
+    color: #f10000;
+}
+
+.error_msg {
+    margin-bottom: 25px;
+}
+
+
+/* help page start */
+
+.help {
+    padding: 45px 0px;
+}
+
+.help_inner {
+    margin-bottom: 20px;
+    border: 2px solid #b7b7b7;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #dedede;
+}
+
+.help_head {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.help_head h5 {
+    font-family: 'RobotoBold';
+    font-size: 18px;
+    color: #3b39c1;
+}
+
+.help_content {
+    padding: 20px;
+}
+
+.help_content p {
+    font-family: 'RobotoRegular';
+    font-size: 15px;
+    color: #1b0c37;
+}
+
+
+/* help page ends */
+
+.success {
+    display: none;
+}

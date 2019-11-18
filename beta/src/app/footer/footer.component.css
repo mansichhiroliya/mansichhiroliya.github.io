@@ -1,0 +1,35 @@
+.footer {
+    background-color: #252681;
+    padding: 30px 0px;
+}
+
+.footer_inner ul {
+    text-align: center;
+}
+
+.footer_inner ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.footer_inner ul li a {
+    font-family: 'RobotoBold';
+    font-size: 17px;
+    color: #ffff;
+    text-transform: capitalize;
+    padding: 0px 15px;
+}
+
+.footer_inner ul li a:hover,
+.footer_inner ul li a.active {
+    color: #fbbc00;
+}
+
+.footer_inner p {
+    font-family: 'RobotoRegular';
+    font-size: 14px;
+    color: #c2c2e5;
+    padding-top: 50px;
+    text-align: center;
+}
